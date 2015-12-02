@@ -65,3 +65,4 @@ end
 When we save our `GithubService` object to `session[:service]`, it gets saved as a hash representing the object's attributes. In this case, the hash looks like: `{"access_token"=>"youraccesstoken12345abcde"}`.
 
 We definitely don't want to re-authenticate with GitHub every time we hit a controller action. So you'll need to write `#initialize` such that `GithubService.new` can be called both with and without a hash as an argument.
+<a href='https://learn.co/lessons/web-service-objects-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
