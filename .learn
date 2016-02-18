@@ -1,8 +1,10 @@
-tags: 
+tags:
   - apis
   - web
   - services
-language: 
+  - foursquare
+  - faraday
+languages:
   - ruby
-resources: 
+resources:
   - 0
