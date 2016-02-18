@@ -87,7 +87,6 @@ end
 Now, let's move the API interaction from `SessionsController` into `FoursquareService`. Define a method called `#authenticate!`. Our arguments will be the client ID, client secret, and code that we need to authenticate with Foursquare:
 
 ```ruby
-def authenticate!(client_id, client_secret, code)
   def authenticate!(client_id, client_secret, code)
     resp = Faraday.get("https://foursquare.com/oauth2/access_token") do |req|
       req.params['client_id'] = client_id
@@ -99,7 +98,6 @@ def authenticate!(client_id, client_secret, code)
     body = JSON.parse(resp.body)
     body["access_token"]
   end
-end
 ```
 
 Looks very familiar, right? We've just moved the code from the
@@ -115,7 +113,7 @@ Now that we've started to set up our `FoursquareService` object, what do we need
 ```ruby
 # sessions_controller.rb
 def create
-  service = FoursquareService.new
+  foursquare = FoursquareService.new
   session[:token] = foursquare.authenticate!(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_SECRET'], params[:code])
   redirect_to root_path
 end
