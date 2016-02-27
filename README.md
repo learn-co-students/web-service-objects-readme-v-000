@@ -138,7 +138,7 @@ service object. Now let's look at doing similar for our `friends`
 action.
 
 Extract the Foursquare API call from the `friends` action in
-`SessionsController` and put it into a new `friends` method in the
+`SearchesController` and put it into a new `friends` method in the
 Foursquare service object.
 
 ```ruby
@@ -187,3 +187,5 @@ calls in our Coffee Shop application so that all of the Foursquare logic
 is in our `FoursquareService`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-service-objects-readme' title='Service Objects'>Service Objects</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-service-objects-readme'>Web Service Objects </a> on Learn.co and start learning to code for free.</p>
