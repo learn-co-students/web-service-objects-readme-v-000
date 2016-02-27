@@ -1,7 +1,11 @@
 <h1>My Tips</h1>
 <ul>
-<% @results.each do |item| %>
-  <li><strong>><%= item["venue"]["name"] %></strong><br>
-    <%= item["tip"]["text"] %></li>
+<% if @results.nil? %>
+  Looks like there's nothing to show...
+<% else %>
+  <% @results.each do |item| %>
+    <li><strong>><%= item["venue"]["name"] %></strong><br>
+      <%= item["tip"]["text"] %></li>
+  <% end %>
 <% end %>
 </ul>
