@@ -17,3 +17,4 @@ private
     !!session[:token]
   end
 end
+
