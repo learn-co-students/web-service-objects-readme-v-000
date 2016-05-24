@@ -1929,3 +1929,25 @@ Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"93RGmRjQDMzLQ03EmB2Pb0Uzeq0wSkLadTcj42Hfzg2yldtLh29m3apLfRCn7eFSgwg29l2ZMiAZ9k4bukV3Pw==", "zipcode"=>"97203", "commit"=>"Search!"}
   Rendered searches/search.html.erb within layouts/application (5.6ms)
 Completed 200 OK in 621ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-24 15:36:14 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 160ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-24 15:36:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-05-24 15:36:14 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-05-24 15:36:14 -0700
+
+
+Started POST "/search" for ::1 at 2016-05-24 15:36:22 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7XGogcw2DcXl763jnhnUOa8MDupjky0VJ7GHRV8WV8awhVX+19HkEN8UnAcWv86e6og6TreK6+R/B90k27uA6A==", "zipcode"=>"97203", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 332ms (Views: 30.0ms | ActiveRecord: 0.0ms)
