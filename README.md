@@ -106,7 +106,7 @@ If we run our Rails server, everything should still work as expected. To verify,
 
 ### Refactoring Friends
 
-We've cleaned up the OAuth flow for the `SessionsController` using a service object. Now let's look at doing similar for our `friends` action.
+We've cleaned up the OAuth flow for the `SessionsController` using a service object. Now let's look at doing the same for our `friends` action.
 
 Extract the Foursquare API call from the `friends` action in `SearchesController` and put it into a new `friends` method in the Foursquare service object.
 
@@ -146,5 +146,3 @@ We've also extracted controller code into our service object and refactored our 
 For extra practice, finish extracting the rest of the Foursquare API calls in our Coffee Shop application so that all of the Foursquare logic is in our `FoursquareService`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-service-objects-readme' title='Service Objects'>Service Objects</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-service-objects-readme'>Web Service Objects </a> on Learn.co and start learning to code for free.</p>
