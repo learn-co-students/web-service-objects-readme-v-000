@@ -1638,3 +1638,290 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2016-11-02 14:51:34 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 501ms (Views: 492.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-02 14:51:42 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HLcT4+TSfZ/SACiaImjOhuI7F8AOBzHVe6R/OSzyAfXxdNxNKMjC0U0PgrAuUfVL07+r3Mu2sUpZfQd5PR5bGg==", "zipcode"=>"90016", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 895ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-02 14:52:07 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=AFI0JQI2Z0ZLZXHNE1BGW1N1OCZWLTYHUFVRAZFYO3ZUYGPS&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NO0GGWSIKJOCLGLKSMVJONVRC1WCD4GEFPMJQP0ZW2UN5OJZ" for ::1 at 2016-11-02 14:53:08 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NO0GGWSIKJOCLGLKSMVJONVRC1WCD4GEFPMJQP0ZW2UN5OJZ"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `authenicate!' for #<FoursquareService:0x007fcdfa132228>):
+  app/controllers/sessions_controller.rb:6:in `create'
+
+
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.7ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.0ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (109.4ms)
+
+
+Started GET "/auth?code=NO0GGWSIKJOCLGLKSMVJONVRC1WCD4GEFPMJQP0ZW2UN5OJZ" for ::1 at 2016-11-02 14:53:26 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NO0GGWSIKJOCLGLKSMVJONVRC1WCD4GEFPMJQP0ZW2UN5OJZ"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 681ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-02 14:53:27 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-11-02 14:53:27 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-11-02 14:53:27 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-11-02 14:53:27 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-11-02 14:53:27 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-11-02 14:53:27 -0700
+
+
+Started GET "/tips" for ::1 at 2016-11-02 15:03:03 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 971ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-02 15:03:53 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-02 15:03:58 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cu2uZYfVHSwVk+upaLVAvYJ6ro36LlY32cVYXau23p+fLmHLS8+iYoqcQYNkjHtws/4SkT+f1qj7HCAdulqEcA==", "zipcode"=>"90016", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 720ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `success?' for nil:NilClass):
+  app/controllers/searches_controller.rb:17:in `foursquare'
+
+
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.2ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.3ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/TJ/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (95.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-02 15:05:18 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cu2uZYfVHSwVk+upaLVAvYJ6ro36LlY32cVYXau23p+fLmHLS8+iYoqcQYNkjHtws/4SkT+f1qj7HCAdulqEcA==", "zipcode"=>"90016", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 533ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-11-02 15:05:19 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-11-02 15:05:19 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-11-02 15:05:19 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-11-02 15:05:19 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-11-02 15:05:19 -0700
+
+
+Started GET "/tips" for ::1 at 2016-11-02 15:08:38 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 928ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-02 15:15:51 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-02 15:16:02 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nd6IEyBmDfSk+SffISS4pJ3XvO4Gj2rdADX3O9AoWUFwHUe97Hyyujv2jfUtHYNprFMA8sM+6kIi7I97wcQDrg==", "zipcode"=>"90016", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 956ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-02 15:16:44 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V0p/mwrxNG3FRJQgLh7NRMPGPHIbhtFYhrwCDfelwde6ibA1xuuLI1pLPgoiJ/aJ8kKAbt43UcekZXpN5kmbOA==", "zipcode"=>"90290", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 550ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-11-02 15:17:01 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yd2W1NLzK0V+cthuIPkA76AcWNHTiq8eHlTo4snT+vqMHll6HumUC+F9ckQswDsikZjkzRY7L4E8jZCi2D+gFQ==", "venue_id"=>"4c83d568d4e23704984a7488", "tip"=>"oh yeah", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 650ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-02 15:17:01 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 527ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-02 15:21:14 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-02 15:21:19 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O4k2O8qKq9t/C4WUE7fak92WiQSc5m8v7QkGKxdheqjf6IjWnGlZkP04tJY7rKPN4qJ5Zl3lr0s+LpFaNMC50w==", "zipcode"=>"90016", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 814ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-11-02 15:21:26 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A2dyPmdtAKbYJtSAcf1fDBD77HMndGMlD4Q96llNdIPnBszTMY7y7VoV5YJZ5iZSL88cEeZ3o0Hco6qbeuy3+A==", "venue_id"=>"4afc7823f964a520052322e3", "tip"=>"Oh yeah", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 474ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-02 15:21:27 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 638ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-02 15:23:07 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 210ms (Views: 201.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2016-11-02 15:23:16 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KVFKHvwr/fBRGNm9cH11C9+NI3Zfy0GpYG9XTjUcp8fNMPTzqsgPu9Mr6L9YZgxV4LnTFJ7Igc2zSMA/Fr1kvA==", "zipcode"=>"90016", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 575ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-11-02 15:23:28 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vR9/EznSTiecJv8ij9qiM+hfiHVqu4iJKVN0uXFQr35ZfsH+bzG8bB4VziCnwdtt12t4F6u4SO36dOPIUvFsBQ==", "venue_id"=>"4afc7823f964a520052322e3", "tip"=>"Oh yeah", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 160011ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-02 15:26:08 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 535ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-02 15:26:15 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2016-11-02 15:27:30 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-11-02 15:27:30 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-11-02 15:27:30 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-11-02 15:27:30 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-11-02 15:27:30 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-11-02 15:27:30 -0700
+
+
+Started POST "/search" for ::1 at 2016-11-02 15:27:36 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WeLMxttnMKNgLuuTqj4WAcrrSO7eSk5jCTPlwROiZru9g3IrjYTC6OId2pGCJW9f9d+4jB9JjgfaFHKwMAOlwA==", "zipcode"=>"90016", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 1112ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-11-02 15:28:42 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DF8D2MxRQr3UlqAxjZWCyuIPV5t3l6yJGGfJvJ4Q1pPoPr01mrKw9lalkTOljvuU3Tun+baUbO3LQF7NvbEV6A==", "venue_id"=>"4a0a51d3f964a52099741fe3", "tip"=>"This place rules", "commit"=>"Add Tip"}
+Completed   in 22141ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2016-11-02 15:29:27 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DF8D2MxRQr3UlqAxjZWCyuIPV5t3l6yJGGfJvJ4Q1pPoPr01mrKw9lalkTOljvuU3Tun+baUbO3LQF7NvbEV6A==", "venue_id"=>"4a0a51d3f964a52099741fe3", "tip"=>"This place rules", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 405ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2016-11-02 15:29:27 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 778ms (Views: 202.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-11-02 15:29:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-11-02 15:29:28 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-11-02 15:29:28 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-11-02 15:29:28 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-11-02 15:29:28 -0700
