@@ -1638,3 +1638,60 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/search" for 127.0.0.1 at 2016-11-22 17:16:28 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 24ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-22 17:16:52 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-22 17:17:02 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1340ms (Views: 1338.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-22 17:17:03 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-22 17:24:32 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2016-11-22 17:24:34 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 669ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2016-11-22 17:24:44 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2016-11-22 17:24:48 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ALr57TdVEwEplZ4t5qc6XxLePGo6y6OFWdPYHZAAN4wNO1tEPPj7UoH37TiHibx2MXHn6O3Lk4d/ckudpSGSeA==", "zipcode"=>"10550", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 431ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2016-11-22 17:24:55 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 196ms (Views: 17.6ms | ActiveRecord: 0.0ms)
