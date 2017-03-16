@@ -1638,3 +1638,483 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/friends" for 127.0.0.1 at 2017-03-16 13:09:02 -0500
+Processing by SearchesController#friends as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:09:21 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:18:53 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=XIENCKFVWWHSA1KOPV11HQTKHQVXGJRZELMCZAMZLKRG0JPH&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SU5Q4VSR2EAVSPZHTJ3U35QNQLKLAY1TKWWBJYCT33OFUZKI" for 127.0.0.1 at 2017-03-16 13:19:06 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SU5Q4VSR2EAVSPZHTJ3U35QNQLKLAY1TKWWBJYCT33OFUZKI"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3521ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:19:10 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 328ms (Views: 327.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:19:10 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-03-16 13:19:10 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-03-16 13:19:10 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2017-03-16 13:19:10 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-03-16 13:19:10 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:30:35 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:30:35 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:30:43 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JenxucslzSH4GDcD/AGLOnY8u/DWeuF3s4xNLi4tMJOZmdUMFMs1FDO7+c4Rma4IAJvHYtA7UWZYjUILiZqsnw==", "zipcode"=>"77064", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 393ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:30:43 -0500
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-03-16 13:30:59 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cYzIrW4dJ9IsXAMDroYIjlRUAek/32kgCyXASca41tzN/OwYsfPf5+f/zc5DHi28IvN9ezme2THgJM9sYQ9K0A==", "venue_id"=>"5331b7a0498ec968b0201858", "tip"=>"Yummy Yummy in my tummy", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 1937ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-03-16 13:31:01 -0500
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 455ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pase' for JSON:Module
+Did you mean?  parse):
+  app/services/foursquare_service.rb:27:in `tips'
+  app/controllers/tips_controller.rb:4:in `index'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (105.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-03-16 13:31:54 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:31:54 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:31:57 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iauOM0OFK+5rN5CxHN8RV/nGres9gK0BTa+Ypc3aRwo126qGnGvT26CUXnzxRzRlj2HReTvBHRCmrpeAam3bBg==", "zipcode"=>"77064", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 1372ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-03-16 13:32:09 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zs5uw0lwTE49WxiMqg/70KaKvnbiOQ3v/AqE8OpbUB/avkp2lp60e/b41kFHl97i0C3C5OR4vf4XC4vVTezMEw==", "venue_id"=>"4fd73042e4b0621d0985fdbe", "tip"=>"Yum, yum, yummy", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 2419ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-03-16 13:32:11 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2950ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:32:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:37:17 -0500
+
+SyntaxError (/home/phalangical/Documents/Learn/labs/rails/web-service-objects-readme-v-000/app/controllers/searches_controller.rb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/searches_controller.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:37:29 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:37:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2017-03-16 13:37:29 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-03-16 13:37:29 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-03-16 13:37:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-03-16 13:37:29 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:37:32 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OoVqh9VbVBfxmg7bWOBqQt5TioT873/pAqCWNJ3RlFKG9U4yCrWsIjo5wBa1eE9wqPT2Fvquz/jpoZkROmYIXg==", "zipcode"=>"77064", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `params' for #<FoursquareService:0x007f8673aacb38>):
+  app/services/foursquare_service.rb:35:in `block in venues'
+  app/services/foursquare_service.rb:31:in `venues'
+  app/controllers/searches_controller.rb:16:in `foursquare'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:37:48 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:37:48 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:37:52 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pGcxkybEa3UNx5lYE1QuKuwpHXFVyzYunQxoTSovxcEYFxUm+SqTQMZkV5X+zAsYmo5h41OKhj92DWdojZhZzQ==", "zipcode"=>"77064", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 428ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    11:     <ul>
+    12:     <% @venues.each do |venue| %>
+    13:       <li>
+    14:         <%= venue["name"] %><br>
+    15:         <%= venue["location"]["address"] %><br>
+    16:         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
+    17:         <%= form_tag '/tips' do %>
+  app/views/searches/search.html.erb:14:in `[]'
+  app/views/searches/search.html.erb:14:in `block in _app_views_searches_search_html_erb__2647886597238115763_70107696445940'
+  app/views/searches/search.html.erb:12:in `each'
+  app/views/searches/search.html.erb:12:in `_app_views_searches_search_html_erb__2647886597238115763_70107696445940'
+  app/controllers/searches_controller.rb:18:in `foursquare'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (21.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:39:15 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:39:15 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:39:16 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CGUX4LUHAsd5Gbt0UdHuNlqwXVz2pk4XQqBac99AF3i0FTNVaun68rK6dbm8ScsELBchzvDn/gapoVVWePeLdA==", "zipcode"=>"77064", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 371ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007f86510751a0>
+Did you mean?  try):
+  app/controllers/searches_controller.rb:17:in `foursquare'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (22.7ms)
+
+
+Started PUT "/__web_console/repl_sessions/2ec949fb3545fcfe52c9da8513f8d1e5" for 127.0.0.1 at 2017-03-16 13:39:25 -0500
+
+
+Started PUT "/__web_console/repl_sessions/2ec949fb3545fcfe52c9da8513f8d1e5" for 127.0.0.1 at 2017-03-16 13:39:31 -0500
+
+
+Started PUT "/__web_console/repl_sessions/2ec949fb3545fcfe52c9da8513f8d1e5" for 127.0.0.1 at 2017-03-16 13:39:36 -0500
+
+
+Started PUT "/__web_console/repl_sessions/2ec949fb3545fcfe52c9da8513f8d1e5" for 127.0.0.1 at 2017-03-16 13:39:45 -0500
+
+
+Started PUT "/__web_console/repl_sessions/2ec949fb3545fcfe52c9da8513f8d1e5" for 127.0.0.1 at 2017-03-16 13:39:56 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:41:40 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CGUX4LUHAsd5Gbt0UdHuNlqwXVz2pk4XQqBac99AF3i0FTNVaun68rK6dbm8ScsELBchzvDn/gapoVVWePeLdA==", "zipcode"=>"77064", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 468ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007f8650ebaec8>
+Did you mean?  try):
+  app/services/foursquare_service.rb:38:in `venues'
+  app/controllers/searches_controller.rb:16:in `foursquare'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:42:10 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:42:13 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:42:23 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:43:51 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:44:00 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:44:11 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:46:05 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:46:17 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:46:23 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:46:26 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:46:28 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:46:29 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:46:30 -0500
+
+
+Started PUT "/__web_console/repl_sessions/1e80e03523b63c289cbbb1950e121c1c" for 127.0.0.1 at 2017-03-16 13:46:32 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:46:59 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:46:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-03-16 13:46:59 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-03-16 13:46:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2017-03-16 13:46:59 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-03-16 13:46:59 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:47:02 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3fTpWxqamj5qJExH+UUAwnGVu3S859SlUPTi37w3jAthhM3uxXRiC6GHgooU3SXwBzLH5rqmZLS79e36G4AQBw==", "zipcode"=>"77064", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 604ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    11:     <ul>
+    12:     <% @venues.each do |venue| %>
+    13:       <li>
+    14:         <%= venue["name"] %><br>
+    15:         <%= venue["location"]["address"] %><br>
+    16:         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
+    17:         <%= form_tag '/tips' do %>
+  app/views/searches/search.html.erb:14:in `[]'
+  app/views/searches/search.html.erb:14:in `block in _app_views_searches_search_html_erb__2647886597238115763_70107696445940'
+  app/views/searches/search.html.erb:12:in `each'
+  app/views/searches/search.html.erb:12:in `_app_views_searches_search_html_erb__2647886597238115763_70107696445940'
+  app/controllers/searches_controller.rb:18:in `foursquare'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.9ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:48:05 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 168ms (Views: 162.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:48:06 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:48:11 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4pc0PUh2vFuksB/Gs8E+awuo8YLa1zh1e8OKxba/u5Ne5xCIl5hEbm8T0QteWRtZfQ+NENyWiGSQwoXgEQgnnw==", "zipcode"=>"77064", "commit"=>"Search!"}
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:52:50 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 116ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-03-16 13:52:51 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-03-16 13:52:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-03-16 13:52:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2017-03-16 13:52:51 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-03-16 13:52:51 -0500
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:52:55 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a3uW/OGVKTuTwCIsgWByLSb3YxdNkrF2A1idm4c/M0LXC7JJPnvRDlhj7OFs+FcfUFAfhUvTAWfoWZK+IIivTg==", "zipcode"=>"77064", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 955ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-16 13:53:42 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-03-16 13:53:48 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h+tLvU+tHzC9+2G8UGe1RW5kJPPCVsiNPYl+7KMpU4Q7m28IkEPnBXZYr3G9/5B3GMNYYcQXeJzWiHHJBJ7PiA==", "zipcode"=>"40014", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 2280ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2017-03-16 13:53:59 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9MU1DSGsuij0B5R8rXnRDsF6Db60jFjmab36AfzUtvFItRG4/kJCHT+kWrFA4fQ8t91xLLLN6PeCvPUkW2Mq/Q==", "venue_id"=>"4d8c9e5b6174a093a6069de3", "tip"=>"Nice, I love it here", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 6509ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2017-03-16 13:54:05 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1352ms (Views: 30.9ms | ActiveRecord: 0.0ms)
