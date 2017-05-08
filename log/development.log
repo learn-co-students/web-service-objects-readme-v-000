@@ -1638,3 +1638,183 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2017-05-08 13:29:52 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 557ms (Views: 540.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-08 13:29:53 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2017-05-08 13:32:16 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 262ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-08 13:36:57 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:37:01 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6RK+x5z4+2PniwzTViDmEPsDQoByqRowUMSeHnsaBBOckjyTaGIYhzcb1ITpqejDzy/Lnhw2OiAL1T7KJUvXoA==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 219ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:39:40 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aePcJz5z9OXsv7icJfLWl84zhFARNAhs1VtcEdvQNIYcY15zyukXATwvYMuae9hE+h8NTn+rKHyOSvzFhYHnNQ==", "zipcode"=>"37923", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 144ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-08 13:40:07 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 389ms (Views: 374.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:40:11 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A3+p5yDpd+fyNxUM56ktWS2yVGbo1YY5lqNLk0EJVbp2/yuz1HOUAyKnzVtYICOKGZ7deIZKpinNsutHH1iGCQ==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 207ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:41:36 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fc5G4ElpO4TkmsjxkwLe40uINobD6ZCDpDjiPTsZZmJgTsS0vfPYYDQKEKYsi9Awf6S/mK12sJP/KULpZUi10Q==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 672ms (Views: 357.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:42:48 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VtRmlotNCZmE3iNwVpKUal5CuhFDSVQNlWwSKr+EZTUjVOTCf9fqfVRO+yfpG5q5am4zDy3WdB3OfbL+4dW2hg==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 117ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:43:00 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6PJfVw9sQSfI2FfZoNSFK59TapOCNLUhrzkpXrYkbmWdct0D+/aiwxhIj44fXYv4q3/jjeyrlTH0KImK6HW91g==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 132ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-08 13:44:37 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 382ms (Views: 368.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:44:41 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/rGPSbs291xKfQc7hbvZuUaWiFklUwmyKe1QmL2g9ieLMQ0dT6wUuJrt32w6MtdqcroBR0vMKaJy/PBM4/EllA==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 86825ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:46:55 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DpjcDteeq9rDTqHkNfBVR/XrQ3XJeHZkMfLJS5C4xgZ7GF5aIwRIPhPeebOKeVuUwcfKa6fnVnRq42mfzukVtQ==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 84735ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:48:59 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6OWCyE0I88Vvz5pKxdgBNjf+QsqBkSz3UUOx8QNTd+edZQCcuZIQIb9fQh16UQ/lA9LL1O8ODOcKUhElXQKkVA==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 14590ms (Views: 393.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2017-05-08 13:49:17 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 122ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-08 13:50:17 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-08 13:50:18 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:50:22 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tKfZ9nqh1lsEgKX2zf/jWCT3Wrhc0tcmqilWchTPdo/BJ1uijjs1v9QQfaFydu2LENvTpjJN9zbxOPamSp6lPA==", "zipcode"=>"37923", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26842ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:53:01 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aC2SAWVDHV+hKABToDfe+hzo2UY0VXlyreQfiYDlulgdrRBVkdn+u3G42AQfvtApKMRQWFrKWWL29b9d3rRp6w==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 10559ms (Views: 389.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-05-08 13:58:42 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 398ms (Views: 384.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-05-08 13:58:46 -0400
+Processing by SearchesController#find as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0i1g7+hbZnwmHtT5RkpFba6V0St7KbrUDSjQXtE29G+nreK7HMGFmPaODK75w0u+mrlYNRW2msRWOXCKj2cn3A==", "zipcode"=>"37912", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 389ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2017-05-08 13:58:53 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VwaO+yn2xEp6KApiY1lQUpMjq+JzU2GEBGum+F5/9XQihgyv3Wwnrqq40jXc0F6Bpw8i/B3MQZRfegYsAC4mxw==", "venue_id"=>"526287bb498e222812a28e6d", "tip"=>"Delicious!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 245ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-08 13:58:54 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 121ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `body' for nil:NilClass):
+  app/services/foursquare_service.rb:40:in `tips_index'
+  app/controllers/tips_controller.rb:4:in `index'
+
+
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.8ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (94.6ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/coyb/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (207.4ms)
+
+
+Started GET "/tips" for ::1 at 2017-05-08 13:59:28 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 149ms (Views: 19.3ms | ActiveRecord: 0.0ms)
