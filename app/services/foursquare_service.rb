@@ -12,11 +12,31 @@ class FoursquareService
         return body["access_token"] 
     end
     def friends(token)
-       resp = Faraday.get("https://api.foursquare.com/v2/users/self/friends") do |req|
+        resp = Faraday.get("https://api.foursquare.com/v2/users/self/friends") do |req|
             req.params['oauth_token'] = token
             # don't forget that pesky v param for versioning
             req.params['v'] = '20160201'
         end
         return JSON.parse(resp.body)["response"]["friends"]["items"] 
+    end
+
+    def find_coffee_shop(client_id, client_secret, zipcode)
+        resp = Faraday.get 'https://api.foursquare.com/v2/venues/search' do |req|
+            req.params['client_id'] = client_id
+            req.params['client_secret'] = client_secret
+            req.params['v'] = '20160201'
+            req.params['near'] = zipcode
+            req.params['query'] = 'coffee shop'
+        end
+
+        body = JSON.parse(resp.body)
+        venues = nil
+        error = nil
+        if resp.success?
+            venues = body["response"]["venues"]
+        else
+            error = body["meta"]["errorDetail"]
+        end
+        return {venues: venues, error: error}
     end
 end
