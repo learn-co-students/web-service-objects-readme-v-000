@@ -1638,3 +1638,16 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2017-06-17 15:44:12 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 390ms (Views: 377.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-06-17 15:44:19 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tWDk6cy3PakvMdSs4gzyD67fDMeP1NEkS0YJnqYaoyylTfRvtEt/aKTE55HdZFm2iAIQhJQ+AbNFLMEaZ3WjLQ==", "zipcode"=>"boston", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 333ms (Views: 25.5ms | ActiveRecord: 0.0ms)
