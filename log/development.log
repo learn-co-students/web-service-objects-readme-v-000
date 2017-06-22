@@ -1638,3 +1638,266 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-22 14:04:09 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 32ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-22 14:04:43 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-22 14:04:55 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-06-22 14:05:06 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-22 14:07:18 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-06-22 14:09:23 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-06-22 14:13:03 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=DM2IAAF5YFEP04PGQ5D4PX3D34A1GLPTFTB125VTJH04BL1P&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HXYIKZESVWAYOMKKJF0KLFVG5RLCJEDPATGCAQ3GBOMNVVRK" for 127.0.0.1 at 2017-06-22 14:14:00 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HXYIKZESVWAYOMKKJF0KLFVG5RLCJEDPATGCAQ3GBOMNVVRK"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 382ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-22 14:14:00 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 983ms (Views: 982.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-06-22 14:14:01 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-06-22 14:14:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-06-22 14:14:02 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:14:09 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Iz61oVcQCn9ILS8Y/aRKtdC1QGmiqqALNhykb58hgCWEcnvG+5O+GbQiK/s5XNhtjh2XBEZNJgxbjh5EknBZeg==", "zipcode"=>"11795", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 272ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2017-06-22 14:18:50 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 157ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-06-22 14:22:26 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:22:31 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5iUZajaLJwjIbgTUe7Pw/5BJzprIf20ezL3e44o+ZUFBadcNmgiTbjRhADe/S2InzuEZ9yyY6xmhL2TIh2+8Hg==", "zipcode"=>"11795", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 260ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `success?' for nil:NilClass):
+  app/controllers/searches_controller.rb:15:in `foursquare'
+
+
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.3ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (98.8ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (165.5ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:24:26 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5iUZajaLJwjIbgTUe7Pw/5BJzprIf20ezL3e44o+ZUFBadcNmgiTbjRhADe/S2InzuEZ9yyY6xmhL2TIh2+8Hg==", "zipcode"=>"11795", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 279ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-06-22 14:24:27 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-06-22 14:24:27 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-06-22 14:24:27 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2017-06-22 14:24:27 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-06-22 14:24:27 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:24:32 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5iUZajaLJwjIbgTUe7Pw/5BJzprIf20ezL3e44o+ZUFBadcNmgiTbjRhADe/S2InzuEZ9yyY6xmhL2TIh2+8Hg==", "zipcode"=>"11795", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 237ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-06-22 14:24:32 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-06-22 14:24:32 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-06-22 14:24:32 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-06-22 14:24:32 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2017-06-22 14:24:32 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:24:36 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dUqSKndkWiLQpe6oPwM3pQZfMCelND7PuXJ0tbNxvfHSBlxN2+fuRCyq6kv7+6V9WPfnSkHTuMjU4M6eviBkrg==", "zipcode"=>"11795", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 263ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:25:42 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dUqSKndkWiLQpe6oPwM3pQZfMCelND7PuXJ0tbNxvfHSBlxN2+fuRCyq6kv7+6V9WPfnSkHTuMjU4M6eviBkrg==", "zipcode"=>"11795", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 237ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-06-22 14:25:42 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2017-06-22 14:25:42 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2017-06-22 14:25:42 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2017-06-22 14:25:42 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-06-22 14:25:42 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:27:59 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NYqHUW+txawdxzmeXfji/oMQQtvQzvdFJ+bgBG+HNYSSxkk2wy5xyuHIPX2ZAHAm3biVtjQpcUJKdFovYtbs2w==", "zipcode"=>"01010", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 469ms (Views: 188.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:28:05 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SxpZgdNQjgJb5bBQ7LzQuaKlpdQSGNFGpDfMbX6v4cvsVpfmf9M6ZKfqtLMoREJh/A1yufb/V0HJpXZGc/44lA==", "zipcode"=>"asdfa", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 711ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for "Couldn't geocode param near: asdfa":String):
+     9:     <p><%= @error %></p>
+    10:   <% elsif @venues %>
+    11:     <ul>
+    12:     <% @venues.each do |venue| %>
+    13:       <li>
+    14:         <%= venue["name"] %><br>
+    15:         <%= venue["location"]["address"] %><br>
+  app/views/searches/search.html.erb:12:in `_app_views_searches_search_html_erb__3328643699935771792_70192354360580'
+  app/controllers/searches_controller.rb:14:in `foursquare'
+
+
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.3ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (27.1ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (54.8ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:30:43 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SxpZgdNQjgJb5bBQ7LzQuaKlpdQSGNFGpDfMbX6v4cvsVpfmf9M6ZKfqtLMoREJh/A1yufb/V0HJpXZGc/44lA==", "zipcode"=>"asdfa", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 864ms (ActiveRecord: 0.0ms)
+
+RuntimeError (Couldn't geocode param near: asdfa):
+  app/services/foursquare_service.rb:41:in `search'
+  app/controllers/searches_controller.rb:13:in `foursquare'
+
+
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.6ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (24.5ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/jpfin/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.9ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:31:03 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SxpZgdNQjgJb5bBQ7LzQuaKlpdQSGNFGpDfMbX6v4cvsVpfmf9M6ZKfqtLMoREJh/A1yufb/V0HJpXZGc/44lA==", "zipcode"=>"12345", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 305ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-06-22 14:31:14 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"udiBLq/b/PqzFgNgrWAK33tD/3A8jZEgkkEcL1DWUaQelE9JA1hInE8ZB4NpmJgHJesoHdhqFyf/06YEXYeI+w==", "zipcode"=>"10010", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 318ms (Views: 46.9ms | ActiveRecord: 0.0ms)
