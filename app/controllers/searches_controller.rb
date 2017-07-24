@@ -9,7 +9,8 @@ class SearchesController < ApplicationController
       # don't forget that pesky v param for versioning
       req.params['v'] = '20160201'
     end
-    @friends = JSON.parse(resp.body)["response"]["friends"]["items"]
+    foursquare = FoursquareService.new
+    @friends = foursquare.friends(session[:token])
   end
 
   def foursquare
