@@ -4,13 +4,11 @@ class SearchesController < ApplicationController
   end
 
   def friends
-    resp = Faraday.get("https://api.foursquare.com/v2/users/self/friends") do |req|
-      req.params['oauth_token'] = session[:token]
-      # don't forget that pesky v param for versioning
-      req.params['v'] = '20160201'
-    end
-    @friends = JSON.parse(resp.body)["response"]["friends"]["items"]
+    foursquare = FoursquareService.new
+    @friends = foursquare.friends(session[:token])
   end
+
+
 
   def foursquare
     client_id = "CO3LIXJPH1LYAC5OOTLKLJE334NVDIYG24KUFOVEQ22WVYDP"
