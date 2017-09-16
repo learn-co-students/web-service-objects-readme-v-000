@@ -1638,3 +1638,37 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2017-09-15 18:56:54 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 415ms (Views: 405.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2017-09-15 18:56:55 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2017-09-15 18:56:55 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2017-09-15 18:56:55 -0400
+
+
+Started GET "/search" for ::1 at 2017-09-15 18:57:23 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-09-15 18:58:13 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cGFDE+rGgLvNY/1Dy5s2lcOsIwsLEITxdy8OGletp4NlaBCS0RvM3Q2cKe73c7DHhkISFnBCQQcJLvTObH0/Kw==", "zipcode"=>"07979", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 235ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-09-15 18:58:26 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
