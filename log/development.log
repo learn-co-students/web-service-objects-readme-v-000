@@ -1638,3 +1638,39 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2017-10-05 15:16:04 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=5XVFXKXS4Q1KNGJIF41N4HAIK3EEUW1EVMY3WLCMAEUAXTDY&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SVEV1ZTDRYVHG3JYXYY1I1ZVXSFBPZSI05Q3VUF5H3F1BO2D" for ::1 at 2017-10-05 15:16:28 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SVEV1ZTDRYVHG3JYXYY1I1ZVXSFBPZSI05Q3VUF5H3F1BO2D"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 315ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-05 15:16:29 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 575ms (Views: 574.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2017-10-05 15:16:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2017-10-05 15:16:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2017-10-05 15:16:29 -0500
+
+
+Started POST "/search" for ::1 at 2017-10-05 15:16:33 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T0F52uW7neD1O7UV1a9DR8QJihyiyeW7HhRSQdB59OQ6U8w+dmdoCWTlSgMaLsG9M0df+iF4Gz5OM/7J2yHNkQ==", "zipcode"=>"75211", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 457ms (Views: 37.8ms | ActiveRecord: 0.0ms)
