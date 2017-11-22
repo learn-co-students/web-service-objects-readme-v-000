@@ -13,6 +13,11 @@ class SearchesController < ApplicationController
   end
 
   def foursquare
+    foursquare = FoursquareService.new
+    @friends = foursquare.friends(session[:token])
+  end
+
+
     client_id = "CO3LIXJPH1LYAC5OOTLKLJE334NVDIYG24KUFOVEQ22WVYDP"
     client_secret = "0NNKMRWRYLCKLPSEE3G10I33WV0BTYXEN2JCJ41TVKKWB52Y"
 
