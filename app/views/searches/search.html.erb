@@ -4,6 +4,12 @@
   <%= text_field_tag :zipcode %>
   <%= submit_tag "Search!" %>
 <% end %>
+
+<br />
+
+<%= link_to 'View Tips', tips_path %><br />
+<%= link_to 'View Friends', friends_path %>
+
 <div>
   <% if @error %>
     <p><%= @error %></p>
@@ -11,13 +17,13 @@
     <ul>
     <% @venues.each do |venue| %>
       <li>
-        <%= venue["name"] %><br>
+        <%= venue["name"] %>
         <%= venue["location"]["address"] %><br>
         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
         <%= form_tag '/tips' do %>
           <%= hidden_field_tag :venue_id, venue["id"] %>
           Add tip: <%= text_field_tag :tip %><%= submit_tag "Add Tip" %>
-        <% end %>
+        <% end %><br />
       </li>
     <% end %>
     </ul>

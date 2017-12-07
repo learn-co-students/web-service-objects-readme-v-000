@@ -1,7 +1,12 @@
 <h1>My Tips</h1>
 <ul>
 <% @results.each do |item| %>
-  <li><strong>><%= item["venue"]["name"] %></strong><br>
+  <li><strong><%= item["venue"]["name"] %></strong><br>
     <%= item["tip"]["text"] %></li>
 <% end %>
 </ul>
+
+<br />
+
+<%= link_to "Home", root_path %><br />
+<%= link_to 'View Friends', friends_path %>
