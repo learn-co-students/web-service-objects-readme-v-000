@@ -17,7 +17,7 @@ If we think back to *Single Responsibility Principle*, and the purpose of the co
 
 We want to move our business logic out of our controllers, but how? We aren't going to use an `ActiveRecord` Model, because we're not dealing with our own database.
 
-We are, however, dealing with data from *someone's* database, and the business logic of consuming and transforming that data, so we need something else.
+We are, however, dealing with data  changes from *someone's* database, and the business logic of consuming and transforming that data, so we need something else.
 
 **Service Objects**.
 
