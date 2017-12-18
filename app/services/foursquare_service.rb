@@ -55,5 +55,11 @@ def venue_searches(client_id, client_secret, zipcode)
   end
 
   def create_tips(token, venue_id, tip_text)
+    resp = Faraday.post("https://api.foursquare.com/v2/tips/add") do |req|
+      req.params['oauth_token'] = token
+      req.params['v'] = '20160201'
+      req.params['venueId'] = venue_id
+      req.params['text'] = tip_text
+    end
   end
 end
