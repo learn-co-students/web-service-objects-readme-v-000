@@ -7,7 +7,7 @@
 
 ## Lesson
 
-We'll be continuing with the Foursquare Coffee Shop app. You can build on the one you've been working with, or use the included code.
+We'll be continuing with the Fourdsquare Coffee Shop app. You can build on the one you've been working with, or use the included code.
 
 ## Service Objects
 
