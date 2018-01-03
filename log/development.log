@@ -1638,3 +1638,408 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2018-01-03 01:36:38 -0800
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=3GB1IINXDOUZU3RBUECF1T12SYGJZGRCK5Z1L15RZPEX4APG&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=3DJZJYO0453X2SVAEELY42ZMBBVYOA0DVFBOVB5DOZMPORG3" for ::1 at 2018-01-03 01:37:06 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3DJZJYO0453X2SVAEELY42ZMBBVYOA0DVFBOVB5DOZMPORG3"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::FoursquareService):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.8ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (87.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (172.5ms)
+
+
+Started GET "/auth?code=3DJZJYO0453X2SVAEELY42ZMBBVYOA0DVFBOVB5DOZMPORG3" for ::1 at 2018-01-03 01:39:10 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3DJZJYO0453X2SVAEELY42ZMBBVYOA0DVFBOVB5DOZMPORG3"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::FoursquareService):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.3ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (63.2ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (138.4ms)
+
+
+Started GET "/auth?code=3DJZJYO0453X2SVAEELY42ZMBBVYOA0DVFBOVB5DOZMPORG3" for ::1 at 2018-01-03 01:39:13 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3DJZJYO0453X2SVAEELY42ZMBBVYOA0DVFBOVB5DOZMPORG3"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::FoursquareService):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.1ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (136.5ms)
+
+
+Started GET "/" for ::1 at 2018-01-03 01:40:05 -0800
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=3GB1IINXDOUZU3RBUECF1T12SYGJZGRCK5Z1L15RZPEX4APG&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZGEKWQV1DQ3UUKKJFD1VYTWT1FITQBYCETLSR04RDMBZLSKL" for ::1 at 2018-01-03 01:40:06 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ZGEKWQV1DQ3UUKKJFD1VYTWT1FITQBYCETLSR04RDMBZLSKL"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 290ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-03 01:40:06 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 590ms (Views: 588.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-01-03 01:40:07 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-01-03 01:40:07 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-01-03 01:40:07 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-01-03 01:40:07 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-01-03 01:40:07 -0800
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:40:12 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bHml40SL2NGXSifa1JzR6fshuU8cwlmJQ000v4U9vI0wh8I0Y16KRWZu97NejXLbA/AD9N6M427VD+9s0YKQKw==", "zipcode"=>"94501", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 365ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:44:13 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wJ7OFzlDtnqbbtXriClu13JIJVZk3BRGm1QP7TKW6nucYKnAHpbk7mpKBYICOM3lipmf7aaSrqENFtQ+ZinG3Q==", "zipcode"=>"94501", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 473ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:44:18 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UkDGo24Lub9Q5usThoCJ6NdtAtOghZKXXodAxu9JqdIOvqF0Sd7rK6HCO3oMkSraL7y4aGLLKHDIxZsVu/aFdA==", "zipcode"=>"05136", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 214ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:44:22 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GMySy2WtKpxu3+MbDvaeiWKhteQR+MF80BzqaYgsDVJEMvUcQnh4CJ/7M3KE5z27mnAPX9O2e5tGXjG63JMh9A==", "zipcode"=>"95136", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 348ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:54:53 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GMySy2WtKpxu3+MbDvaeiWKhteQR+MF80BzqaYgsDVJEMvUcQnh4CJ/7M3KE5z27mnAPX9O2e5tGXjG63JMh9A==", "zipcode"=>"95136", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 309ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `body' for #<Hash:0x007ff9d518d068>):
+  app/controllers/searches_controller.rb:16:in `foursquare'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (91.2ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (77.0ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (214.8ms)
+
+
+Started GET "/" for ::1 at 2018-01-03 01:55:38 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:55:41 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0MedzGZcAxaTgc/PdCSrrux58AOzN3X0hERReZHKvRaMOfobQYlRgmKlH6b+NQicFKhKuHF5zxMSBoqqxXWRsA==", "zipcode"=>"94501", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 312ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `success?' for #<Hash:0x007ff9da423ac0>):
+  app/controllers/searches_controller.rb:17:in `foursquare'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.1ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.2ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (137.5ms)
+
+
+Started GET "/" for ::1 at 2018-01-03 01:57:42 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:57:46 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"26SL6Youv1OejrBzYoj3KwfGzjjI38sTDPoSOFMjqG6HWuw+rfvtx2+qYBromVQZ/xd0gwqRcfSauMnrB5yEyA==", "zipcode"=>"94501", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `body' for #<Hash:0x007ff9da68a480>):
+  app/controllers/searches_controller.rb:16:in `foursquare'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (71.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (157.1ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:58:04 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"26SL6Youv1OejrBzYoj3KwfGzjjI38sTDPoSOFMjqG6HWuw+rfvtx2+qYBromVQZ/xd0gwqRcfSauMnrB5yEyA==", "zipcode"=>"94501", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 322ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007ff9d98c9aa8>
+Did you mean?  try):
+  app/controllers/searches_controller.rb:16:in `foursquare'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.8ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (69.9ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (150.1ms)
+
+
+Started GET "/" for ::1 at 2018-01-03 01:58:45 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 288ms (Views: 277.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 01:58:48 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HpL81nEb5wDNX6cwqMT187AUkvnbHEFQ3pyPsRnaS5VCbJsBVs61lDx7d1ki1VbBSMUoQhlS+7dI3lRiTWVnMw==", "zipcode"=>"94501", "commit"=>"Search!"}
+
+
+Started GET "/" for ::1 at 2018-01-03 02:10:32 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 354ms (Views: 341.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:10:36 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XkmLv6N3s5ruZO4w9BXAYI6ecl0lpjvyoVo6njBig18Ct+xohKLhDh9APll+BGNSdk/I5ufogRU3GOFNZN2v+Q==", "zipcode"=>"94501", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SearchesController::FourSquareService):
+  app/controllers/searches_controller.rb:15:in `foursquare'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.8ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (73.9ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (153.1ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:10:50 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XkmLv6N3s5ruZO4w9BXAYI6ecl0lpjvyoVo6njBig18Ct+xohKLhDh9APll+BGNSdk/I5ufogRU3GOFNZN2v+Q==", "zipcode"=>"94501", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 337ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `render' for #<FoursquareService:0x007fbb5ae5cc08>):
+  app/services/foursquare_service.rb:36:in `foursquare'
+  app/controllers/searches_controller.rb:16:in `foursquare'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.2ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (137.8ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:11:17 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XkmLv6N3s5ruZO4w9BXAYI6ecl0lpjvyoVo6njBig18Ct+xohKLhDh9APll+BGNSdk/I5ufogRU3GOFNZN2v+Q==", "zipcode"=>"94501", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 340ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `render' for #<FoursquareService:0x007fbb5753b258>):
+  app/services/foursquare_service.rb:36:in `foursquare'
+  app/controllers/searches_controller.rb:16:in `foursquare'
+
+
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.2ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kevinkim/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (140.6ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:11:25 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XkmLv6N3s5ruZO4w9BXAYI6ecl0lpjvyoVo6njBig18Ct+xohKLhDh9APll+BGNSdk/I5ufogRU3GOFNZN2v+Q==", "zipcode"=>"94501", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 359ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:14:58 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XkmLv6N3s5ruZO4w9BXAYI6ecl0lpjvyoVo6njBig18Ct+xohKLhDh9APll+BGNSdk/I5ufogRU3GOFNZN2v+Q==", "zipcode"=>"94501", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 454ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:15:02 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UEsHN0HjdcA5zZmHm69SRF6mPGivo50M2D2eGHajBP0MtWDgZjYnVMjpSe4RvvF2pneG023tJ+tOf0XLIhwoWw==", "zipcode"=>"94501", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 296ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:15:05 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a6tkNVncjy8m4YFDOpMH5OHOoKZhIkx/ikxJ9TaCOXQ3VQPifgndu9fFUSqwgqTWGR8aHaNs9pgcDpImYj0V0g==", "zipcode"=>"80227", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 424ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:17:04 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+PaJidrXxOicMGm57YLbRB9r66qKhOQffjKZs/exdvekCO5e/QKWfG0UudBnk3h257pREUjKXvjocEJgow5aUQ==", "zipcode"=>"95136", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 610ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-03 02:17:56 -0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 259ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-03 02:20:35 -0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 315ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-01-03 02:24:54 -0800
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 55ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-03 02:24:57 -0800
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IBaMM4H8JyhQOCMGfhfe54Eg/BoHpn7r5TNlIfQmGHd86Ovkpil1vKEc82/0Bn3VefFGocXoxAxzcb7yoJk00Q==", "zipcode"=>"80227", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 335ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-01-03 02:25:05 -0800
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e2A8IRqVJfu23HqUgtsVIRAYPEQwo38lJ/DH8JKNkl8nnlv2PUB3b0f4qv0IyrYT6MmG//LtxcKxshwjxjK++Q==", "venue_id"=>"500d72ace4b0ba42c3017ced", "tip"=>"I like it here", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 713ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-01-03 02:25:06 -0800
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 226ms (Views: 23.6ms | ActiveRecord: 0.0ms)
