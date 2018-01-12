@@ -1638,3 +1638,33 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+Started GET "/" for ::1 at 2018-01-11 22:57:51 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Admin/.rvm/gems/ruby-2.4.3/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 431ms (Views: 419.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-01-11 22:57:55 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hf0Lkja4eK4lMyo4EYhQkQeLE5Lb7CgerF8XvOBC1ihG8KzX/gLx6y9ihU2R47hrWJpVehKjqnVA8m/ovcCclg==", "zipcode"=>"11358", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 1814ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-01-11 22:59:17 -0500
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1514ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-01-11 22:59:24 -0500
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 129ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
