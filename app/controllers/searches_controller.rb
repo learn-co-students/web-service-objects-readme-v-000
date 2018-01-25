@@ -10,17 +10,18 @@ class SearchesController < ApplicationController
 
   def venue_list
     foursquare = FoursquareService.new
-    @venues = foursquare.venues(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_CLIENT_SECRET'], params[:zipcode])
+    @resp = foursquare.venues(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_CLIENT_SECRET'], params[:zipcode])
+
+    if @resp["meta"]["code"] == 200
+      binding.pry
+      @venues = @resp["response"]["venues"]
+    else
+      @error = @resp["meta"]["errorDetail"]
+    end
     render 'search'
-    # if @resp.success?
-    #   @venues = body["response"]["venues"]
-    # else
-    #   @error = body["meta"]["errorDetail"]
-    # end
-    # render 'search'
-    #
-    # rescue Faraday::TimeoutError
-    #   @error = "There was a timeout. Please try again."
-    #   render 'search'
+
+    rescue Faraday::TimeoutError
+      @error = "There was a timeout. Please try again."
+      render 'search'
   end
 end
