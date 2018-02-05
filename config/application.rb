@@ -8,6 +8,10 @@ Bundler.require(*Rails.groups)
 
 module ApisAndFaradayReading
   class Application < Rails::Application
+    Dotenv::Railtie.load
+
+    FOURSQUARE_CLIENT_ID = ENV['FOURSQUARE_CLIENT_ID']
+    FOURSQUARE_SECRET = ENV['FOURSQUARE_SECRET']
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
