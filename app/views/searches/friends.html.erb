@@ -1,5 +1,10 @@
-<ul>
-  <% @friends.each do |friend| %>
-    <li><%= "#{friend['firstName']} #{friend['lastName']}" %></li>
-  <% end %>
-</ul>
+<strong>List of Friends on Foursquare:</strong>
+<% if @friends.length == 0 %>
+  <br><br>Sorry, looks like we have nothing to show...
+<% else %>
+  <ul>
+    <% @friends.each do |friend| %>
+      <li><%= "#{friend['firstName']} #{friend['lastName']}" %></li>
+    <% end %>
+  </ul>
+<% end %>
