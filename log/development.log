@@ -1638,3 +1638,78 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for 216.50.142.194 at 2016-09-05 21:59:55 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 508ms (Views: 494.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 216.50.142.194 at 2016-09-05 21:59:59 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 216.50.142.194 at 2016-09-05 22:00:01 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mAPyQmgms6kgPDPMO5cfOVN09nQzrv0bBzQiRgmICjCAkQpW+nPWytC1H7LbZ+gvUSpkWcJryq5rd6Sr2Cpf/Q==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 180ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 216.50.142.194 at 2016-09-05 22:00:06 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/5ZZDZlE75WhUA/oKQmQFpVz+0uyI2qH3mXQ6EaeUeznBKEZCxGK9lHZI5bJ+WcAly1pZkPmXTKyJlYFlzwEIQ==", "zipcode"=>"84601", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 207ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 216.50.142.194 at 2016-09-05 22:00:08 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ke0m/Vn7KxUkLaGffsOpX5ebq5xzFPLH+oIwg+fcpmeJf97py65OdtSkjeGeM15JlcU5sYLRxXKWwbZuNn7zqg==", "venue_id"=>"4cfbe341c671721ecbcbc518", "tip"=>"asdf", "commit"=>"Add Tip"}
+Redirected to https://learn-co-morgvanny-1.c9users.io/tips
+Completed 302 Found in 142ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 216.50.142.194 at 2016-09-05 22:00:09 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 128ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 216.50.142.194 at 2016-09-05 22:04:24 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 216.50.142.194, 127.0.0.0/127.255.255.255, ::1
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 348ms (Views: 219.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 216.50.142.194 at 2016-09-05 22:04:26 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 216.50.142.194, 127.0.0.0/127.255.255.255, ::1
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ke0m/Vn7KxUkLaGffsOpX5ebq5xzFPLH+oIwg+fcpmeJf97py65OdtSkjeGeM15JlcU5sYLRxXKWwbZuNn7zqg==", "venue_id"=>"4cfbe341c671721ecbcbc518", "tip"=>"asdf", "commit"=>"Add Tip"}
+Redirected to https://learn-co-morgvanny-1.c9users.io/tips
+Completed 302 Found in 94ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 216.50.142.194 at 2016-09-05 22:04:26 +0000
+Cannot render console from 216.50.142.194! Allowed networks: 216.50.142.194, 127.0.0.0/127.255.255.255, ::1
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 109ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 66.102.6.127 at 2016-09-05 22:48:26 +0000
+Cannot render console from 66.102.6.127! Allowed networks: 216.50.142.194, 127.0.0.0/127.255.255.255, ::1
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=FIZPR03H02YAUB3APITBYWOIKZLIQRI5CX0SRPCAH4UFR4WB&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
