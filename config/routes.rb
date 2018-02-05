@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get '/auth', to: 'sessions#create'
   get '/friends', to: 'searches#friends'
+  get '/logout', to: 'sessions#destroy'
 
   resources :tips, only: [:index, :create]
 end
