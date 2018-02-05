@@ -1638,3 +1638,590 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:20:18 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 19ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:22:27 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 33ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:22:43 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:22:46 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:27:45 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=V2OSN31XMVODA1O1AEFSGMPSWBAY4Y1VMCSIVTF20L13XQTW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YYZ5JUBJTMG5BUSD4NDW4KRY3DOBYKIOGETB4E4V1EMZDNZI" for 127.0.0.1 at 2016-08-25 11:27:45 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YYZ5JUBJTMG5BUSD4NDW4KRY3DOBYKIOGETB4E4V1EMZDNZI"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 471ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:27:46 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 496ms (Views: 495.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:27:56 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=V2OSN31XMVODA1O1AEFSGMPSWBAY4Y1VMCSIVTF20L13XQTW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZC0ZSTZGDUN5YHUC2FSH1ZAMVXFZYXRQ1X4WBAERY5JKCDU0" for 127.0.0.1 at 2016-08-25 11:27:56 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ZC0ZSTZGDUN5YHUC2FSH1ZAMVXFZYXRQ1X4WBAERY5JKCDU0"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 157ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:27:57 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:27:57 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:27:57 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:27:57 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:27:57 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:27:57 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:27:59 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:28:05 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=V2OSN31XMVODA1O1AEFSGMPSWBAY4Y1VMCSIVTF20L13XQTW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZSBGHBQN5GFO4OONTJTPOP2FVNESJRGGZQXOWLEXSC2EUXUT" for 127.0.0.1 at 2016-08-25 11:28:05 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ZSBGHBQN5GFO4OONTJTPOP2FVNESJRGGZQXOWLEXSC2EUXUT"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 278ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:28:05 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:31:25 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:31:25 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:31:25 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:31:25 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:31:25 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:31:25 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:31:41 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=V2OSN31XMVODA1O1AEFSGMPSWBAY4Y1VMCSIVTF20L13XQTW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=O3ZHR0ZYUX3GQ4WM0K1JQ35CKRS1JNWQUYHHESNAKLJKUFLQ" for 127.0.0.1 at 2016-08-25 11:31:42 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"O3ZHR0ZYUX3GQ4WM0K1JQ35CKRS1JNWQUYHHESNAKLJKUFLQ"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 5140ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 11:31:47 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2016-08-25 11:34:56 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MGLTSzSf7/vZ3orsrPsaRx2rW4JaD2q1y2tHcfem4JmFVz/Eq6Wz2M4gJi4/uSSQO9DzY2ccinwaX5qTU3X7CQ==", "zipcode"=>"80227", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 274ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2016-08-25 11:35:11 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UgPRSH96fD0XlvovvOmLB4OQj7aBll/zaLKYSiTmV5nnNj3H4EAgHgBoVu0vq7XQpesnV7yFvzq5hkWogDVMCQ==", "venue_id"=>"4dda63aac65bee535af7e7ba", "tip"=>"yea!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 148ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:11 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 166ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:14 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 188ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:35:14 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:14 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:14 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:14 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:14 -0600
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:15 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 168ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:35:15 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:15 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:15 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:15 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:15 -0600
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:16 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 179ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:35:16 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:16 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:16 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:16 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:16 -0600
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:16 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 178ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 184ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:17 -0600
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:18 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 189ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:35:18 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:18 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:18 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:18 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:18 -0600
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:19 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 171ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:35:19 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:19 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:19 -0600
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:19 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 250ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:35:20 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:20 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:20 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:20 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:35:20 -0600
+
+
+Started POST "/tips" for 127.0.0.1 at 2016-08-25 11:35:52 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UgPRSH96fD0XlvovvOmLB4OQj7aBll/zaLKYSiTmV5nnNj3H4EAgHgBoVu0vq7XQpesnV7yFvzq5hkWogDVMCQ==", "venue_id"=>"4dda63aac65bee535af7e7ba", "tip"=>"yea!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 148ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:35:52 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 181ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2016-08-25 11:36:08 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 193ms (Views: 185.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2016-08-25 11:36:16 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oiY9Yosl1Vy0H70Uvxr0ZCtoSw4BqRIqmcO3shzOC+MXE9HtFB+Jf6PhEdYsWMqzDRPj7zy68uNI92pQuB0Qcw==", "zipcode"=>"80227", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 277ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"meta"=>{"code"=>200, "requestId"=>"57bf2c90498e8dafc854672e"}, "response"=>{"venues"=>[{"id"=>"500d72ace4b0ba42c3017ced", "name"=>"Black Eye Coffee Shop", "contact"=>{}, "location"=>{"address"=>"3408 Navajo St", "lat"=>39.76470061326675, "lng"=>-105.00402241945267, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.76470061326675, "lng"=>-105.00402241945267}], "postalCode"=>"80211", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["3408 Navajo St", "Denver, CO 80211", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16d941735", "name"=>"Café", "pluralName"=>"Cafés", "shortName"=>"Café", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>1824, "usersCount"=>730, "tipCount"=>31}, "url"=>"http://www.drinkblackeye.com", "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "venuePage"=>{"id"=>"36796665"}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"50beaa0de4b007de9b5c0d59", "name"=>"Global Goods & Coffee Shop", "contact"=>{"phone"=>"7203899030", "formattedPhone"=>"(720) 389-9030"}, "location"=>{"address"=>"5613 Olde Wadsworth Blvd Arvada CO 80002", "crossStreet"=>"Grandview and Olde Wadsworth", "lat"=>39.79948083743708, "lng"=>-105.08161468751318, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.79948083743708, "lng"=>-105.08161468751318}], "postalCode"=>"80002", "cc"=>"US", "city"=>"Arvada", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["5613 Olde Wadsworth Blvd Arvada CO 80002 (Grandview and Olde Wadsworth)", "Arvada, CO 80002", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>291, "usersCount"=>148, "tipCount"=>4}, "url"=>"http://www.globalgoodsandcoffee.com", "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "venuePage"=>{"id"=>"55211340"}, "storeId"=>"", "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4dda63aac65bee535af7e7ba", "name"=>"Red Rocks Community College Coffee Shop", "contact"=>{"phone"=>"3039146262", "formattedPhone"=>"(303) 914-6262", "facebook"=>"237947016261054"}, "location"=>{"address"=>"13300 W 6th Ave", "crossStreet"=>"Arbutus", "lat"=>39.719302321014645, "lng"=>-105.15119791030884, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.719302321014645, "lng"=>-105.15119791030884}], "postalCode"=>"80228", "cc"=>"US", "city"=>"Lakewood", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["13300 W 6th Ave (Arbutus)", "Lakewood, CO 80228", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1a2941735", "name"=>"Community College", "pluralName"=>"Community Colleges", "shortName"=>"Community College", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/education/communitycollege_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>798, "usersCount"=>77, "tipCount"=>6}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "venuePage"=>{"id"=>"33875850"}, "storeId"=>"", "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4d03f2e09d33a14329cbb778", "name"=>"KJ's Coffee Shop", "contact"=>{"phone"=>"3034952020", "formattedPhone"=>"(303) 495-2020"}, "location"=>{"address"=>"1710 E 25th Ave", "crossStreet"=>"at Williams", "lat"=>39.74861340372303, "lng"=>-104.96742110302507, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.74861340372303, "lng"=>-104.96742110302507}], "postalCode"=>"80205", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["1710 E 25th Ave (at Williams)", "Denver, CO 80205", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>12, "usersCount"=>9, "tipCount"=>0}, "url"=>"http://www.kjscoffeebar.com/", "hasMenu"=>true, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/kjs-coffee-shop/4d03f2e09d33a14329cbb778/menu", "mobileUrl"=>"https://foursquare.com/v/4d03f2e09d33a14329cbb778/device_menu"}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4f0b55cce4b033211c9b7ad7", "name"=>"Randy's Coffee Shop", "contact"=>{}, "location"=>{"address"=>"2045 Franklin St", "lat"=>39.74744567649857, "lng"=>-104.96911543968758, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.74744567649857, "lng"=>-104.96911543968758}], "postalCode"=>"80205", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["2045 Franklin St", "Denver, CO 80205", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16d941735", "name"=>"Café", "pluralName"=>"Cafés", "shortName"=>"Café", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>9, "usersCount"=>3, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4f240fb0e4b04b5524fd9557", "name"=>"Sacred Grounds Coffee Shop", "contact"=>{}, "location"=>{"crossStreet"=>"38th (at Lutheran Medical Center)", "lat"=>39.76806121251841, "lng"=>-105.08983561402155, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.76806121251841, "lng"=>-105.08983561402155}], "postalCode"=>"80205", "cc"=>"US", "city"=>"Wheatridge", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["38th (at Lutheran Medical Center)", "Wheatridge, CO 80205", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>43, "usersCount"=>23, "tipCount"=>2}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4acb3e74f964a52054c320e3", "name"=>"Village Coffee Shop", "contact"=>{"phone"=>"3034429689", "formattedPhone"=>"(303) 442-9689"}, "location"=>{"address"=>"1605 Folsom St", "crossStreet"=>"at Grove St", "lat"=>40.01560240609492, "lng"=>-105.26341080665588, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.01560240609492, "lng"=>-105.26341080665588}], "postalCode"=>"80302", "cc"=>"US", "city"=>"Boulder", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["1605 Folsom St (at Grove St)", "Boulder, CO 80302", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d143941735", "name"=>"Breakfast Spot", "pluralName"=>"Breakfast Spots", "shortName"=>"Breakfast", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/breakfast_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>2392, "usersCount"=>952, "tipCount"=>37}, "url"=>"http://www.villagecoffeeshopboulder.com", "hasMenu"=>true, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/village-coffee-shop/4acb3e74f964a52054c320e3/menu", "mobileUrl"=>"https://foursquare.com/v/4acb3e74f964a52054c320e3/device_menu"}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "venuePage"=>{"id"=>"69140520"}, "storeId"=>"", "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4e4da9b48877402b06ab8981", "name"=>"Da Coffee Shop!", "contact"=>{}, "location"=>{"lat"=>39.740013122558594, "lng"=>-105.09143829345703, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.740013122558594, "lng"=>-105.09143829345703}], "cc"=>"US", "state"=>"Colorado", "country"=>"United States", "formattedAddress"=>["Colorado", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>42, "usersCount"=>6, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4f32994619836c91c7e77598", "name"=>"Cyberjoe Coffee Shop", "contact"=>{"phone"=>"3037980870", "formattedPhone"=>"(303) 798-0870"}, "location"=>{"address"=>"2310 W Main St", "lat"=>39.613578, "lng"=>-105.015288, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.613578, "lng"=>-105.015288}], "postalCode"=>"80120", "cc"=>"US", "city"=>"Littleton", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["2310 W Main St", "Littleton, CO 80120", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d14e941735", "name"=>"American Restaurant", "pluralName"=>"American Restaurants", "shortName"=>"American", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/default_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>0, "usersCount"=>0, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4d87c0e0bc848cfadccd9e2b", "name"=>"The Cozy Bean Nomadic Coffee Shop", "contact"=>{"phone"=>"9728248225", "formattedPhone"=>"(972) 824-8225", "twitter"=>"thecozybean"}, "location"=>{"address"=>"9537 W Alameda Ave", "lat"=>39.71100268, "lng"=>-104.99372, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.71100268, "lng"=>-104.99372}], "postalCode"=>"80226", "cc"=>"US", "city"=>"Lakewood", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["9537 W Alameda Ave", "Lakewood, CO 80226", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>8, "usersCount"=>7, "tipCount"=>1}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4c4dc74efb742d7f22164c2d", "name"=>"Capitol Coffee Shop", "contact"=>{}, "location"=>{"lat"=>39.73982921902863, "lng"=>-104.98494152165415, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.73982921902863, "lng"=>-104.98494152165415}], "postalCode"=>"80203", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Denver, CO 80203", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>74, "usersCount"=>13, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4e95eb8ab634ee03e657f8a8", "name"=>"The Cafe' VA, 1st Floor Coffee Shop", "contact"=>{}, "location"=>{"lat"=>39.73274755854793, "lng"=>-104.9359279600449, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.73274755854793, "lng"=>-104.9359279600449}], "cc"=>"US", "state"=>"Colorado", "country"=>"United States", "formattedAddress"=>["Colorado", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>82, "usersCount"=>20, "tipCount"=>1}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4ffae69de4b020891a131aff", "name"=>"Doughnut & Coffee Shop Pop-Up 1.0", "contact"=>{}, "location"=>{"address"=>"@ Table 6", "lat"=>39.725811, "lng"=>-104.97426, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.725811, "lng"=>-104.97426}], "postalCode"=>"80218", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["@ Table 6", "Denver, CO 80218", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d148941735", "name"=>"Donut Shop", "pluralName"=>"Donut Shops", "shortName"=>"Donuts", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/donuts_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>2, "usersCount"=>2, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4e2c6a29e4cd3bc1669f8872", "name"=>"He brews coffee shop", "contact"=>{}, "location"=>{"lat"=>39.4858911, "lng"=>-105.0802175, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.4858911, "lng"=>-105.0802175}], "postalCode"=>"80125", "cc"=>"US", "city"=>"Littleton", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Littleton, CO 80125", "United States"]}, "categories"=>[], "verified"=>false, "stats"=>{"checkinsCount"=>1, "usersCount"=>1, "tipCount"=>0}, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4bd354ba046076b091d07571", "name"=>"Gaia's Gift Dispensary, Coffee Shop & Lounge.", "contact"=>{}, "location"=>{"address"=>"125 Main st", "crossStreet"=>"at Eureka", "lat"=>39.801337122917175, "lng"=>-105.49488544464111, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.801337122917175, "lng"=>-105.49488544464111}], "postalCode"=>"80422", "cc"=>"US", "city"=>"Central City", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["125 Main st (at Eureka)", "Central City, CO 80422", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16d941735", "name"=>"Café", "pluralName"=>"Cafés", "shortName"=>"Café", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>9, "usersCount"=>6, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4d815cb3ebb4236afe073f58", "name"=>"Grace Coffee Shop", "contact"=>{}, "location"=>{"lat"=>39.864975, "lng"=>-105.074937, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.864975, "lng"=>-105.074937}], "cc"=>"US", "state"=>"Colorado", "country"=>"United States", "formattedAddress"=>["Colorado", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>14, "usersCount"=>3, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4f819ce0e4b0b2237d387db0", "name"=>"Calvary Coffee Shop", "contact"=>{}, "location"=>{"lat"=>39.652195, "lng"=>-104.766722, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.652195, "lng"=>-104.766722}], "postalCode"=>"80013", "cc"=>"US", "city"=>"Aurora", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Aurora, CO 80013", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16d941735", "name"=>"Café", "pluralName"=>"Cafés", "shortName"=>"Café", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>1, "usersCount"=>1, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4a95980df964a520cd2320e3", "name"=>"The Exchange coffee shop", "contact"=>{}, "location"=>{"address"=>"Bradburn blvd", "lat"=>39.91294824716343, "lng"=>-105.04125823308657, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.91294824716343, "lng"=>-105.04125823308657}], "postalCode"=>"80031", "cc"=>"US", "city"=>"Westminster", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Bradburn blvd", "Westminster, CO 80031", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>36, "usersCount"=>15, "tipCount"=>2}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"513c2f3be4b01b2f736467f2", "name"=>"Quincy Coffee Shop", "contact"=>{}, "location"=>{"lat"=>39.648297, "lng"=>-104.762241, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.648297, "lng"=>-104.762241}], "cc"=>"US", "city"=>"Aurora", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Aurora, CO", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>13, "usersCount"=>3, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4c41fea6e26920a15b575fe7", "name"=>"Espressario Coffee Shop", "contact"=>{}, "location"=>{"address"=>"Pearl St.", "crossStreet"=>"21st", "lat"=>40.01423053075042, "lng"=>-105.2584892218315, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.01423053075042, "lng"=>-105.2584892218315}], "postalCode"=>"80302", "cc"=>"US", "city"=>"Boulder", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Pearl St. (21st)", "Boulder, CO 80302", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>9, "usersCount"=>7, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4efc69c329c225f382f6e94b", "name"=>"Smoots Coffee Shop", "contact"=>{}, "location"=>{"crossStreet"=>"Feather Court", "lat"=>39.39372257671537, "lng"=>-104.90973879352973, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.39372257671537, "lng"=>-104.90973879352973}], "postalCode"=>"80109", "cc"=>"US", "city"=>"Castle Rock", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Feather Court", "Castle Rock, CO 80109", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16d941735", "name"=>"Café", "pluralName"=>"Cafés", "shortName"=>"Café", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>17, "usersCount"=>6, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"52b9df1d498e562b47333a56", "name"=>"Black Dog Coffee Shop", "contact"=>{}, "location"=>{"lat"=>40.001262144585915, "lng"=>-105.01942312068459, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.001262144585915, "lng"=>-105.01942312068459}], "cc"=>"US", "city"=>"Erie", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Erie, CO", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>100, "usersCount"=>41, "tipCount"=>2}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"52eab381498e3f2bc3495472", "name"=>"Paige's Coffee Shoppe", "contact"=>{}, "location"=>{"address"=>"1902 S Josephine St", "crossStreet"=>"Buchtel Blvd.", "lat"=>39.681885, "lng"=>-104.957737, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.681885, "lng"=>-104.957737}], "postalCode"=>"80210", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["1902 S Josephine St (Buchtel Blvd.)", "Denver, CO 80210", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>10, "usersCount"=>2, "tipCount"=>1}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"52eab18511d23af65b4af040", "name"=>"Paige's Coffee Shoppe", "contact"=>{"phone"=>"8082175595", "formattedPhone"=>"(808) 217-5595"}, "location"=>{"address"=>"1902 S Josephine St", "crossStreet"=>"Buchtel Blvd.", "lat"=>39.681764083852684, "lng"=>-104.95755851268768, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.681764083852684, "lng"=>-104.95755851268768}], "postalCode"=>"80210", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["1902 S Josephine St (Buchtel Blvd.)", "Denver, CO 80210", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1f5941735", "name"=>"Gourmet Shop", "pluralName"=>"Gourmet Shops", "shortName"=>"Gourmet", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/shops/food_gourmet_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>0, "usersCount"=>0, "tipCount"=>2}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146576", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"5144c95ee4b075ebca228928", "name"=>"Salma's Coffee Shoppe", "contact"=>{}, "location"=>{"lat"=>39.722367, "lng"=>-104.899166, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.722367, "lng"=>-104.899166}], "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["Denver, CO", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>1, "usersCount"=>1, "tipCount"=>0}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146577", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4b3a6c3df964a520f36625e3", "name"=>"Granny Scott's Pie Shop", "contact"=>{"phone"=>"3039866240", "formattedPhone"=>"(303) 986-6240"}, "location"=>{"address"=>"3333 S Wadsworth Blvd", "lat"=>39.65606571365425, "lng"=>-105.08300193986095, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.65606571365425, "lng"=>-105.08300193986095}], "postalCode"=>"80227", "cc"=>"US", "city"=>"Lakewood", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["3333 S Wadsworth Blvd", "Lakewood, CO 80227", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1d0941735", "name"=>"Dessert Shop", "pluralName"=>"Dessert Shops", "shortName"=>"Desserts", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/dessert_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>267, "usersCount"=>119, "tipCount"=>5}, "hasMenu"=>true, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/granny-scotts-pie-shop/4b3a6c3df964a520f36625e3/menu", "mobileUrl"=>"https://foursquare.com/v/4b3a6c3df964a520f36625e3/device_menu"}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146577", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"5390e357498e2cb93822f6da", "name"=>"Bear Valley Coffee Company", "contact"=>{"phone"=>"3033336837", "formattedPhone"=>"(303) 333-6837"}, "location"=>{"address"=>"5600 W Dartmouth Ave", "lat"=>39.65560472025598, "lng"=>-105.05569864362639, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.65560472025598, "lng"=>-105.05569864362639}], "postalCode"=>"80227", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["5600 W Dartmouth Ave", "Denver, CO 80227", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"checkinsCount"=>27, "usersCount"=>14, "tipCount"=>3}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146577", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4f6526b4e4b0bf1012984192", "name"=>"2914 Coffee", "contact"=>{"phone"=>"3039538997", "formattedPhone"=>"(303) 953-8997"}, "location"=>{"address"=>"2914 W 25th Ave", "crossStreet"=>"Federal", "lat"=>39.75348423240643, "lng"=>-105.02414829531867, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.75348423240643, "lng"=>-105.02414829531867}], "postalCode"=>"80211", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["2914 W 25th Ave (Federal)", "Denver, CO 80211", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16d941735", "name"=>"Café", "pluralName"=>"Cafés", "shortName"=>"Café", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>1368, "usersCount"=>353, "tipCount"=>21}, "url"=>"http://www.2914coffee.com", "hasMenu"=>true, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/2914-coffee/4f6526b4e4b0bf1012984192/menu", "mobileUrl"=>"https://foursquare.com/v/4f6526b4e4b0bf1012984192/device_menu"}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "venuePage"=>{"id"=>"90484542"}, "hereNow"=>{"count"=>1, "summary"=>"One other person is here", "groups"=>[{"type"=>"others", "name"=>"Other people here", "count"=>1, "items"=>[]}]}, "referralId"=>"v-1472146577", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4cc7676694e1a0936782918b", "name"=>"Coffee at The Point", "contact"=>{"phone"=>"3039552237", "formattedPhone"=>"(303) 955-2237", "twitter"=>"coffee_thepoint", "facebook"=>"122834647736811", "facebookName"=>"Coffee at The Point"}, "location"=>{"address"=>"710 E 26th Ave", "crossStreet"=>"Welton St & 27th St", "lat"=>39.75471299554616, "lng"=>-104.97787264998466, "labeledLatLngs"=>[{"label"=>"display", "lat"=>39.75471299554616, "lng"=>-104.97787264998466}], "postalCode"=>"80205", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["710 E 26th Ave (Welton St & 27th St)", "Denver, CO 80205", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>1733, "usersCount"=>549, "tipCount"=>21}, "url"=>"http://www.coffeeatthepoint.com", "hasMenu"=>true, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-at-the-point/4cc7676694e1a0936782918b/menu", "mobileUrl"=>"https://foursquare.com/v/4cc7676694e1a0936782918b/device_menu", "externalUrl"=>"http://www.coffeeatthepoint.com"}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "venuePage"=>{"id"=>"123748854"}, "storeId"=>"", "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146577", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4f977ce1e4b0da3ed6741a9e", "name"=>"Corvus Coffee", "contact"=>{"phone"=>"3037151740", "formattedPhone"=>"(303) 715-1740", "twitter"=>"corvuscoffee"}, "location"=>{"address"=>"1740 S Broadway", "crossStreet"=>"Colorado Ave", "lat"=>39.68484798301361, "lng"=>-104.9872612953186, "postalCode"=>"80210", "cc"=>"US", "city"=>"Denver", "state"=>"CO", "country"=>"United States", "formattedAddress"=>["1740 S Broadway (Colorado Ave)", "Denver, CO 80210", "United States"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"checkinsCount"=>1306, "usersCount"=>548, "tipCount"=>25}, "url"=>"http://www.corvuscoffee.com", "hasMenu"=>true, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/corvus-coffee/4f977ce1e4b0da3ed6741a9e/menu", "mobileUrl"=>"https://foursquare.com/v/4f977ce1e4b0da3ed6741a9e/device_menu"}, "allowMenuUrlEdit"=>true, "specials"=>{"count"=>0, "items"=>[]}, "venuePage"=>{"id"=>"32877629"}, "storeId"=>"", "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1472146577", "venueChains"=>[], "hasPerk"=>false}], "geocode"=>{"what"=>"", "where"=>"80227", "feature"=>{"cc"=>"US", "name"=>"80227", "displayName"=>"80227, CO, United States", "matchedName"=>"80227, CO, United States", "highlightedName"=>"<b>80227</b>, CO, United States", "woeType"=>11, "id"=>"geonamezip:US-80227", "longId"=>"162411061578732571", "geometry"=>{"center"=>{"lat"=>39.6667, "lng"=>-105.0854}, "bounds"=>{"ne"=>{"lat"=>39.682291, "lng"=>-105.044502}, "sw"=>{"lat"=>39.652549, "lng"=>-105.13336699999999}}}}, "parents"=>[]}}}):
+  app/controllers/searches_controller.rb:28:in `foursquare'
+
+
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (82.9ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (107.8ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2016-08-25 11:37:20 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oiY9Yosl1Vy0H70Uvxr0ZCtoSw4BqRIqmcO3shzOC+MXE9HtFB+Jf6PhEdYsWMqzDRPj7zy68uNI92pQuB0Qcw==", "zipcode"=>"80227", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 254ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:37:21 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:37:21 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:37:21 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:37:21 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:37:21 -0600
+
+
+Started POST "/tips" for 127.0.0.1 at 2016-08-25 11:37:27 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sv9z399bDLMzAbbdCo5Eefhjs6U/cZ/VqjgKKP6mQHAHyp9QQGFQkCT/Gh+ZzHqu3hgbRAJifxx7DNfKWnVb4A==", "venue_id"=>"4dda63aac65bee535af7e7ba", "tip"=>"yea!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 157ms (ActiveRecord: 0.0ms)
+
+RuntimeError (#<Faraday::Response:0x007f09cdd06d48 @on_complete_callbacks=[], @env=#<Faraday::Env @method=:post @body="{\"meta\":{\"code\":400,\"errorType\":\"param_error\",\"errorDetail\":\"Text must be at least 10 characters and less than 200.\",\"requestId\":\"57bf2cd7498ec402002a54ee\"},\"notifications\":[{\"type\":\"notificationTray\",\"item\":{\"unreadCount\":0}}],\"response\":{}}" @url=#<URI::HTTPS https://api.foursquare.com/v2/tips/add?oauth_token=XRHCJSUELEN3O2VDOAEVATXAKNLF2S25XR23IPQS4SMXM4LL&text=yea%21&v=20160201&venueId=4dda63aac65bee535af7e7ba> @request=#<Faraday::RequestOptions (empty)> @request_headers={"User-Agent"=>"Faraday v0.9.2", "Content-Length"=>"0"} @ssl=#<Faraday::SSLOptions verify=true> @response=#<Faraday::Response:0x007f09cdd06d48 ...> @response_headers={"server"=>"nginx", "content-type"=>"application/json; charset=utf-8", "access-control-allow-origin"=>"*", "tracer-time"=>"17", "x-ratelimit-path"=>"/v2/tips/add", "x-ratelimit-limit"=>"500", "x-ratelimit-remaining"=>"497", "content-length"=>"242", "accept-ranges"=>"bytes", "date"=>"Thu, 25 Aug 2016 17:37:27 GMT", "via"=>"1.1 varnish", "connection"=>"close", "x-served-by"=>"cache-den6023-DEN", "x-cache"=>"MISS", "x-cache-hits"=>"0"} @status=400>>):
+  app/controllers/tips_controller.rb:18:in `create'
+
+
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.1ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.4ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.1ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2016-08-25 11:39:24 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sv9z399bDLMzAbbdCo5Eefhjs6U/cZ/VqjgKKP6mQHAHyp9QQGFQkCT/Gh+ZzHqu3hgbRAJifxx7DNfKWnVb4A==", "venue_id"=>"4dda63aac65bee535af7e7ba", "tip"=>"yea!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.0ms)
+
+JSON::ParserError (757: unexpected token at '#<Faraday::Response:0x007f09cd352450 @on_complete_callbacks=[], @env=#<Faraday::Env @method=:post @body="{\"meta\":{\"code\":400,\"errorType\":\"param_error\",\"errorDetail\":\"Text must be at least 10 characters and less than 200.\",\"requestId\":\"57bf2d4d498e56bed78dca62\"},\"notifications\":[{\"type\":\"notificationTray\",\"item\":{\"unreadCount\":0}}],\"response\":{}}" @url=#<URI::HTTPS https://api.foursquare.com/v2/tips/add?oauth_token=XRHCJSUELEN3O2VDOAEVATXAKNLF2S25XR23IPQS4SMXM4LL&text=yea%21&v=20160201&venueId=4dda63aac65bee535af7e7ba> @request=#<Faraday::RequestOptions (empty)> @request_headers={"User-Agent"=>"Faraday v0.9.2", "Content-Length"=>"0"} @ssl=#<Faraday::SSLOptions verify=true> @response=#<Faraday::Response:0x007f09cd352450 ...> @response_headers={"server"=>"nginx", "content-type"=>"application/json; charset=utf-8", "access-control-allow-origin"=>"*", "tracer-time"=>"16", "x-ratelimit-path"=>"/v2/tips/add", "x-ratelimit-limit"=>"500", "x-ratelimit-remaining"=>"496", "content-length"=>"242", "accept-ranges"=>"bytes", "date"=>"Thu, 25 Aug 2016 17:39:25 GMT", "via"=>"1.1 varnish", "connection"=>"close", "x-served-by"=>"cache-den6026-DEN", "x-cache"=>"MISS", "x-cache-hits"=>"0"} @status=400>>'):
+  app/controllers/tips_controller.rb:18:in `create'
+
+
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.8ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.1ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2016-08-25 11:39:37 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sv9z399bDLMzAbbdCo5Eefhjs6U/cZ/VqjgKKP6mQHAHyp9QQGFQkCT/Gh+ZzHqu3hgbRAJifxx7DNfKWnVb4A==", "venue_id"=>"4dda63aac65bee535af7e7ba", "tip"=>"yea!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"meta"=>{"code"=>400, "errorType"=>"param_error", "errorDetail"=>"Text must be at least 10 characters and less than 200.", "requestId"=>"57bf2d5a498ec55bb3098feb"}, "notifications"=>[{"type"=>"notificationTray", "item"=>{"unreadCount"=>0}}], "response"=>{}}):
+  app/controllers/tips_controller.rb:18:in `create'
+
+
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.0ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.8ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2016-08-25 11:39:50 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sv9z399bDLMzAbbdCo5Eefhjs6U/cZ/VqjgKKP6mQHAHyp9QQGFQkCT/Gh+ZzHqu3hgbRAJifxx7DNfKWnVb4A==", "venue_id"=>"4dda63aac65bee535af7e7ba", "tip"=>"yea!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 146ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:39:50 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 193ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-08-25 11:39:51 -0600
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-08-25 11:39:51 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-25 11:39:51 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-08-25 11:39:51 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-08-25 11:39:51 -0600
+
+
+Started POST "/tips" for 127.0.0.1 at 2016-08-25 11:41:58 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sv9z399bDLMzAbbdCo5Eefhjs6U/cZ/VqjgKKP6mQHAHyp9QQGFQkCT/Gh+ZzHqu3hgbRAJifxx7DNfKWnVb4A==", "venue_id"=>"4dda63aac65bee535af7e7ba", "tip"=>"yea and good stuff!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 234ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2016-08-25 11:41:58 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 192ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 12:27:10 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 12:27:18 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=V2OSN31XMVODA1O1AEFSGMPSWBAY4Y1VMCSIVTF20L13XQTW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=QCLLOZ4J1AX1RIDS0OR3RAXX1Q3F2VXCOYLIHCZMVHOSKIAY" for 127.0.0.1 at 2016-08-25 12:27:19 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"QCLLOZ4J1AX1RIDS0OR3RAXX1Q3F2VXCOYLIHCZMVHOSKIAY"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::FoursquareService):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.8ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.4ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/thegands/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 12:28:04 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=V2OSN31XMVODA1O1AEFSGMPSWBAY4Y1VMCSIVTF20L13XQTW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=UKCIONV1YPZ2BLTRL4YVLZVWMHT0U5WS5R1NV0N3YHBE5GTW" for 127.0.0.1 at 2016-08-25 12:28:04 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"UKCIONV1YPZ2BLTRL4YVLZVWMHT0U5WS5R1NV0N3YHBE5GTW"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 183ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 12:28:04 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 138ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-25 12:30:33 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=V2OSN31XMVODA1O1AEFSGMPSWBAY4Y1VMCSIVTF20L13XQTW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2016-08-25 12:33:15 -0600
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 298ms (Views: 144.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2016-08-25 12:33:15 -0600
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 229ms (Views: 7.3ms | ActiveRecord: 0.0ms)
