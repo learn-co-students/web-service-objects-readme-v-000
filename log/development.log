@@ -1638,3 +1638,74 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/search" for ::1 at 2018-03-25 23:56:59 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 456ms (Views: 435.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-03-25 23:57:00 -0500
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2018-03-25 23:57:00 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-03-25 23:57:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-03-25 23:57:00 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-03-25 23:57:05 -0500
+
+
+Started POST "/search" for ::1 at 2018-03-25 23:57:17 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9nzLKe8daF0ygS897aKoLLfE4aT6Gf4rKi4IsnZL+JVvsArEmyIoHL8FcHRtuDK42XssUsdBraodnmBqp1MTQQ==", "zipcode"=>"60625", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 362ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-25 23:57:33 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m/IQpB8gY8oNgYLgyiLRqYR3jasmioc9OQ5MtMFhO08CPtFJax8ji4AF3alKOEs96shAXRvS1LwOviRsEHnQmw==", "zipcode"=>"48067", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 349ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-25 23:59:15 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 154ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-26 00:00:00 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 170ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-26 00:00:24 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-26 00:00:34 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 140ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-26 00:00:47 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 134ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-26 00:01:19 -0500
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 164ms (Views: 37.7ms | ActiveRecord: 0.0ms)
