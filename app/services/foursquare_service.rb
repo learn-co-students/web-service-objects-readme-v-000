@@ -39,5 +39,8 @@ class FoursquareService
     JSON.parse(resp.body)
   end
 
+  def venue_search(zip_code)
+  end
+
 
 end
