@@ -1638,3 +1638,724 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2018-03-28 22:17:43 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=OF4BEWF50S3SOLMVOCP11RBACRDGYGFYP13S3OD2I3EY15N4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZVO1NLEE3FMKWRWAXZLSP1CIYYGT5DNU4MCI0VSJ1QIGQ4EN" for ::1 at 2018-03-28 22:17:44 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ZVO1NLEE3FMKWRWAXZLSP1CIYYGT5DNU4MCI0VSJ1QIGQ4EN"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 137ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-28 22:17:44 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 589ms (Views: 588.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-03-28 22:17:45 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-03-28 22:17:45 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-03-28 22:17:45 -0400
+
+
+Started GET "/" for ::1 at 2018-03-28 22:18:56 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=OF4BEWF50S3SOLMVOCP11RBACRDGYGFYP13S3OD2I3EY15N4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=A0RE25I14N22XUZ1I5EGNW52EZ3WRKBNX2Q2RIWQWNDG4BGH" for ::1 at 2018-03-28 22:19:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"A0RE25I14N22XUZ1I5EGNW52EZ3WRKBNX2Q2RIWQWNDG4BGH"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 108ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-28 22:19:06 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-03-28 22:19:06 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-03-28 22:19:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-03-28 22:19:06 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-03-28 22:19:06 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-03-28 22:19:06 -0400
+
+
+Started GET "/friends" for ::1 at 2018-03-28 22:21:59 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 144ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-28 22:23:44 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 137ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-28 22:23:49 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-28 22:24:13 -0400
+Processing by SearchesController#friends as HTML
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 0.0ms)
+
+RuntimeError ([]):
+  app/controllers/searches_controller.rb:9:in `friends'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (117.0ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (109.1ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (243.2ms)
+
+
+Started PUT "/__web_console/repl_sessions/d51ed2ce0f7a61d0b9fa71486ef7c8a8" for ::1 at 2018-03-28 22:24:20 -0400
+
+
+Started PUT "/__web_console/repl_sessions/d51ed2ce0f7a61d0b9fa71486ef7c8a8" for ::1 at 2018-03-28 22:24:27 -0400
+
+
+Started PUT "/__web_console/repl_sessions/d51ed2ce0f7a61d0b9fa71486ef7c8a8" for ::1 at 2018-03-28 22:24:48 -0400
+
+
+Started GET "/friends" for ::1 at 2018-03-28 22:24:55 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 136ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-29 12:40:45 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 76ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-03-29 12:40:50 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 847ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends/tips" for ::1 at 2018-03-29 12:40:59 -0400
+
+ActionController::RoutingError (No route matches [GET] "/friends/tips"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chris/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/chris/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/chris/.rbenv/versions/2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (19.1ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (185.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (107.2ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (239.2ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:41:06 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 330ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:47:42 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/chris/.atom/.learn-ide/home/chrisjamesr-106931/web-service-objects-readme-v-000/app/services/foursquare_service.rb:41: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/services/foursquare_service.rb:41: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/tips_controller.rb:3:in `index'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.8ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (110.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (230.8ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:48:01 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (24.9ms)
+Completed 500 Internal Server Error in 385ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `submit' for #<#<Class:0x007fdfef0c9370>:0x007fdfee802ac0>):
+     9: <%= form_tag '/tips' do %>
+    10:   <%= label_tag :text %>
+    11:   <%= text_field_tag :text %>
+    12:   <%= submit.tag "Add Tip"%>
+    13: <% end %>
+  app/views/tips/index.html.erb:12:in `block in _app_views_tips_index_html_erb__4134601364742185172_70299870089820'
+  app/views/tips/index.html.erb:9:in `_app_views_tips_index_html_erb__4134601364742185172_70299870089820'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (114.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (93.0ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (211.5ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:48:17 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 191ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-29 12:48:48 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-29 12:48:55 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xdnoDwhLMN9l6q6vSnl6CE2eUoe+s1LFNmVw4oPVzdcL9ja3ZHKEYfv5jAf5+BmSXO0AM3CQVvUmD0AS/XFTQA==", "zipcode"=>"11101", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 387ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-29 12:50:02 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h+UEcRY6VOZ2BOyTuAkrEYIwasmQdeBMkSpnk1lpEWJJytrJegPgWOgXzjsLiEiLk0M4fV5W5HyBQFdjJ82P9Q==", "venue_id"=>"4a7846a7f964a52057e51fe3", "tip"=>"  ", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 359ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:50:03 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 325ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:50:25 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 215ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-03-29 12:50:26 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-03-29 12:50:26 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-03-29 12:50:26 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-03-29 12:50:26 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-03-29 12:50:26 -0400
+
+
+Started POST "/search" for ::1 at 2018-03-29 12:50:31 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xdnoDwhLMN9l6q6vSnl6CE2eUoe+s1LFNmVw4oPVzdcL9ja3ZHKEYfv5jAf5+BmSXO0AM3CQVvUmD0AS/XFTQA==", "zipcode"=>"11101", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 337ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-03-29 12:50:32 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-03-29 12:50:32 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-03-29 12:50:32 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-03-29 12:50:32 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-03-29 12:50:32 -0400
+
+
+Started POST "/tips" for ::1 at 2018-03-29 12:50:43 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NQhdzNSF3dA400+amWNbuLRD7YsEYUE1q+JMZS5enuT7J4N0uLxpbqbAbTIq4jgipTC/P8pCRQW7iHyVUPoAcw==", "venue_id"=>"579a3613cd101fce972dc01c", "tip"=>"Coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 458ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:50:43 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 357ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-03-29 12:50:44 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-03-29 12:50:44 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-03-29 12:50:44 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-03-29 12:50:44 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-03-29 12:50:44 -0400
+
+
+Started POST "/search" for ::1 at 2018-03-29 12:51:57 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xdnoDwhLMN9l6q6vSnl6CE2eUoe+s1LFNmVw4oPVzdcL9ja3ZHKEYfv5jAf5+BmSXO0AM3CQVvUmD0AS/XFTQA==", "zipcode"=>"11101", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 649ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-03-29 12:51:58 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-03-29 12:51:58 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-03-29 12:51:58 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-03-29 12:51:58 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-03-29 12:51:58 -0400
+
+
+Started POST "/tips" for ::1 at 2018-03-29 12:52:01 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8MCDE/a1atm2er+dX5C2eglDyBqIQ1chj5XrqrPgWzY+712rmozeZyhpnTXsEdXgGDCarkZgUxGf/9tazUTFoQ==", "venue_id"=>"579a3613cd101fce972dc01c", "tip"=>"Coffee!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"meta"=>{"code"=>400, "errorType"=>"param_error", "errorDetail"=>"Text must be at least 10 characters and less than 200.", "requestId"=>"5abd19b24434b94d5e550608"}, "notifications"=>[{"type"=>"notificationTray", "item"=>{"unreadCount"=>0}}], "response"=>{}}):
+  app/services/foursquare_service.rb:39:in `create_tip'
+  app/controllers/tips_controller.rb:9:in `create'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (89.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (208.7ms)
+
+
+Started POST "/search" for ::1 at 2018-03-29 12:52:09 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xdnoDwhLMN9l6q6vSnl6CE2eUoe+s1LFNmVw4oPVzdcL9ja3ZHKEYfv5jAf5+BmSXO0AM3CQVvUmD0AS/XFTQA==", "zipcode"=>"11101", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 313ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-03-29 12:52:09 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-03-29 12:52:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-03-29 12:52:09 -0400
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-03-29 12:52:10 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-03-29 12:52:10 -0400
+
+
+Started POST "/tips" for ::1 at 2018-03-29 12:52:18 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RQPXW7CPIZ7VBMMf7zy21YvpypcEkZ8UCvFsaZa6nYqLLAnj3LaVIEsX4bdcvdVPmpqYI8qymyQam1yZ6B4DHQ==", "venue_id"=>"579a3613cd101fce972dc01c", "tip"=>"Love that Coffee!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 486ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"meta"=>{"code"=>200, "requestId"=>"5abd19c24434b94d743d326b"}, "notifications"=>[{"type"=>"notificationTray", "item"=>{"unreadCount"=>0}}], "response"=>{"tip"=>{"id"=>"5abd19c2c03635414b570103", "createdAt"=>1522342338, "text"=>"Love that Coffee!", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/5abd19c2c03635414b570103", "likes"=>{"count"=>0, "groups"=>[]}, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "venue"=>{"id"=>"579a3613cd101fce972dc01c", "name"=>"Steinway Coffee Shop", "contact"=>{"phone"=>"7183617770", "formattedPhone"=>"(718) 361-7770"}, "location"=>{"address"=>"34-10 Steinway St", "crossStreet"=>"34th Avenue", "lat"=>40.754444, "lng"=>-73.92036, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.754444, "lng"=>-73.92036}], "postalCode"=>"11101", "cc"=>"US", "city"=>"Long Island City", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["34-10 Steinway St (34th Avenue)", "Long Island City, NY 11101"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>19, "checkinsCount"=>37}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "photos"=>{"count"=>0, "groups"=>[{"type"=>"venue", "name"=>"Venue photos", "count"=>0, "items"=>[{"id"=>"579be144498eae44be14c431", "createdAt"=>1469833540, "prefix"=>"https://igx.4sqi.net/img/general/", "suffix"=>"/75008290_dc6FtJ64UuiqIZWXAlQt_-SRhzI1zNCE4DE01Oh0ewE.jpg", "width"=>540, "height"=>960, "user"=>{"id"=>"75008290", "firstName"=>"Paul", "lastName"=>"Koller", "gender"=>"male", "photo"=>{"prefix"=>"https://igx.4sqi.net/img/user/", "suffix"=>"/75008290-1E2SE03XSO3MJR0Z.jpg"}}, "visibility"=>"public"}]}]}}, "user"=>{"id"=>"487825669", "firstName"=>"Chris", "gender"=>"male", "relationship"=>"self", "photo"=>{"prefix"=>"https://igx.4sqi.net/img/user/", "suffix"=>"/blank_boy.png", "default"=>true}}, "title"=>"Chris's tip"}}}):
+  app/services/foursquare_service.rb:39:in `create_tip'
+  app/controllers/tips_controller.rb:9:in `create'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (115.8ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (109.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (241.3ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-29 12:55:00 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RQPXW7CPIZ7VBMMf7zy21YvpypcEkZ8UCvFsaZa6nYqLLAnj3LaVIEsX4bdcvdVPmpqYI8qymyQam1yZ6B4DHQ==", "venue_id"=>"579a3613cd101fce972dc01c", "tip"=>"Love that Coffee!", "commit"=>"Add Tip"}
+  Rendered tips/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 329ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>My Tips</h1>
+    2: <ul>
+    3: <% @results.each do |item| %>
+    4:   <li><strong>><%= item["venue"]["name"] %></strong><br>
+    5:     <%= item["tip"]["text"] %></li>
+    6: <% end %>
+  app/views/tips/index.html.erb:3:in `_app_views_tips_index_html_erb__4134601364742185172_70299879950140'
+  app/controllers/tips_controller.rb:10:in `create'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.2ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (131.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (100.9ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (221.4ms)
+
+
+Started GET "/search" for ::1 at 2018-03-29 12:55:22 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-29 12:55:31 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:55:36 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 256ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-29 12:55:56 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-29 12:56:02 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jle9vWznQis1/fSZZpTecBjOGY03eMP1kbgUTGSYhjToeGMFAN72lavu1jHVFb3qCb1LOflbx8WB0iS8GjwYow==", "zipcode"=>"11101", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 452ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-29 12:56:15 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5q8ysp7Z8HNT/L4xaDfB1z4bwv9eTbLLgD+pwOoUjeEogOwK8uBEzc3vnJnbtqJNL2iQS5ButvuQVZkwlLATdg==", "venue_id"=>"4c8914ff7223b1f763e030a8", "tip"=>"Love that Coffee!", "commit"=>"Add Tip"}
+  Rendered tips/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 305ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>My Tips</h1>
+    2: <ul>
+    3: <% @results.each do |item| %>
+    4:   <li><strong>><%= item["venue"]["name"] %></strong><br>
+    5:     <%= item["tip"]["text"] %></li>
+    6: <% end %>
+  app/views/tips/index.html.erb:3:in `_app_views_tips_index_html_erb__4134601364742185172_70299879950140'
+  app/controllers/tips_controller.rb:10:in `create'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (120.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (87.1ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (196.5ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-29 12:57:08 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5q8ysp7Z8HNT/L4xaDfB1z4bwv9eTbLLgD+pwOoUjeEogOwK8uBEzc3vnJnbtqJNL2iQS5ButvuQVZkwlLATdg==", "venue_id"=>"4c8914ff7223b1f763e030a8", "tip"=>"Love that Coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 314ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:57:09 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 285ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:57:11 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 186ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-29 12:57:18 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-29 12:57:21 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SXsfLsIiR5PHuWNY1HLX7T8nOpYJjkAxc1njL66OvySHVMGWrhvzLVmqQfBn87R3LlRoIsetRAFjM9Pf0Cohsw==", "zipcode"=>"11101", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 287ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-29 12:57:28 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3XI/GfnBhmEOtGo0ivB1NX2u+ToCBI1Oi/1S2WgwIAcTXeGhlfgy35CnSJw5cRavbN2rjswniX6bl2IpFpS+kA==", "venue_id"=>"46bf2572f964a520e4491fe3", "tip"=>"Love that Coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 141ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:57:28 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 201ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:57:36 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 225ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 12:58:07 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 298ms (ActiveRecord: 0.0ms)
+
+RuntimeError ([{"id"=>"t5aba7e78838e5939e6d9f527", "createdAt"=>1522171512, "tip"=>{"id"=>"5aba7e78838e5939e6d9f527", "createdAt"=>1522171512, "text"=>"Love this place", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/5aba7e78838e5939e6d9f527", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "saves"=>{}, "user"=>{"id"=>"487825669", "firstName"=>"Chris", "gender"=>"male", "relationship"=>"self", "photo"=>{"prefix"=>"https://igx.4sqi.net/img/user/", "suffix"=>"/blank_boy.png", "default"=>true}}}, "venue"=>{"id"=>"43519800f964a520b8281fe3", "name"=>"Brooklyn Bagel & Coffee Co.", "contact"=>{"phone"=>"7182040141", "formattedPhone"=>"(718) 204-0141"}, "location"=>{"address"=>"3505 Broadway", "crossStreet"=>"at 35th St.", "lat"=>40.76040783424265, "lng"=>-73.92196738255417, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.76040783424265, "lng"=>-73.92196738255417}], "postalCode"=>"11106", "cc"=>"US", "city"=>"Astoria", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["3505 Broadway (at 35th St.)", "Astoria, NY 11106"]}, "categories"=>[{"id"=>"4bf58dd8d48988d179941735", "name"=>"Bagel Shop", "pluralName"=>"Bagel Shops", "shortName"=>"Bagels", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/bagels_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>116, "usersCount"=>3024, "checkinsCount"=>11702}, "url"=>"http://bkbagel.com", "hasMenu"=>true, "like"=>false, "rating"=>9.1, "ratingColor"=>"00B551", "ratingSignals"=>413, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/brooklyn-bagel--coffee-co/43519800f964a520b8281fe3/menu", "mobileUrl"=>"https://foursquare.com/v/43519800f964a520b8281fe3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}}, "isNew"=>true}, {"id"=>"t5abac2a31acf1127c4dc7194", "createdAt"=>1522188963, "tip"=>{"id"=>"5abac2a31acf1127c4dc7194", "createdAt"=>1522188963, "text"=>"Good coffee", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/5abac2a31acf1127c4dc7194", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "saves"=>{}, "user"=>{"id"=>"487825669", "firstName"=>"Chris", "gender"=>"male", "relationship"=>"self", "photo"=>{"prefix"=>"https://igx.4sqi.net/img/user/", "suffix"=>"/blank_boy.png", "default"=>true}}}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "neighborhood"=>"Union Square", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"tipCount"=>456, "usersCount"=>30015, "checkinsCount"=>54765}, "url"=>"http://thegothamcitygroup.com", "hasMenu"=>true, "like"=>false, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1638, "delivery"=>{"id"=>"296197", "url"=>"https://www.seamless.com/menu/coffee-shop-29-union-sq-w-new-york/296197?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=296197", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://igx.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "specials"=>{"count"=>0, "items"=>[]}, "storeId"=>"", "hereNow"=>{"count"=>2, "summary"=>"2 people are here", "groups"=>[{"type"=>"others", "name"=>"Other people here", "count"=>2, "items"=>[]}]}}, "isNew"=>true}, {"id"=>"t5abd19c2c03635414b570103", "createdAt"=>1522342338, "tip"=>{"id"=>"5abd19c2c03635414b570103", "createdAt"=>1522342338, "text"=>"Love that Coffee!", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/5abd19c2c03635414b570103", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "saves"=>{}, "user"=>{"id"=>"487825669", "firstName"=>"Chris", "gender"=>"male", "relationship"=>"self", "photo"=>{"prefix"=>"https://igx.4sqi.net/img/user/", "suffix"=>"/blank_boy.png", "default"=>true}}}, "venue"=>{"id"=>"579a3613cd101fce972dc01c", "name"=>"Steinway Coffee Shop", "contact"=>{"phone"=>"7183617770", "formattedPhone"=>"(718) 361-7770"}, "location"=>{"address"=>"34-10 Steinway St", "crossStreet"=>"34th Avenue", "lat"=>40.754444, "lng"=>-73.92036, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.754444, "lng"=>-73.92036}], "postalCode"=>"11101", "cc"=>"US", "city"=>"Long Island City", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["34-10 Steinway St (34th Avenue)", "Long Island City, NY 11101"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>19, "checkinsCount"=>37}, "like"=>false, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}}, "isNew"=>true}]):
+  app/services/foursquare_service.rb:29:in `list_tips'
+  app/controllers/tips_controller.rb:4:in `index'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (126.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (88.0ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (217.2ms)
+
+
+Started PUT "/__web_console/repl_sessions/8286d44620ebec75bdb95d705c878c41" for ::1 at 2018-03-29 12:58:12 -0400
+
+
+Started PUT "/__web_console/repl_sessions/8286d44620ebec75bdb95d705c878c41" for ::1 at 2018-03-29 12:58:15 -0400
+
+
+Started PUT "/__web_console/repl_sessions/8286d44620ebec75bdb95d705c878c41" for ::1 at 2018-03-29 12:59:04 -0400
+
+
+Started PUT "/__web_console/repl_sessions/8286d44620ebec75bdb95d705c878c41" for ::1 at 2018-03-29 12:59:14 -0400
+
+
+Started PUT "/__web_console/repl_sessions/8286d44620ebec75bdb95d705c878c41" for ::1 at 2018-03-29 13:00:17 -0400
+
+
+Started GET "/tips" for ::1 at 2018-03-29 13:01:12 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 759ms (ActiveRecord: 0.0ms)
+
+RuntimeError ([{"id"=>"t5aba7e78838e5939e6d9f527", "createdAt"=>1522171512, "tip"=>{"id"=>"5aba7e78838e5939e6d9f527", "createdAt"=>1522171512, "text"=>"Love this place", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/5aba7e78838e5939e6d9f527", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "saves"=>{}, "user"=>{"id"=>"487825669", "firstName"=>"Chris", "gender"=>"male", "relationship"=>"self", "photo"=>{"prefix"=>"https://igx.4sqi.net/img/user/", "suffix"=>"/blank_boy.png", "default"=>true}}}, "venue"=>{"id"=>"43519800f964a520b8281fe3", "name"=>"Brooklyn Bagel & Coffee Co.", "contact"=>{"phone"=>"7182040141", "formattedPhone"=>"(718) 204-0141"}, "location"=>{"address"=>"3505 Broadway", "crossStreet"=>"at 35th St.", "lat"=>40.76040783424265, "lng"=>-73.92196738255417, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.76040783424265, "lng"=>-73.92196738255417}], "postalCode"=>"11106", "cc"=>"US", "city"=>"Astoria", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["3505 Broadway (at 35th St.)", "Astoria, NY 11106"]}, "categories"=>[{"id"=>"4bf58dd8d48988d179941735", "name"=>"Bagel Shop", "pluralName"=>"Bagel Shops", "shortName"=>"Bagels", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/bagels_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>116, "usersCount"=>3024, "checkinsCount"=>11702}, "url"=>"http://bkbagel.com", "hasMenu"=>true, "like"=>false, "rating"=>9.1, "ratingColor"=>"00B551", "ratingSignals"=>413, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/brooklyn-bagel--coffee-co/43519800f964a520b8281fe3/menu", "mobileUrl"=>"https://foursquare.com/v/43519800f964a520b8281fe3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}}, "isNew"=>true}, {"id"=>"t5abac2a31acf1127c4dc7194", "createdAt"=>1522188963, "tip"=>{"id"=>"5abac2a31acf1127c4dc7194", "createdAt"=>1522188963, "text"=>"Good coffee", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/5abac2a31acf1127c4dc7194", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "saves"=>{}, "user"=>{"id"=>"487825669", "firstName"=>"Chris", "gender"=>"male", "relationship"=>"self", "photo"=>{"prefix"=>"https://igx.4sqi.net/img/user/", "suffix"=>"/blank_boy.png", "default"=>true}}}, "venue"=>{"id"=>"3fd66200f964a5204ee41ee3", "name"=>"Coffee Shop", "contact"=>{"phone"=>"2122437969", "formattedPhone"=>"(212) 243-7969"}, "location"=>{"address"=>"29 Union Sq W", "crossStreet"=>"at E 16th St", "lat"=>40.73652118229839, "lng"=>-73.99086253402484, "postalCode"=>"10003", "cc"=>"US", "neighborhood"=>"Union Square", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["29 Union Sq W (at E 16th St)", "New York, NY 10003"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16b941735", "name"=>"Brazilian Restaurant", "pluralName"=>"Brazilian Restaurants", "shortName"=>"Brazilian", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/argentinian_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"tipCount"=>456, "usersCount"=>30015, "checkinsCount"=>54765}, "url"=>"http://thegothamcitygroup.com", "hasMenu"=>true, "like"=>false, "rating"=>8.1, "ratingColor"=>"73CF42", "ratingSignals"=>1638, "delivery"=>{"id"=>"296197", "url"=>"https://www.seamless.com/menu/coffee-shop-29-union-sq-w-new-york/296197?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=296197", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://igx.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "menu"=>{"type"=>"Menu", "label"=>"Menu", "anchor"=>"View Menu", "url"=>"https://foursquare.com/v/coffee-shop/3fd66200f964a5204ee41ee3/menu", "mobileUrl"=>"https://foursquare.com/v/3fd66200f964a5204ee41ee3/device_menu"}, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "specials"=>{"count"=>0, "items"=>[]}, "storeId"=>"", "hereNow"=>{"count"=>2, "summary"=>"2 people are here", "groups"=>[{"type"=>"others", "name"=>"Other people here", "count"=>2, "items"=>[]}]}}, "isNew"=>true}, {"id"=>"t5abd19c2c03635414b570103", "createdAt"=>1522342338, "tip"=>{"id"=>"5abd19c2c03635414b570103", "createdAt"=>1522342338, "text"=>"Love that Coffee!", "type"=>"user", "canonicalUrl"=>"https://foursquare.com/item/5abd19c2c03635414b570103", "likes"=>{"count"=>0, "groups"=>[]}, "like"=>false, "viewCount"=>0, "agreeCount"=>0, "disagreeCount"=>0, "todo"=>{"count"=>0}, "saves"=>{}, "user"=>{"id"=>"487825669", "firstName"=>"Chris", "gender"=>"male", "relationship"=>"self", "photo"=>{"prefix"=>"https://igx.4sqi.net/img/user/", "suffix"=>"/blank_boy.png", "default"=>true}}}, "venue"=>{"id"=>"579a3613cd101fce972dc01c", "name"=>"Steinway Coffee Shop", "contact"=>{"phone"=>"7183617770", "formattedPhone"=>"(718) 361-7770"}, "location"=>{"address"=>"34-10 Steinway St", "crossStreet"=>"34th Avenue", "lat"=>40.754444, "lng"=>-73.92036, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.754444, "lng"=>-73.92036}], "postalCode"=>"11101", "cc"=>"US", "city"=>"Long Island City", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["34-10 Steinway St (34th Avenue)", "Long Island City, NY 11101"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>19, "checkinsCount"=>37}, "like"=>false, "allowMenuUrlEdit"=>true, "beenHere"=>{"lastCheckinExpiredAt"=>0}, "specials"=>{"count"=>0, "items"=>[]}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}}, "isNew"=>true}]):
+  app/services/foursquare_service.rb:29:in `list_tips'
+  app/controllers/tips_controller.rb:4:in `index'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (111.9ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (109.2ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (223.9ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 13:01:58 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 735ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 13:02:04 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 273ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-03-29 13:02:21 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-29 13:02:27 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qK6iPPCYWXJlZ2SFAMi8Cs+IqwO0VvPgYC1QG6KJY3NmgXyEnKHtzPt0Ri2zSd+Q3vv5t3p199BwR2Dr3C395A==", "zipcode"=>"20987", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 587ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-03-29 13:02:45 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hlOk+CH+Tp5yar7Gj3D6qjSJMX4lRzMvI1JFp6Wme7RIfHpATcf6IOx5nG488ZkwJfpjyutkNx8zOHVX2wLlIw==", "zipcode"=>"20098", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 671ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-29 13:03:14 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mumkx+9Fu3ljh1gHOvMEv5Zb4E1acIxxf6j65mHg4zn8xnp/g3wPx/2Ueq+Jcmclhyiy+ZRTiEFvwsoWH0R9rg==", "venue_id"=>"4b76e5d3f964a52057682ee3", "tip"=>"Love that Coffee!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 460ms (ActiveRecord: 0.0ms)
+
+RuntimeError (#<Faraday::Response:0x007fdfef70e6b8 @on_complete_callbacks=[], @env=#<Faraday::Env @method=:post @body="{\"meta\":{\"code\":400,\"errorType\":\"other\",\"errorDetail\":\"You've already submitted an identical tip, try to be a little more creative!\",\"requestId\":\"5abd1c521ed21978ed71161c\"},\"notifications\":[{\"type\":\"notificationTray\",\"item\":{\"unreadCount\":0}}],\"response\":{}}" @url=#<URI::HTTPS https://api.foursquare.com/v2/tips/add?oauth_token=WHGKYYVNX3EU0K154NCF0G1IPRF4MX33XOPUQWTF3WPURJH0&text=Love+that+Coffee%21&v=20160201&venueId=4b76e5d3f964a52057682ee3> @request=#<Faraday::RequestOptions (empty)> @request_headers={"User-Agent"=>"Faraday v0.9.2", "Content-Length"=>"0"} @ssl=#<Faraday::SSLOptions verify=true> @response=#<Faraday::Response:0x007fdfef70e6b8 ...> @response_headers={"server"=>"nginx", "content-type"=>"application/json; charset=utf-8", "access-control-allow-origin"=>"*", "tracer-time"=>"15", "x-ratelimit-path"=>"/v2/tips/add", "x-ratelimit-limit"=>"500", "x-ratelimit-remaining"=>"491", "content-length"=>"258", "accept-ranges"=>"bytes", "date"=>"Thu, 29 Mar 2018 17:03:14 GMT", "via"=>"1.1 varnish", "connection"=>"close", "x-served-by"=>"cache-jfk8125-JFK", "x-cache"=>"MISS", "x-cache-hits"=>"0"} @status=400>>):
+  app/services/foursquare_service.rb:39:in `create_tip'
+  app/controllers/tips_controller.rb:9:in `create'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (130.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (87.7ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (201.9ms)
+
+
+Started POST "/tips" for ::1 at 2018-03-29 13:03:41 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mumkx+9Fu3ljh1gHOvMEv5Zb4E1acIxxf6j65mHg4zn8xnp/g3wPx/2Ueq+Jcmclhyiy+ZRTiEFvwsoWH0R9rg==", "venue_id"=>"4b76e5d3f964a52057682ee3", "tip"=>"Love that Tea!", "commit"=>"Add Tip"}
+Completed 500 Internal Server Error in 935ms (ActiveRecord: 0.0ms)
+
+RuntimeError (#<Faraday::Response:0x007fdff1e70e68 @on_complete_callbacks=[], @env=#<Faraday::Env @method=:post @body="{\"meta\":{\"code\":200,\"requestId\":\"5abd1c6d351e3d4dfcc64da4\"},\"notifications\":[{\"type\":\"notificationTray\",\"item\":{\"unreadCount\":0}}],\"response\":{\"tip\":{\"id\":\"5abd1c6d6bdee65f750905c9\",\"createdAt\":1522343021,\"text\":\"Love that Tea!\",\"type\":\"user\",\"canonicalUrl\":\"https:\\/\\/foursquare.com\\/item\\/5abd1c6d6bdee65f750905c9\",\"likes\":{\"count\":0,\"groups\":[]},\"viewCount\":0,\"agreeCount\":0,\"disagreeCount\":0,\"venue\":{\"id\":\"4b76e5d3f964a52057682ee3\",\"name\":\"Extra Perks Coffee Shop\",\"contact\":{\"phone\":\"7037065886\",\"formattedPhone\":\"(703) 706-5886\"},\"location\":{\"address\":\"822 N Fairfax St\",\"lat\":38.813351490322916,\"lng\":-77.04067360262367,\"labeledLatLngs\":[{\"label\":\"display\",\"lat\":38.813351490322916,\"lng\":-77.04067360262367}],\"postalCode\":\"22314\",\"cc\":\"US\",\"city\":\"Alexandria\",\"state\":\"VA\",\"country\":\"United States\",\"formattedAddress\":[\"822 N Fairfax St\",\"Alexandria, VA 22314\"]},\"categories\":[{\"id\":\"4bf58dd8d48988d143941735\",\"name\":\"Breakfast Spot\",\"pluralName\":\"Breakfast Spots\",\"shortName\":\"Breakfast\",\"icon\":{\"prefix\":\"https:\\/\\/ss3.4sqi.net\\/img\\/categories_v2\\/food\\/breakfast_\",\"suffix\":\".png\"},\"primary\":true}],\"verified\":false,\"stats\":{\"tipCount\":37,\"usersCount\":895,\"checkinsCount\":2106},\"url\":\"http:\\/\\/extraperkscoffeeshopandcafe.com\",\"hasMenu\":true,\"menu\":{\"type\":\"Menu\",\"label\":\"Menu\",\"anchor\":\"View Menu\",\"url\":\"https:\\/\\/foursquare.com\\/v\\/extra-perks-coffee-shop\\/4b76e5d3f964a52057682ee3\\/menu\",\"mobileUrl\":\"https:\\/\\/foursquare.com\\/v\\/4b76e5d3f964a52057682ee3\\/device_menu\"},\"allowMenuUrlEdit\":true,\"beenHere\":{\"lastCheckinExpiredAt\":0},\"photos\":{\"count\":0,\"groups\":[{\"type\":\"venue\",\"name\":\"Venue photos\",\"count\":0,\"items\":[{\"id\":\"4e3e9d3dfa76455375c72067\",\"createdAt\":1312726333,\"prefix\":\"https:\\/\\/igx.4sqi.net\\/img\\/general\\/\",\"suffix\":\"\\/GIQ4KZ1SL5NABG5QT5AJHEIJWWGSK51BEAFVG4SNM5DCHZF4.jpg\",\"width\":537,\"height\":720,\"user\":{\"id\":\"2906344\",\"firstName\":\"RLV\",\"gender\":\"female\",\"photo\":{\"prefix\":\"https:\\/\\/igx.4sqi.net\\/img\\/user\\/\",\"suffix\":\"\\/2906344-1ITVIWF5L5FUNLX5.jpg\"}},\"visibility\":\"public\"}]}]}},\"user\":{\"id\":\"487825669\",\"firstName\":\"Chris\",\"gender\":\"male\",\"relationship\":\"self\",\"photo\":{\"prefix\":\"https:\\/\\/igx.4sqi.net\\/img\\/user\\/\",\"suffix\":\"\\/blank_boy.png\",\"default\":true}},\"title\":\"Chris's tip\"}}}" @url=#<URI::HTTPS https://api.foursquare.com/v2/tips/add?oauth_token=WHGKYYVNX3EU0K154NCF0G1IPRF4MX33XOPUQWTF3WPURJH0&text=Love+that+Tea%21&v=20160201&venueId=4b76e5d3f964a52057682ee3> @request=#<Faraday::RequestOptions (empty)> @request_headers={"User-Agent"=>"Faraday v0.9.2", "Content-Length"=>"0"} @ssl=#<Faraday::SSLOptions verify=true> @response=#<Faraday::Response:0x007fdff1e70e68 ...> @response_headers={"server"=>"nginx", "content-type"=>"application/json; charset=utf-8", "access-control-allow-origin"=>"*", "tracer-time"=>"371", "x-ratelimit-path"=>"/v2/tips/add", "x-ratelimit-limit"=>"500", "x-ratelimit-remaining"=>"490", "strict-transport-security"=>"max-age=31536000", "x-rate-limit-key"=>"208.105.4.26", "x-ex"=>"fastly_cdn", "transfer-encoding"=>"chunked", "accept-ranges"=>"bytes", "date"=>"Thu, 29 Mar 2018 17:03:42 GMT", "via"=>"1.1 varnish", "connection"=>"close", "x-served-by"=>"cache-jfk8144-JFK", "x-cache"=>"MISS", "x-cache-hits"=>"0", "vary"=>"Accept-Encoding,User-Agent,Accept-Language"} @status=200>>):
+  app/services/foursquare_service.rb:39:in `create_tip'
+  app/controllers/tips_controller.rb:9:in `create'
+
+
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (125.0ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (87.2ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/chris/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (211.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-03-29 13:04:14 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 825ms (Views: 32.6ms | ActiveRecord: 0.0ms)
