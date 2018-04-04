@@ -8,7 +8,7 @@ class TipsController < ApplicationController
   end
 
   def create
-    resp = Faraday.post("https://api.foursquare.com/v2/tips/add") do |req|
+    Faraday.post("https://api.foursquare.com/v2/tips/add") do |req|
       req.params['oauth_token'] = session[:token]
       req.params['v'] = '20160201'
       req.params['venueId'] = params[:venue_id]
