@@ -2,11 +2,11 @@
 <%= form_tag '/search' do %>
   <%= label_tag :zipcode %>
   <%= text_field_tag :zipcode %>
-  <%= submit_tag "Search!" %>
+  <%= submit_tag "Search" %>
 <% end %>
 <div>
-  <% if @error %>
-    <p><%= @error %></p>
+  <% if @venues.class == String %>
+    <p><%= @venues %></p>
   <% elsif @venues %>
     <ul>
     <% @venues.each do |venue| %>
