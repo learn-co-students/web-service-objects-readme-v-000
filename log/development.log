@@ -1638,3 +1638,1740 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/search" for 192.168.0.105 at 2018-04-05 17:30:13 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 62ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 192.168.0.105 at 2018-04-05 17:32:10 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 54ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TAY3ITZ1XVF1JNUIO1WUMP4KTK2TRQDSLZCYK2JR5YQXPYBU" for 192.168.0.105 at 2018-04-05 17:32:11 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TAY3ITZ1XVF1JNUIO1WUMP4KTK2TRQDSLZCYK2JR5YQXPYBU"}
+Completed 500 Internal Server Error in 279ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `params' for #<FoursquareService:0x0c208814>):
+  app/services/foursquare_service.rb:10:in `block in authenticate!'
+  app/services/foursquare_service.rb:5:in `authenticate!'
+  app/controllers/sessions_controller.rb:6:in `create'
+
+
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.9ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (157.9ms)
+
+
+Started GET "/auth?code=TAY3ITZ1XVF1JNUIO1WUMP4KTK2TRQDSLZCYK2JR5YQXPYBU" for 192.168.0.105 at 2018-04-05 17:33:01 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TAY3ITZ1XVF1JNUIO1WUMP4KTK2TRQDSLZCYK2JR5YQXPYBU"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 586ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:01 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IZ5WCETCE0PR0TFVRI5J4YWZ4VSJ4SLZ311AI5YAWDXSFCEL" for 192.168.0.105 at 2018-04-05 17:33:02 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IZ5WCETCE0PR0TFVRI5J4YWZ4VSJ4SLZ311AI5YAWDXSFCEL"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 171ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:02 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=QZY2N3CYPJB0A5B12TZLIMXOK0DVVPQHBMKGOTNCA1XODEY5" for 192.168.0.105 at 2018-04-05 17:33:02 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"QZY2N3CYPJB0A5B12TZLIMXOK0DVVPQHBMKGOTNCA1XODEY5"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 177ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:02 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OFL0BB00IIF1I33EJA32RWZNN2OW5ZPAGAHOLBXGBL0EHVQJ" for 192.168.0.105 at 2018-04-05 17:33:02 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OFL0BB00IIF1I33EJA32RWZNN2OW5ZPAGAHOLBXGBL0EHVQJ"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 169ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:03 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VUSSORTSDO1EMOGVVHMKRU3GD4VT3XOZ3STU51TGGAEVNQWW" for 192.168.0.105 at 2018-04-05 17:33:03 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VUSSORTSDO1EMOGVVHMKRU3GD4VT3XOZ3STU51TGGAEVNQWW"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 188ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:03 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=EDTHP43YF1NJQCQYHFHDCL5SN350KRE0P3WTBMAWVFKAVT2R" for 192.168.0.105 at 2018-04-05 17:33:03 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"EDTHP43YF1NJQCQYHFHDCL5SN350KRE0P3WTBMAWVFKAVT2R"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 193ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:03 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0PKLRTCKUFJL1R5FA5S142OVCV52WXZXMBNSWM015PIXKDRQ" for 192.168.0.105 at 2018-04-05 17:33:04 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0PKLRTCKUFJL1R5FA5S142OVCV52WXZXMBNSWM015PIXKDRQ"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 185ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:04 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=WR0BZIELAOULYSK3WMHGTWUE243SYGGMOAJBXUACWYSOVUNQ" for 192.168.0.105 at 2018-04-05 17:33:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"WR0BZIELAOULYSK3WMHGTWUE243SYGGMOAJBXUACWYSOVUNQ"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 179ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JILUAEPUUVC0QT3UYWADNDWXSGOFL2CZ1O1OHMZSPWXAN1M4" for 192.168.0.105 at 2018-04-05 17:33:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JILUAEPUUVC0QT3UYWADNDWXSGOFL2CZ1O1OHMZSPWXAN1M4"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 299ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OPVCLNTSIX2V5C5UJ4WPUI0M12IAMBHI1Q3LKBAPDBVAYHWR" for 192.168.0.105 at 2018-04-05 17:33:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OPVCLNTSIX2V5C5UJ4WPUI0M12IAMBHI1Q3LKBAPDBVAYHWR"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 183ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VELZH44PJJAIZQQLPJIJJE3JPAMXAG15EJTQIOZL44L3ANDV" for 192.168.0.105 at 2018-04-05 17:33:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VELZH44PJJAIZQQLPJIJJE3JPAMXAG15EJTQIOZL44L3ANDV"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 176ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=J1G05PJYG0HR231MBQRWRKGUOE5ZPNPB3Y4ORNHTMHLYRVLV" for 192.168.0.105 at 2018-04-05 17:33:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"J1G05PJYG0HR231MBQRWRKGUOE5ZPNPB3Y4ORNHTMHLYRVLV"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 188ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PBZIZIONUJB3YIKBUQCHDA20NSGALF25444M3IZZOTJRNWTZ" for 192.168.0.105 at 2018-04-05 17:33:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PBZIZIONUJB3YIKBUQCHDA20NSGALF25444M3IZZOTJRNWTZ"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 199ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=3IAMNQXCQEDKKQY2NZHJTJN5HXUD0TLDVL0M50C1WTBH2RAY" for 192.168.0.105 at 2018-04-05 17:33:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3IAMNQXCQEDKKQY2NZHJTJN5HXUD0TLDVL0M50C1WTBH2RAY"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 316ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=CKITC0CPEHULTMWUFMSIAYMGR4PPCFZNB3W2V15HIWFLUUDT" for 192.168.0.105 at 2018-04-05 17:33:13 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"CKITC0CPEHULTMWUFMSIAYMGR4PPCFZNB3W2V15HIWFLUUDT"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 173ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:13 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DHDNNGVASRXCHZLFZ5SW3PGBUTYZIZQB5QTOJK02PTI4HHAK" for 192.168.0.105 at 2018-04-05 17:33:13 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DHDNNGVASRXCHZLFZ5SW3PGBUTYZIZQB5QTOJK02PTI4HHAK"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 173ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:13 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PAIIFZWJBINK3SI4GL4YMEKBWWHSBFTX4B2XXYMIAU5PMDTA" for 192.168.0.105 at 2018-04-05 17:33:14 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PAIIFZWJBINK3SI4GL4YMEKBWWHSBFTX4B2XXYMIAU5PMDTA"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 293ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 17:33:14 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VEW2JFJ5KRAIGAOUSN4CKOJVYJUDHQJ01BWYFWNDPDGGSIBG" for 192.168.0.105 at 2018-04-05 17:33:14 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VEW2JFJ5KRAIGAOUSN4CKOJVYJUDHQJ01BWYFWNDPDGGSIBG"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 178ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 18:29:04 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 51ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PYPUGWJBWZIBCMOVB1K0TVEQED0FWUVWK1G0C1DO5H2ZPS3R" for 192.168.0.105 at 2018-04-05 18:29:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PYPUGWJBWZIBCMOVB1K0TVEQED0FWUVWK1G0C1DO5H2ZPS3R"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PYPUGWJBWZIBCMOVB1K0TVEQED0FWUVWK1G0C1DO5H2ZPS3R" for 192.168.0.105 at 2018-04-05 18:29:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PYPUGWJBWZIBCMOVB1K0TVEQED0FWUVWK1G0C1DO5H2ZPS3R"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=CHDG55YRZWHBDOI2RERYUTKGBBLS452SXZGPNXQ5AMHU5KEA" for 192.168.0.105 at 2018-04-05 18:29:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"CHDG55YRZWHBDOI2RERYUTKGBBLS452SXZGPNXQ5AMHU5KEA"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YXWEAWQCOCUW3ELYS3SCJQ1JMR3IKEQGVLL0HXFS1FXVY3IR" for 192.168.0.105 at 2018-04-05 18:29:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YXWEAWQCOCUW3ELYS3SCJQ1JMR3IKEQGVLL0HXFS1FXVY3IR"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YXWEAWQCOCUW3ELYS3SCJQ1JMR3IKEQGVLL0HXFS1FXVY3IR" for 192.168.0.105 at 2018-04-05 18:29:05 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YXWEAWQCOCUW3ELYS3SCJQ1JMR3IKEQGVLL0HXFS1FXVY3IR"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=4AML0OQ1QCRIZQASK2QN2UYO4YVTVDAUFLNVUEWFLXR1P1OD" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4AML0OQ1QCRIZQASK2QN2UYO4YVTVDAUFLNVUEWFLXR1P1OD"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=4AML0OQ1QCRIZQASK2QN2UYO4YVTVDAUFLNVUEWFLXR1P1OD" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"4AML0OQ1QCRIZQASK2QN2UYO4YVTVDAUFLNVUEWFLXR1P1OD"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=C0OGL011VFNOFVWLIWFTPFMQD5PO11H5Q1UNPVBDJFBTWXMY" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"C0OGL011VFNOFVWLIWFTPFMQD5PO11H5Q1UNPVBDJFBTWXMY"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IUCFG11SRBYIAZGZI35GLA1YW15B0FT2MBH1YZTUFOWVK234" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IUCFG11SRBYIAZGZI35GLA1YW15B0FT2MBH1YZTUFOWVK234"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IUCFG11SRBYIAZGZI35GLA1YW15B0FT2MBH1YZTUFOWVK234" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IUCFG11SRBYIAZGZI35GLA1YW15B0FT2MBH1YZTUFOWVK234"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=GJCTRGUWCJKS5YC4WMH4NBSQRUA1JXIUOOSSYU0AYOQDBIXB" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GJCTRGUWCJKS5YC4WMH4NBSQRUA1JXIUOOSSYU0AYOQDBIXB"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=GJCTRGUWCJKS5YC4WMH4NBSQRUA1JXIUOOSSYU0AYOQDBIXB" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GJCTRGUWCJKS5YC4WMH4NBSQRUA1JXIUOOSSYU0AYOQDBIXB"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=AETLY5OASBLHFP0BRE2HQCM1VNNGCII03S1S0SUP5COWQ2TY" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AETLY5OASBLHFP0BRE2HQCM1VNNGCII03S1S0SUP5COWQ2TY"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NPXG1UUORHHPILJ3D304QFH4QO3HFAQ1JNMFRRR2TVQKTLOI" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NPXG1UUORHHPILJ3D304QFH4QO3HFAQ1JNMFRRR2TVQKTLOI"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NPXG1UUORHHPILJ3D304QFH4QO3HFAQ1JNMFRRR2TVQKTLOI" for 192.168.0.105 at 2018-04-05 18:29:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NPXG1UUORHHPILJ3D304QFH4QO3HFAQ1JNMFRRR2TVQKTLOI"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TFBZLPETLGU522LXJYKVUIEO0ILUD2H2JO50ZE4FVGWFYQLK" for 192.168.0.105 at 2018-04-05 18:29:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TFBZLPETLGU522LXJYKVUIEO0ILUD2H2JO50ZE4FVGWFYQLK"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NYPH5IYNJCWIA1EYD3KSVF0KDZQSAKXU11J25MRUVP225EOW" for 192.168.0.105 at 2018-04-05 18:29:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NYPH5IYNJCWIA1EYD3KSVF0KDZQSAKXU11J25MRUVP225EOW"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TFBZLPETLGU522LXJYKVUIEO0ILUD2H2JO50ZE4FVGWFYQLK" for 192.168.0.105 at 2018-04-05 18:29:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TFBZLPETLGU522LXJYKVUIEO0ILUD2H2JO50ZE4FVGWFYQLK"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IVNBO03VBHF2XAA3NWW2KWHVXL3AULHIMREC4OMRV5QO232R" for 192.168.0.105 at 2018-04-05 18:29:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IVNBO03VBHF2XAA3NWW2KWHVXL3AULHIMREC4OMRV5QO232R"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IVNBO03VBHF2XAA3NWW2KWHVXL3AULHIMREC4OMRV5QO232R" for 192.168.0.105 at 2018-04-05 18:29:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IVNBO03VBHF2XAA3NWW2KWHVXL3AULHIMREC4OMRV5QO232R"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1IUEFDFBZF3XQBHXF145Z2Y1O3THELBPBPZHJNHF5H2OA24U" for 192.168.0.105 at 2018-04-05 18:29:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1IUEFDFBZF3XQBHXF145Z2Y1O3THELBPBPZHJNHF5H2OA24U"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1IUEFDFBZF3XQBHXF145Z2Y1O3THELBPBPZHJNHF5H2OA24U" for 192.168.0.105 at 2018-04-05 18:29:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1IUEFDFBZF3XQBHXF145Z2Y1O3THELBPBPZHJNHF5H2OA24U"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=UOVRD0ULUORX40A5TXGGLY0D05C5XIVKLUFTSUHSCTLGRF20" for 192.168.0.105 at 2018-04-05 18:29:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"UOVRD0ULUORX40A5TXGGLY0D05C5XIVKLUFTSUHSCTLGRF20"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DWTRWL1J5G5JK1DYJINVVBI1X0YMLHCOGMKHV1USV0YSOMGA" for 192.168.0.105 at 2018-04-05 18:29:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DWTRWL1J5G5JK1DYJINVVBI1X0YMLHCOGMKHV1USV0YSOMGA"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=CPZNQ2K2YQR5K2FVWDNX1GPWQMIPMZCGN12ZXR30Z13CBHWF" for 192.168.0.105 at 2018-04-05 18:29:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"CPZNQ2K2YQR5K2FVWDNX1GPWQMIPMZCGN12ZXR30Z13CBHWF"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=3BNFKZZHMLB5URBXS2IJAOCPXAZXEDWAMQBXU2J1ULV0MPUO" for 192.168.0.105 at 2018-04-05 18:29:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3BNFKZZHMLB5URBXS2IJAOCPXAZXEDWAMQBXU2J1ULV0MPUO"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=2FXPMPM0LWFI3OW003SUFYIBRY03WEMAZ4J3ME342LIYA2AY" for 192.168.0.105 at 2018-04-05 18:29:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"2FXPMPM0LWFI3OW003SUFYIBRY03WEMAZ4J3ME342LIYA2AY"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=UR4O15KBG1C2TATVTQZ2TMYMATQE3XERVIEWIPGQACNLQII4" for 192.168.0.105 at 2018-04-05 18:29:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"UR4O15KBG1C2TATVTQZ2TMYMATQE3XERVIEWIPGQACNLQII4"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KKPHMCHJ0T2PS1EL1LK23GNBCSHFQL5N5LRYBNPICT1U0EPS" for 192.168.0.105 at 2018-04-05 18:29:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KKPHMCHJ0T2PS1EL1LK23GNBCSHFQL5N5LRYBNPICT1U0EPS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0IRN1GIHTWRHTVQMYIRUY41PKMP1BG4YC0H2KCT2P0AELSWN" for 192.168.0.105 at 2018-04-05 18:29:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0IRN1GIHTWRHTVQMYIRUY41PKMP1BG4YC0H2KCT2P0AELSWN"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TFBZLPETLGU522LXJYKVUIEO0ILUD2H2JO50ZE4FVGWFYQLK" for 192.168.0.105 at 2018-04-05 18:29:14 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TFBZLPETLGU522LXJYKVUIEO0ILUD2H2JO50ZE4FVGWFYQLK"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=3JJXO3YPAFDECZIXBO5KCFFJEGHKWJLIB4GM3XUPTDQLAJIF" for 192.168.0.105 at 2018-04-05 18:29:14 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3JJXO3YPAFDECZIXBO5KCFFJEGHKWJLIB4GM3XUPTDQLAJIF"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PLDBO3OWN4BJUEMLGMCEQTCNFNITWMBPLKMR3OYU1XXZY0HP" for 192.168.0.105 at 2018-04-05 18:29:14 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PLDBO3OWN4BJUEMLGMCEQTCNFNITWMBPLKMR3OYU1XXZY0HP"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=S4Y235GEQLIHDKNVQ3JFXHIOERK35BGRLFY5BIDMG5LTHF50" for 192.168.0.105 at 2018-04-05 18:29:14 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"S4Y235GEQLIHDKNVQ3JFXHIOERK35BGRLFY5BIDMG5LTHF50"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MJDNVMQM1PDN5NTFM4OYJXFMRUXTD4VL5NWIFUJEJLMJSWGJ" for 192.168.0.105 at 2018-04-05 18:29:14 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MJDNVMQM1PDN5NTFM4OYJXFMRUXTD4VL5NWIFUJEJLMJSWGJ"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YVUG0CSKKBCZEAEGMEQZRQGQTN3ZVQOL4FAW3DT5JDPQCH0M" for 192.168.0.105 at 2018-04-05 18:29:15 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YVUG0CSKKBCZEAEGMEQZRQGQTN3ZVQOL4FAW3DT5JDPQCH0M"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=AQ33QR5CWNPUPHKRRYCV5MLFWT0UKZHNMYPATVBB2AR4QKAS" for 192.168.0.105 at 2018-04-05 18:29:15 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQ33QR5CWNPUPHKRRYCV5MLFWT0UKZHNMYPATVBB2AR4QKAS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5RGGLTURQNV0NZ30J5UUSWW3JNYJPXRJMFEBNGIJT4XTVQQ3" for 192.168.0.105 at 2018-04-05 18:29:15 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5RGGLTURQNV0NZ30J5UUSWW3JNYJPXRJMFEBNGIJT4XTVQQ3"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=C53MP3VMZ0342K0E4H3LWEZ1SRIQE5RRKX2VZG34AESSNFI4" for 192.168.0.105 at 2018-04-05 18:29:15 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"C53MP3VMZ0342K0E4H3LWEZ1SRIQE5RRKX2VZG34AESSNFI4"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=CQFNUCMPX0FK1IDL5LJAM3ONVDCZDOKDT14UPNA10QQJYRQO" for 192.168.0.105 at 2018-04-05 18:29:15 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"CQFNUCMPX0FK1IDL5LJAM3ONVDCZDOKDT14UPNA10QQJYRQO"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JTH0DWKN2YUGCEMG5OX0XKOLWBMI3NAWHV4BM1DKFAD3MVUH" for 192.168.0.105 at 2018-04-05 18:29:15 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JTH0DWKN2YUGCEMG5OX0XKOLWBMI3NAWHV4BM1DKFAD3MVUH"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 192.168.0.105 at 2018-04-05 18:29:22 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MAISJCK3B1C2H4BNRLXEYGMNYLVC0KGYL0O52XPCOZXEVOTB" for 192.168.0.105 at 2018-04-05 18:29:22 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MAISJCK3B1C2H4BNRLXEYGMNYLVC0KGYL0O52XPCOZXEVOTB"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=RY4A3UFPX1Y2ZMWHIKY01UM1WJCCOWXDDSZFZV4FKIZKSAFC" for 192.168.0.105 at 2018-04-05 18:29:23 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"RY4A3UFPX1Y2ZMWHIKY01UM1WJCCOWXDDSZFZV4FKIZKSAFC"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MAJIP1RMK2PGX0JEU0BR0AYLLOKDTKXOPCL3WOQCODF3QKFG" for 192.168.0.105 at 2018-04-05 18:29:23 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MAJIP1RMK2PGX0JEU0BR0AYLLOKDTKXOPCL3WOQCODF3QKFG"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZXNF4CEJVPKHMAHKKUWLAR35OYBN1COGAPZHIDHBSW0ALK4V" for 192.168.0.105 at 2018-04-05 18:29:23 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ZXNF4CEJVPKHMAHKKUWLAR35OYBN1COGAPZHIDHBSW0ALK4V"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HOMTQBQI4PUDKKC1I3JGPSPZPQ2RUVKF31BF4L02ISSMDE1S" for 192.168.0.105 at 2018-04-05 18:29:23 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HOMTQBQI4PUDKKC1I3JGPSPZPQ2RUVKF31BF4L02ISSMDE1S"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SQJBOWEB201KRWYEHX5PEP3RH2UGJ4HI3AJC5FSOVH4XRPXP" for 192.168.0.105 at 2018-04-05 18:29:23 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SQJBOWEB201KRWYEHX5PEP3RH2UGJ4HI3AJC5FSOVH4XRPXP"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZCWHHNP0TQXVIBWGVSMERVWKM24I1D0UC1QBAFRGTBAMLCMR" for 192.168.0.105 at 2018-04-05 18:29:24 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ZCWHHNP0TQXVIBWGVSMERVWKM24I1D0UC1QBAFRGTBAMLCMR"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=500STOY5BHMCOHM23Q1ZPODMXV2KOHRURQUIGFVYOHJ3DEEF" for 192.168.0.105 at 2018-04-05 18:29:24 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"500STOY5BHMCOHM23Q1ZPODMXV2KOHRURQUIGFVYOHJ3DEEF"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5M1FWQQG1U3AKA13NC53GFE2SOUYWJXIFLLWU1H4G0WLF4KV" for 192.168.0.105 at 2018-04-05 18:29:24 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5M1FWQQG1U3AKA13NC53GFE2SOUYWJXIFLLWU1H4G0WLF4KV"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=34YLKKSYNDDVAGE5TYNKQ3IPD0KFJDCAYWOMMN01QG4KZDJS" for 192.168.0.105 at 2018-04-05 18:29:24 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"34YLKKSYNDDVAGE5TYNKQ3IPD0KFJDCAYWOMMN01QG4KZDJS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 18:29:33 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JR0XVVJDKL01VSQO2BTMPA5CLY22GQQPQNVIQIOISVSKDQVG" for 192.168.0.105 at 2018-04-05 18:29:43 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JR0XVVJDKL01VSQO2BTMPA5CLY22GQQPQNVIQIOISVSKDQVG"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=S3H2LYO2B1QT5F2XRFXQVW5L44ECH2JNK4YXKOOQVLHAPMCD" for 192.168.0.105 at 2018-04-05 18:29:43 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"S3H2LYO2B1QT5F2XRFXQVW5L44ECH2JNK4YXKOOQVLHAPMCD"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=I3KX2NJFFOK5PQFI11DZ3ZCYTWI5XSTESNOSDDQGXYVVIIZ0" for 192.168.0.105 at 2018-04-05 18:29:43 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"I3KX2NJFFOK5PQFI11DZ3ZCYTWI5XSTESNOSDDQGXYVVIIZ0"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=C4VOL3WI4XPUSQ5QHLGDDKM5HFFIPDTASYMM3YWG3KTUALKI" for 192.168.0.105 at 2018-04-05 18:29:44 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"C4VOL3WI4XPUSQ5QHLGDDKM5HFFIPDTASYMM3YWG3KTUALKI"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LDK4KH1JCKVGP3OZSWHFJIZI4IQ1JBI1VY0T1XI4UZQEDBQZ" for 192.168.0.105 at 2018-04-05 18:29:44 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LDK4KH1JCKVGP3OZSWHFJIZI4IQ1JBI1VY0T1XI4UZQEDBQZ"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TBIHSPEEFWT0WADSHNXWRJ3HRMBHOO0XX2I3P2J2GJOZPUYF" for 192.168.0.105 at 2018-04-05 18:29:44 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TBIHSPEEFWT0WADSHNXWRJ3HRMBHOO0XX2I3P2J2GJOZPUYF"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=UO20NH5M1JRZUE1014Q4EEP1ZTEIIRFSEWCD2EOPSHC0ARKO" for 192.168.0.105 at 2018-04-05 18:29:44 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"UO20NH5M1JRZUE1014Q4EEP1ZTEIIRFSEWCD2EOPSHC0ARKO"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=D3GWBBBUT3A2DERJDKZX4ERV3JEV4MR1FCRRA0JTO3RXNKQW" for 192.168.0.105 at 2018-04-05 18:29:44 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"D3GWBBBUT3A2DERJDKZX4ERV3JEV4MR1FCRRA0JTO3RXNKQW"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IFG2OVQ3EX5ETPG5JV1XIE1XZFGYOFQIWPWBU4FOEOYIWIY5" for 192.168.0.105 at 2018-04-05 18:29:44 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IFG2OVQ3EX5ETPG5JV1XIE1XZFGYOFQIWPWBU4FOEOYIWIY5"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IBYTOFXHZXE5LPC4EGQILHF042NB0KU1KVU4FAYKZTNLJPJW" for 192.168.0.105 at 2018-04-05 18:29:44 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IBYTOFXHZXE5LPC4EGQILHF042NB0KU1KVU4FAYKZTNLJPJW"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IBYTOFXHZXE5LPC4EGQILHF042NB0KU1KVU4FAYKZTNLJPJW" for 192.168.0.105 at 2018-04-05 18:29:45 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IBYTOFXHZXE5LPC4EGQILHF042NB0KU1KVU4FAYKZTNLJPJW"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LDZKG00YBHIICNCDY2XHT04ZPWEOHU345IVWZWKBEENIRYRI" for 192.168.0.105 at 2018-04-05 18:29:45 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LDZKG00YBHIICNCDY2XHT04ZPWEOHU345IVWZWKBEENIRYRI"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=CR4F4SMPO5VZVEDWKLJK3NTSVHRLVBWPXI1XJ55UIWWOODRH" for 192.168.0.105 at 2018-04-05 18:29:45 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"CR4F4SMPO5VZVEDWKLJK3NTSVHRLVBWPXI1XJ55UIWWOODRH"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HMFHGAW02R20GYJ2DJXBWHF1I34X4AEV3M45ZNJG00QI20NN" for 192.168.0.105 at 2018-04-05 18:29:45 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HMFHGAW02R20GYJ2DJXBWHF1I34X4AEV3M45ZNJG00QI20NN"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LHM2NZKRFRZVRLQY1TPBZ2QE3P0EUNEMVL54AWTXMJW25KQO" for 192.168.0.105 at 2018-04-05 18:29:45 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LHM2NZKRFRZVRLQY1TPBZ2QE3P0EUNEMVL54AWTXMJW25KQO"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1UA3FS5OSGY3ONGWZ5J1LCYBAOBK4OO3W4TQHMZLFCT1ZOCO" for 192.168.0.105 at 2018-04-05 18:29:46 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1UA3FS5OSGY3ONGWZ5J1LCYBAOBK4OO3W4TQHMZLFCT1ZOCO"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SHARKFQXKKPJ3PL1MFHZ44C4NDUBC15J0YRTLDDDARR1E4HP" for 192.168.0.105 at 2018-04-05 18:29:46 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SHARKFQXKKPJ3PL1MFHZ44C4NDUBC15J0YRTLDDDARR1E4HP"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=POSFQQRIBREO5XXCM44XBY30ZDMULS3WLAGUPPMK4YCDL2XT" for 192.168.0.105 at 2018-04-05 18:29:46 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"POSFQQRIBREO5XXCM44XBY30ZDMULS3WLAGUPPMK4YCDL2XT"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=EJSIDVLGW4QAY2UNMKD2WGRLZTIRLDRMZ2RACFT0251EVZHX" for 192.168.0.105 at 2018-04-05 18:29:46 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"EJSIDVLGW4QAY2UNMKD2WGRLZTIRLDRMZ2RACFT0251EVZHX"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MAFGNPBKAA4BZKNPIQKT3BASWX5DMNUF5QKIIC4CXQHNRMAK" for 192.168.0.105 at 2018-04-05 18:29:46 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MAFGNPBKAA4BZKNPIQKT3BASWX5DMNUF5QKIIC4CXQHNRMAK"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=FKVINJPIGI0QAELQ2NRKZ4VKRACT0EVAIHNUVV1FVNCDECW5" for 192.168.0.105 at 2018-04-05 18:29:46 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"FKVINJPIGI0QAELQ2NRKZ4VKRACT0EVAIHNUVV1FVNCDECW5"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IBYTOFXHZXE5LPC4EGQILHF042NB0KU1KVU4FAYKZTNLJPJW" for 192.168.0.105 at 2018-04-05 18:29:51 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IBYTOFXHZXE5LPC4EGQILHF042NB0KU1KVU4FAYKZTNLJPJW"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=EANF1TTW4UH2JHKV3VBDLBDO4LOXFMKNXXLIY1CEYNL4LHKT" for 192.168.0.105 at 2018-04-05 18:29:52 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"EANF1TTW4UH2JHKV3VBDLBDO4LOXFMKNXXLIY1CEYNL4LHKT"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=R4IC5PYAIIOQBKVREURUPJ54ORLNKDBVCMUFGDEDL3SZECTC" for 192.168.0.105 at 2018-04-05 18:29:52 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"R4IC5PYAIIOQBKVREURUPJ54ORLNKDBVCMUFGDEDL3SZECTC"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OWESRQMIWQMRK5DSDRPF1NRG2UJIRTSBXBSMMO1FW4KAU2DS" for 192.168.0.105 at 2018-04-05 18:29:52 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OWESRQMIWQMRK5DSDRPF1NRG2UJIRTSBXBSMMO1FW4KAU2DS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=YPHNYSGYJ4ZBFBMWZPGHKHEGFU5W0O3NABO5FUFTK500TO4Q" for 192.168.0.105 at 2018-04-05 18:29:52 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"YPHNYSGYJ4ZBFBMWZPGHKHEGFU5W0O3NABO5FUFTK500TO4Q"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KBWMSBWBCKXMNN5FQJLSL0W5LSKPXP1PTP0N21XOB0DG2CJS" for 192.168.0.105 at 2018-04-05 18:29:52 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KBWMSBWBCKXMNN5FQJLSL0W5LSKPXP1PTP0N21XOB0DG2CJS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=RWRTMFTXC3GF23SHZSFDTCBFDIGH3PE2JPCUVUQ2GGR1EA5J" for 192.168.0.105 at 2018-04-05 18:29:53 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"RWRTMFTXC3GF23SHZSFDTCBFDIGH3PE2JPCUVUQ2GGR1EA5J"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MXRKZ0NBK5MDQUFNYW5MQERDUJ5U025IPLPUWLK3QJBU0O5M" for 192.168.0.105 at 2018-04-05 18:29:53 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MXRKZ0NBK5MDQUFNYW5MQERDUJ5U025IPLPUWLK3QJBU0O5M"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DCLVSA1PMNJ0J3KWMECC5S2DHDZIHM0IU3T4DEXCFO3XQ1YT" for 192.168.0.105 at 2018-04-05 18:29:53 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DCLVSA1PMNJ0J3KWMECC5S2DHDZIHM0IU3T4DEXCFO3XQ1YT"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=FEXTPCR05AXVWK1L2LHAP2K1X2F5CD3MTQNIR5BR4TKXQKRM" for 192.168.0.105 at 2018-04-05 18:29:53 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"FEXTPCR05AXVWK1L2LHAP2K1X2F5CD3MTQNIR5BR4TKXQKRM"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=R3JNQU1LE5URS0C5BPHJN5KLKLGJ0J44DOJKQ20PEM3URJLA" for 192.168.0.105 at 2018-04-05 18:29:53 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"R3JNQU1LE5URS0C5BPHJN5KLKLGJ0J44DOJKQ20PEM3URJLA"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=34YLKKSYNDDVAGE5TYNKQ3IPD0KFJDCAYWOMMN01QG4KZDJS" for 192.168.0.105 at 2018-04-05 18:29:55 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"34YLKKSYNDDVAGE5TYNKQ3IPD0KFJDCAYWOMMN01QG4KZDJS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LZRIHE5XKLWJ4CZAWZAEE5IRNB2UMAJBLLZMJNADVT0WED1P" for 192.168.0.105 at 2018-04-05 18:29:55 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LZRIHE5XKLWJ4CZAWZAEE5IRNB2UMAJBLLZMJNADVT0WED1P"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PDWRGCHHHSBXFWNZPT2Z1QJG4NBC3ST5YHOKNMAIR25B1F2W" for 192.168.0.105 at 2018-04-05 18:29:55 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PDWRGCHHHSBXFWNZPT2Z1QJG4NBC3ST5YHOKNMAIR25B1F2W"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JY30NKWEQQXA5UA4XK5UWCG52DZTNZZOFHVSOT0HQP1EQOKU" for 192.168.0.105 at 2018-04-05 18:29:55 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JY30NKWEQQXA5UA4XK5UWCG52DZTNZZOFHVSOT0HQP1EQOKU"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=WHR002PKR3AOEQ20DESN4D0LRQ4KGQCYBQOHFXQE4L2O5MOP" for 192.168.0.105 at 2018-04-05 18:29:55 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"WHR002PKR3AOEQ20DESN4D0LRQ4KGQCYBQOHFXQE4L2O5MOP"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SWF3ZGXJCXTOPO135PDBNEP5CBWRNJLJVIA4PI3UOFEHKLY3" for 192.168.0.105 at 2018-04-05 18:29:55 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SWF3ZGXJCXTOPO135PDBNEP5CBWRNJLJVIA4PI3UOFEHKLY3"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=IELM0KIXASNIG34G3TQ0TICXZNKA0BR0YJFJB5L4BWGLEVWE" for 192.168.0.105 at 2018-04-05 18:29:56 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"IELM0KIXASNIG34G3TQ0TICXZNKA0BR0YJFJB5L4BWGLEVWE"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=G4PC0UCGNDBSEDNWC3LRNQU1KERTKHYTSATBSIIYXCZFSL0N" for 192.168.0.105 at 2018-04-05 18:29:56 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"G4PC0UCGNDBSEDNWC3LRNQU1KERTKHYTSATBSIIYXCZFSL0N"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1MLNPP35X4AX34IAC3EKBP1MB5KAX30PJK2FISUHFQROVWEB" for 192.168.0.105 at 2018-04-05 18:29:56 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1MLNPP35X4AX34IAC3EKBP1MB5KAX30PJK2FISUHFQROVWEB"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1QYK1MB53S2XV3GK4LSHGA1I4KDIFMDQ5DE5IPGUXFKHCBLP" for 192.168.0.105 at 2018-04-05 18:29:56 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1QYK1MB53S2XV3GK4LSHGA1I4KDIFMDQ5DE5IPGUXFKHCBLP"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ON2YKLSALETXHPGR3QBQDCYZLVMQFHKO2UNOMOEXLDFI5QJA" for 192.168.0.105 at 2018-04-05 18:29:56 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ON2YKLSALETXHPGR3QBQDCYZLVMQFHKO2UNOMOEXLDFI5QJA"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=34YLKKSYNDDVAGE5TYNKQ3IPD0KFJDCAYWOMMN01QG4KZDJS" for 192.168.0.105 at 2018-04-05 18:40:00 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"34YLKKSYNDDVAGE5TYNKQ3IPD0KFJDCAYWOMMN01QG4KZDJS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PASARRAVO4RG0E44BTPLJPZGRX3V4YU203FQ2TF4PTIAV4IR" for 192.168.0.105 at 2018-04-05 18:40:00 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PASARRAVO4RG0E44BTPLJPZGRX3V4YU203FQ2TF4PTIAV4IR"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=APH30UB0AZSBAP3BPI1FGFQA02WKWZBANNSFEJ21XKTK1SHU" for 192.168.0.105 at 2018-04-05 18:40:00 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"APH30UB0AZSBAP3BPI1FGFQA02WKWZBANNSFEJ21XKTK1SHU"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JVVVC3FPAZJ0N5R4HOIDJJHBBBOOT1UOAZVO1OLPYW2H5MMK" for 192.168.0.105 at 2018-04-05 18:40:00 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JVVVC3FPAZJ0N5R4HOIDJJHBBBOOT1UOAZVO1OLPYW2H5MMK"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DJDQ22IPDEPLUBFABKFTF23JBFTGXHXPR2LI3VHEGRA45AE0" for 192.168.0.105 at 2018-04-05 18:40:01 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DJDQ22IPDEPLUBFABKFTF23JBFTGXHXPR2LI3VHEGRA45AE0"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=R5LWOZHYXH0AJ0Z4K0HUUMYRQRTNDQSLSHKOAC5S5XKUVIE4" for 192.168.0.105 at 2018-04-05 18:40:01 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"R5LWOZHYXH0AJ0Z4K0HUUMYRQRTNDQSLSHKOAC5S5XKUVIE4"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=WOK2OQANYECVOVTZYVB0PPHBVKUT5UMXCYZ0NX4VRTET20V0" for 192.168.0.105 at 2018-04-05 18:40:01 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"WOK2OQANYECVOVTZYVB0PPHBVKUT5UMXCYZ0NX4VRTET20V0"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=V0N2PIRX0EBIAB5GVTR2T4LGEQF2ODWKXM50QVGBPVZWJHXF" for 192.168.0.105 at 2018-04-05 18:40:01 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"V0N2PIRX0EBIAB5GVTR2T4LGEQF2ODWKXM50QVGBPVZWJHXF"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MQA05OBQYKMYTJLJFGT3K3NGEU4GUH4QNMMKKMS2OGX2KTXD" for 192.168.0.105 at 2018-04-05 18:40:02 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MQA05OBQYKMYTJLJFGT3K3NGEU4GUH4QNMMKKMS2OGX2KTXD"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NGP1QBGVG4EQ5VGGZEZMDXXFOY4F224CG4BU2BAWHZSPHISP" for 192.168.0.105 at 2018-04-05 18:40:02 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NGP1QBGVG4EQ5VGGZEZMDXXFOY4F224CG4BU2BAWHZSPHISP"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=AS3K3CRZIEK3NO4Y2O20103L0FQMXS0VAKL524VWGILOMT3G" for 192.168.0.105 at 2018-04-05 18:40:02 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AS3K3CRZIEK3NO4Y2O20103L0FQMXS0VAKL524VWGILOMT3G"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 20:27:06 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 48ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=FZTRES23C311VNMPBC0BFNKQ1GUI0KRGIJBRPWKWRCM435HJ" for 192.168.0.105 at 2018-04-05 20:27:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"FZTRES23C311VNMPBC0BFNKQ1GUI0KRGIJBRPWKWRCM435HJ"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OON3SN1OILOTZDZX4MKXVVCRCNDVGBGC0M0PRDWAWIJLRC2A" for 192.168.0.105 at 2018-04-05 20:27:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OON3SN1OILOTZDZX4MKXVVCRCNDVGBGC0M0PRDWAWIJLRC2A"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OON3SN1OILOTZDZX4MKXVVCRCNDVGBGC0M0PRDWAWIJLRC2A" for 192.168.0.105 at 2018-04-05 20:27:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OON3SN1OILOTZDZX4MKXVVCRCNDVGBGC0M0PRDWAWIJLRC2A"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TOKXGQ5DY13H3TUY2DXACWUNZRZD5HBXUIS5RUMWSOT2RJSC" for 192.168.0.105 at 2018-04-05 20:27:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TOKXGQ5DY13H3TUY2DXACWUNZRZD5HBXUIS5RUMWSOT2RJSC"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=TOKXGQ5DY13H3TUY2DXACWUNZRZD5HBXUIS5RUMWSOT2RJSC" for 192.168.0.105 at 2018-04-05 20:27:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"TOKXGQ5DY13H3TUY2DXACWUNZRZD5HBXUIS5RUMWSOT2RJSC"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HPQB32L5S4P1WUOB2K2KEFFFYXE0GCMK1FTRLTPMG4D4XFFJ" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HPQB32L5S4P1WUOB2K2KEFFFYXE0GCMK1FTRLTPMG4D4XFFJ"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OPGZM25X0BYLTBB5412Y2M4GY0O3OP2WLFKOCRHPL53SYZFV" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OPGZM25X0BYLTBB5412Y2M4GY0O3OP2WLFKOCRHPL53SYZFV"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OPGZM25X0BYLTBB5412Y2M4GY0O3OP2WLFKOCRHPL53SYZFV" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OPGZM25X0BYLTBB5412Y2M4GY0O3OP2WLFKOCRHPL53SYZFV"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MTSPJ5KG2LFBJIKI4F4B4YKONMTWTBZPQ0O25YB1LEOBUU4C" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MTSPJ5KG2LFBJIKI4F4B4YKONMTWTBZPQ0O25YB1LEOBUU4C"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VUEMQRUIE1HFVMIEY4RNKW1UD5XJLJXBX4TOLGLZUPSEAJYH" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VUEMQRUIE1HFVMIEY4RNKW1UD5XJLJXBX4TOLGLZUPSEAJYH"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VUEMQRUIE1HFVMIEY4RNKW1UD5XJLJXBX4TOLGLZUPSEAJYH" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VUEMQRUIE1HFVMIEY4RNKW1UD5XJLJXBX4TOLGLZUPSEAJYH"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=XK1WOOTNCRKSAN1J3OOE2LNHQPTLRJU4G54BV133CTA5CWQH" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"XK1WOOTNCRKSAN1J3OOE2LNHQPTLRJU4G54BV133CTA5CWQH"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZGXKCOKEHFCIJ1VEJ2NVTL4JGWJ4X4DV5HWO0WN0FWVWWFED" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ZGXKCOKEHFCIJ1VEJ2NVTL4JGWJ4X4DV5HWO0WN0FWVWWFED"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZGXKCOKEHFCIJ1VEJ2NVTL4JGWJ4X4DV5HWO0WN0FWVWWFED" for 192.168.0.105 at 2018-04-05 20:27:08 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ZGXKCOKEHFCIJ1VEJ2NVTL4JGWJ4X4DV5HWO0WN0FWVWWFED"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KXLOQLMU0NH5VRFELXRZUVG1KQGZCPTRKQX2RTG1SN5RF1DS" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KXLOQLMU0NH5VRFELXRZUVG1KQGZCPTRKQX2RTG1SN5RF1DS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HBC5ZL54O5NIVT3DQUSMT0XU5EQ5JFALOD1BCM1FBOPK5TKS" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HBC5ZL54O5NIVT3DQUSMT0XU5EQ5JFALOD1BCM1FBOPK5TKS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HBC5ZL54O5NIVT3DQUSMT0XU5EQ5JFALOD1BCM1FBOPK5TKS" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HBC5ZL54O5NIVT3DQUSMT0XU5EQ5JFALOD1BCM1FBOPK5TKS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=W4YCYTEATFWS13J5UKYQMBWFO2IJAWS5VGWT45ZTCOLWPVQZ" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"W4YCYTEATFWS13J5UKYQMBWFO2IJAWS5VGWT45ZTCOLWPVQZ"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=BWMG2KOXZ55435UX5UXVPQEBBNXI1WJ032P5RLK3KFS4S50L" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BWMG2KOXZ55435UX5UXVPQEBBNXI1WJ032P5RLK3KFS4S50L"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HBC5ZL54O5NIVT3DQUSMT0XU5EQ5JFALOD1BCM1FBOPK5TKS" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HBC5ZL54O5NIVT3DQUSMT0XU5EQ5JFALOD1BCM1FBOPK5TKS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KYF0SOFRMYTVKP2DHXVDKK5M4QIQFTOZVZWIB5SLQ1L3CIYB" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KYF0SOFRMYTVKP2DHXVDKK5M4QIQFTOZVZWIB5SLQ1L3CIYB"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=KYF0SOFRMYTVKP2DHXVDKK5M4QIQFTOZVZWIB5SLQ1L3CIYB" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"KYF0SOFRMYTVKP2DHXVDKK5M4QIQFTOZVZWIB5SLQ1L3CIYB"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ROIYDYGMJBAEZ5FAAXUABJ1HVZTV0U3WWOMQJZSD1ZHDKLUH" for 192.168.0.105 at 2018-04-05 20:27:09 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"ROIYDYGMJBAEZ5FAAXUABJ1HVZTV0U3WWOMQJZSD1ZHDKLUH"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=J2ZKZ1NRNLMGUUIDSJ3EHKOBAJSRNHY15DMPT4D5C1XOTEGB" for 192.168.0.105 at 2018-04-05 20:27:10 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"J2ZKZ1NRNLMGUUIDSJ3EHKOBAJSRNHY15DMPT4D5C1XOTEGB"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=54OU42LI4C2ZUQBGUY3AE5A5PTRROZT1CBK1NWHGSOF3THLQ" for 192.168.0.105 at 2018-04-05 20:27:10 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"54OU42LI4C2ZUQBGUY3AE5A5PTRROZT1CBK1NWHGSOF3THLQ"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=BRZXOSR50T2XASVHILZZPGIQESYACRTPWO2QUSG0N2ISJOBO" for 192.168.0.105 at 2018-04-05 20:27:10 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BRZXOSR50T2XASVHILZZPGIQESYACRTPWO2QUSG0N2ISJOBO"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=Y3FCIC5TIAVUFHW1BYXBMF2QOEPJU5HGXEXXKQKDAFEYQ3KX" for 192.168.0.105 at 2018-04-05 20:27:10 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"Y3FCIC5TIAVUFHW1BYXBMF2QOEPJU5HGXEXXKQKDAFEYQ3KX"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=EH4RBEWBRYLYJSGT3KKAMIDWSFMG3XUGMTCV10S23HL3MMVR" for 192.168.0.105 at 2018-04-05 20:27:10 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"EH4RBEWBRYLYJSGT3KKAMIDWSFMG3XUGMTCV10S23HL3MMVR"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=PM5QOGZQPLMRL0DS14TVMBRFNPFMQCRPMVL4KKPLBSJPZ1OD" for 192.168.0.105 at 2018-04-05 20:27:11 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"PM5QOGZQPLMRL0DS14TVMBRFNPFMQCRPMVL4KKPLBSJPZ1OD"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OGT3ZNBYBCN5YJ2HAR4NFAOWHTK1QE5UU5I2TVSOE2OMJNQJ" for 192.168.0.105 at 2018-04-05 20:27:11 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OGT3ZNBYBCN5YJ2HAR4NFAOWHTK1QE5UU5I2TVSOE2OMJNQJ"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=SRNWZZXOAUWA4ZBW1AHTD1AMINNK1WDMITRYIK5QRGCQ40SQ" for 192.168.0.105 at 2018-04-05 20:27:11 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"SRNWZZXOAUWA4ZBW1AHTD1AMINNK1WDMITRYIK5QRGCQ40SQ"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=Y1U4TDWGE4EUZ35KUCSGNRP3IRFA5X32URM5EOFEBXPSSSFW&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 23:20:18 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1NFHM0WUKGF0HHZRJUZTNOOHPMA0G3J3XCSF2UNGIUNXLUMZ&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 49ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 23:21:52 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1NFHM0WUKGF0HHZRJUZTNOOHPMA0G3J3XCSF2UNGIUNXLUMZ&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=NKQXIPKTTFMJXF2A5F1SDWXC0Y2Q3YBK1MLRGQMC00SJ2JUS" for 192.168.0.105 at 2018-04-05 23:21:56 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"NKQXIPKTTFMJXF2A5F1SDWXC0Y2Q3YBK1MLRGQMC00SJ2JUS"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1NFHM0WUKGF0HHZRJUZTNOOHPMA0G3J3XCSF2UNGIUNXLUMZ&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=QGFHZEPUJPQH32MR2A43AKDQYTEUHXLGID1B4WPQWCAOAZUX" for 192.168.0.105 at 2018-04-05 23:21:58 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"QGFHZEPUJPQH32MR2A43AKDQYTEUHXLGID1B4WPQWCAOAZUX"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1NFHM0WUKGF0HHZRJUZTNOOHPMA0G3J3XCSF2UNGIUNXLUMZ&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=OWUZLEO0MU1XJJEEYUS0DEFNBYFLBZEEPPMYGXCQSN0QTIUL" for 192.168.0.105 at 2018-04-05 23:22:01 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"OWUZLEO0MU1XJJEEYUS0DEFNBYFLBZEEPPMYGXCQSN0QTIUL"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1NFHM0WUKGF0HHZRJUZTNOOHPMA0G3J3XCSF2UNGIUNXLUMZ&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0IFANYUUQN5TWXDSYZAFUJVFNIQ1N0ZD4YNWWFCIRYBM4LE3" for 192.168.0.105 at 2018-04-05 23:22:03 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0IFANYUUQN5TWXDSYZAFUJVFNIQ1N0ZD4YNWWFCIRYBM4LE3"}
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1NFHM0WUKGF0HHZRJUZTNOOHPMA0G3J3XCSF2UNGIUNXLUMZ&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 23:32:24 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/learn/code/labs/web-service-objects-readme-v-000/app/controllers/searches_controller.rb:40: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/searches_controller.rb:40: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.3ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.5ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (60.0ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (206.1ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 23:33:03 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/learn/code/labs/web-service-objects-readme-v-000/app/controllers/searches_controller.rb:40: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/searches_controller.rb:40: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (28.3ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.3ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.0ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.5ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 23:33:17 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+RuntimeError (Circular dependency detected while autoloading constant SearchesController):
+  app/controllers/searches_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (30.9ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.7ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.1ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (150.1ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 23:33:30 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1NFHM0WUKGF0HHZRJUZTNOOHPMA0G3J3XCSF2UNGIUNXLUMZ&response_type=code&redirect_uri=http%3A%2F%2F192.168.0.119%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=VXQGSYHVKEO31Z0EMAEJRWUSX5ZTFXMA12URMUABMPBNPPP4" for 192.168.0.105 at 2018-04-05 23:33:34 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"VXQGSYHVKEO31Z0EMAEJRWUSX5ZTFXMA12URMUABMPBNPPP4"}
+Redirected to http://192.168.0.119:3000/
+Completed 302 Found in 785ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 23:33:35 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2632ms (Views: 2630.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.0.105 at 2018-04-05 23:36:23 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 745ms (Views: 698.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 192.168.0.105 at 2018-04-05 23:37:07 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 579ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 192.168.0.105 at 2018-04-05 23:37:58 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 249ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/learn/code/labs/web-service-objects-readme-v-000/app/views/searches/friends.html.erb:10: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/learn/code/labs/web-service-objects-readme-v-000/app/views/searches/friends.html.erb:12: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/searches/friends.html.erb:10: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/searches/friends.html.erb:12: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (27.8ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (23.7ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.9ms)
+  Rendered /home/learn/.rvm/gems/ruby-2.3.6/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (141.5ms)
+
+
+Started GET "/friends" for 192.168.0.105 at 2018-04-05 23:38:19 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 389ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 192.168.0.105 at 2018-04-05 23:39:03 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 323ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 192.168.0.105 at 2018-04-05 23:39:30 -0400
+Cannot render console from 192.168.0.105! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 370ms (Views: 105.3ms | ActiveRecord: 0.0ms)
