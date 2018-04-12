@@ -1638,3 +1638,43 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+  [1m[36m (2.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2018-04-12 00:26:30 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 561ms (Views: 527.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-04-12 00:26:30 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-04-12 00:26:30 -0600
+
+
+Started POST "/search" for ::1 at 2018-04-12 00:26:34 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FggTTvtkz1G/0KmvKkpCTHoAx+bOqJpwyFIXTT35pok62X4Hoyi9uBTrJhQup60B6kwcacU6nlXyaaghm9HMnQ==", "zipcode"=>"84404", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 591ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-04-12 00:26:50 -0600
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AQSH8qRQBfqDiDrXFnZrbiSjkrkeZFzDUpwdT8Kkwz41X9Wkt0y/kE1r1BYtDbgKN5Vxe/rlVY3cc8ZmSL5GA==", "venue_id"=>"4bca172568f976b0399d5e83", "tip"=>"Regular cup of joe?", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 787ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-04-12 00:26:50 -0600
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 321ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-04-12 00:26:51 -0600
