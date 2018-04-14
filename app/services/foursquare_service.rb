@@ -56,7 +56,6 @@ class FoursquareService
       rescue Faraday::TimeoutError
         error = "There was a timeout. Please try again."
         error || venues
-
     end
 
 end

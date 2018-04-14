@@ -33,7 +33,8 @@ class SearchesController < ApplicationController
     #   @error = "There was a timeout. Please try again."
     #   render 'search'
     foursquare = FoursquareService.new
-    @friends = foursquare.search(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_SECRET'], params[:zipcode])
+    @venues = foursquare.search(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_SECRET'], params[:zipcode])
+
     render 'search'
   end
 end
