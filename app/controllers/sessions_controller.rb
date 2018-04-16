@@ -2,16 +2,13 @@ class SessionsController < ApplicationController
   skip_before_action :authenticate_user
 
   def create
-    resp = Faraday.get("https://foursquare.com/oauth2/access_token") do |req|
-      req.params['client_id'] = ENV['FOURSQUARE_CLIENT_ID']
-      req.params['client_secret'] = ENV['FOURSQUARE_SECRET']
-      req.params['grant_type'] = 'authorization_code'
-      req.params['redirect_uri'] = "http://localhost:3000/auth"
-      req.params['code'] = params[:code]
-    end
-
-    body = JSON.parse(resp.body)
-    session[:token] = body["access_token"]
+            #Create a new foursquare object and set it equal to a variable
+    foursquare = FoursquareService.new
+            #set the session token = to our variable with our services method called on it and the appropriate arguments (in this case the FOURSQUARE_CLIENT_ID and FOURSQUARE_SECRET) passed into the authenticate! method.
+    session[:token] = foursquare.authenticate!(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_SECRET'],
+            #Where does this ':code' come from?
+    params[:code])
+            #redirect to the root path set in routes
     redirect_to root_path
   end
 end
