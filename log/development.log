@@ -1638,3 +1638,35 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-19 15:29:51 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 745ms (Views: 730.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2018-04-19 15:29:52 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2018-04-19 15:29:52 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2018-04-19 15:29:58 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SXMZwae578ll2ui5nXfnC6o57ZNmnHziwvPyM6XiA8SjdkN+dTUtZ57KpX+iOC7msglhQIr2FamrBtGT9D86TQ==", "zipcode"=>"11222", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 420ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2018-04-19 15:30:10 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dGcyIBrL8jGycAhrNIAdva34Z6NRlsHjW7NYDUP4MsGeYmifyEcwn0lgRa0Lz9RQtcjrcL38qKgyRnutEiULSA==", "venue_id"=>"4a118d01f964a52023771fe3", "tip"=>"Not now satan!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 105ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2018-04-19 15:30:11 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 179ms (Views: 28.2ms | ActiveRecord: 0.0ms)
