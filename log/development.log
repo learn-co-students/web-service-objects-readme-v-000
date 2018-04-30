@@ -1638,3 +1638,26 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2018-04-30 15:20:37 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 407ms (Views: 391.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-04-30 15:20:43 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"deXLxidb+/htEZivrnPY2mYs6LqfPfZMGzvSMkS2mCVOqWfbd8HMy0MS23LhdKw/tRin4GzmVsw+PiabdwNOWw==", "zipcode"=>"33024", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 319ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-04-30 15:20:49 -0400
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 182ms (Views: 15.2ms | ActiveRecord: 0.0ms)
