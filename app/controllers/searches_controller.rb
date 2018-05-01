@@ -14,7 +14,7 @@ class SearchesController < ApplicationController
 
     foursquare = FoursquareService.new
 
-    if foursquare.venues(client_id, client_secret, params[:zipcode]).class == (Array)
+    if foursquare.venues(client_id, client_secret, params[:zipcode]).class == Array
       @venues = foursquare.venues(client_id, client_secret, params[:zipcode])
     else
       @error = foursquare.venues(client_id, client_secret, params[:zipcode])
