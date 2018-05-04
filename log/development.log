@@ -1811,3 +1811,61 @@ Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"3XpOutxv7M5nYeeeSgf4bG6wEMcbfklcpKnoV2mh6ffeFHTSH84LEVNUnKXDndJzHVNSwKs1Zs7iIX950laqJw==", "zipcode"=>"61704", "commit"=>"Search!"}
   Rendered searches/search.html.erb within layouts/application (8.9ms)
 Completed 200 OK in 255ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-04 17:25:37 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 208ms (Views: 198.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-05-04 17:25:45 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oUvGSxtXCnnPa5vd5kEDPq6+Yij11gs4O37NwI+DCmCiJfwj2Pbtpvte4OZv2ykh3V0gL0WdJKp99lruNHRJsA==", "zipcode"=>"61704", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 537ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2018-05-04 17:26:07 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FLeKhFSofjxPcyl73CUrxjk//OAF+RdV0rXvsTMamFAX2bDslwmZ43tGUkBVvwHZSty+57WyOMeUPXifiO3bgA==", "venue_id"=>"51af8351498e8ab45aae5f7f", "tip"=>"Awesome coffee!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 362ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-05-04 17:26:07 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 209ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-05-04 17:30:47 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 344ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-04 17:30:54 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-05-04 17:31:48 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"opsc41cobycM7pTsAnM7AjkcaO7GUo478sfXqYK02SKh9SaLlImI+Djb79eL6REdSv8q6XYZoam0T0CHOUOa8g==", "zipcode"=>"33023", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 351ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-05-04 17:32:32 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-05-04 17:32:36 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"umcPU/klvunpp5M9aScWaOCGYNvTuxa50puFcfEpgKS5CTU7OoRZNt2S6AbgvTx3k2Ui3GPwOSuUExJfSt7DdA==", "zipcode"=>"61704", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 324ms (Views: 31.0ms | ActiveRecord: 0.0ms)

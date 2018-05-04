@@ -15,7 +15,7 @@ class SearchesController < ApplicationController
     foursquare = FoursquareService.new
     @search = foursquare.venues(params[:zipcode])
     
-    if @search[0]["id"]
+    if @search[0]["id"] # at least 1 successful result
       @venues = @search   
     else
       @error = @search  
