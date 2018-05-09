@@ -1,4 +1,9 @@
 <h1>My Tips</h1>
+<% if @error %>
+  <div>
+    <p><%= @error %></p>
+  </div>
+<% end %>
 <ul>
 <% @results.each do |item| %>
   <li><strong>><%= item["venue"]["name"] %></strong><br>

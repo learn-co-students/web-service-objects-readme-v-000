@@ -1,20 +1,19 @@
 class TipsController < ApplicationController
   def index
-    resp = Faraday.get("https://api.foursquare.com/v2/lists/self/tips") do |req|
-      req.params['oauth_token'] = session[:token]
-      req.params['v'] = '20160201'
-    end
-    @results = JSON.parse(resp.body)["response"]["list"]["listItems"]["items"]
+    foursquare = FoursquareService.new
+    @results = foursquare.all_tips(session[:token])
   end
 
   def create
-    resp = Faraday.post("https://api.foursquare.com/v2/tips/add") do |req|
-      req.params['oauth_token'] = session[:token]
-      req.params['v'] = '20160201'
-      req.params['venueId'] = params[:venue_id]
-      req.params['text'] = params[:tip]
+    foursquare = FoursquareService.new
+    tip = foursquare.create_tip(session[:token], params[:venue_id], params[:tip])
+
+    if !tip.success?
+      @error = "There was an error with your tip. Please try again."
     end
 
-    redirect_to tips_path
+    @results = foursquare.all_tips(session[:token])
+
+    render "index"
   end
 end
