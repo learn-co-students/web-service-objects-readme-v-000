@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root 'searches#search'
-  get '/search', to: 'searches#search'
-  post '/search', to: 'searches#foursquare'
+  root 'searches#index'
+  get '/search', to: 'searches#index'
+  post '/search', to: 'searches#search'
 
   get '/auth', to: 'sessions#create'
   get '/friends', to: 'searches#friends'
