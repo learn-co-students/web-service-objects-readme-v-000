@@ -1,0 +1,16 @@
+current directory: /Users/mikekruszewski/Development/flatiron/Javascript-In-Rails/web-service-objects-readme-v-000/.bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+/Users/mikekruszewski/.rvm/rubies/ruby-2.5.0/bin/ruby -r ./siteconf20180522-51055-jfzp1.rb extconf.rb
+
+current directory: /Users/mikekruszewski/Development/flatiron/Javascript-In-Rails/web-service-objects-readme-v-000/.bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/mikekruszewski/Development/flatiron/Javascript-In-Rails/web-service-objects-readme-v-000/.bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/mikekruszewski/Development/flatiron/Javascript-In-Rails/web-service-objects-readme-v-000/.bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.
