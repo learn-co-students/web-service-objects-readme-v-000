@@ -1,7 +1,7 @@
 class TipsController < ApplicationController
   def index
     foursquare = FoursquareService.new
-    @results = foursquare.friends(session[:token])
+    @results = foursquare.tips(session[:token])
   end
 
   def create
