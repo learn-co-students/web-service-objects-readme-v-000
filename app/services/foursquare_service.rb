@@ -26,7 +26,7 @@ class FoursquareService
       req.params['client_id'] = client_id
       req.params['client_secret'] = client_secret
       req.params['v'] = '20160201'
-      req.params['near'] = params[:zipcode]
+      req.params['near'] = zipcode
       req.params['query'] = 'coffee shop'
     end
 
