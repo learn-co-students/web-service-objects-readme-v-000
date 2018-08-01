@@ -2,13 +2,19 @@ class SessionsController < ApplicationController
   skip_before_action :authenticate_user
 
   def create
-    resp = Faraday.get("https://foursquare.com/oauth2/access_token") do |req|
-      req.params['client_id'] = ENV['FOURSQUARE_CLIENT_ID']
-      req.params['client_secret'] = ENV['FOURSQUARE_SECRET']
-      req.params['grant_type'] = 'authorization_code'
-      req.params['redirect_uri'] = "http://localhost:3000/auth"
-      req.params['code'] = params[:code]
-    end
+    #create a new service object instance as 'foursquare'
+    foursquare=FoursquareService.new
+    
+    #use authenticate! to grab the token based on the 'code' supplied to the callback function and our creds
+    session[:token]=foursquare.authenticate!(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_SECRET'],params[:code])
+    
+    #send em on their way
+    redirect_to root_path
+    
+    
+    #all our Foursquare service object does is get the authentication token, so that's all we ask it to do.
+  end
+    
 
     body = JSON.parse(resp.body)
     session[:token] = body["access_token"]
