@@ -1638,3 +1638,62 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 14:26:46 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1UVAY3FU4PFTBV3ZZZMJBQZ3RMD55CILZJK3RLLW0PT3WK0V&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=DVQNJHRQEU3RWBJMQAZWTL0VJPH0LT5CXUU0GPTNZXZHACTB" for 127.0.0.1 at 2018-08-30 14:26:46 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"DVQNJHRQEU3RWBJMQAZWTL0VJPH0LT5CXUU0GPTNZXZHACTB"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 246ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 14:26:47 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 339ms (Views: 337.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-08-30 14:26:51 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HsYZ6fmejFGLTbldG/8Mtk/W5S3odfJwemHsXjHMy7LWIxmv+/v8NAWR09KKhXAKgbVwj9eWGjyBoI8Ns2cHPg==", "zipcode"=>"91355", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 458ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 127.0.0.1 at 2018-08-30 14:26:54 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hQRVT4WXwBTqsRx4a/haZ1jy+x5xu93T5tn2iy4KLdZN4VUJh/KwcWRtdvf6gibblpFuvE5YNZ8dGJXYrKHhWg==", "venue_id"=>"43bd6072f964a520062d1fe3", "tip"=>"", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 257ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 127.0.0.1 at 2018-08-30 14:26:55 -0700
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 338ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 14:27:24 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1UVAY3FU4PFTBV3ZZZMJBQZ3RMD55CILZJK3RLLW0PT3WK0V&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-30 14:30:05 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 157ms (Views: 151.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2018-08-30 14:30:11 -0700
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 303ms (Views: 12.3ms | ActiveRecord: 0.0ms)
