@@ -1638,3 +1638,361 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/search" for ::1 at 2018-09-06 19:38:00 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-09-06 19:38:18 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-09-06 19:38:29 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2018-09-06 19:46:03 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=LIQYRQCSA2DZR1O1WRKB4M2MRZQBCEPISYE2JI2153SIJ32I&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=ZDGTGRTJLRLK5SH1YOA13VDCNAHPMFMYVHTBNLXMA033QVOV" for ::1 at 2018-09-06 19:46:38 -0700
+
+SyntaxError (/Users/coryjbergquist/Development/code/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:14: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/sessions_controller.rb:14: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (130.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (131.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (285.4ms)
+
+
+Started GET "/search" for ::1 at 2018-09-06 19:47:13 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=LIQYRQCSA2DZR1O1WRKB4M2MRZQBCEPISYE2JI2153SIJ32I&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:47:14 -0700
+
+SyntaxError (/Users/coryjbergquist/Development/code/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:14: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/sessions_controller.rb:14: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (113.6ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (97.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (221.1ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:47:55 -0700
+
+SyntaxError (/Users/coryjbergquist/Development/code/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:16: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/sessions_controller.rb:16: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (111.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (98.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (221.0ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:48:00 -0700
+
+ActionController::RoutingError (undefined local variable or method `resp' for SessionsController:Class):
+  app/controllers/sessions_controller.rb:10:in `<class:SessionsController>'
+  app/controllers/sessions_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (159.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (99.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (225.1ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:48:04 -0700
+
+SyntaxError (/Users/coryjbergquist/Development/code/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:15: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/sessions_controller.rb:15: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (114.8ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (101.8ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (224.2ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:48:14 -0700
+
+LoadError (Unable to autoload constant SessionsController, expected /Users/coryjbergquist/Development/code/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb to define it):
+  activesupport (4.2.5) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/coryjbergquist/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/coryjbergquist/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/coryjbergquist/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (115.6ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (100.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (225.3ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:48:17 -0700
+
+SyntaxError (/Users/coryjbergquist/Development/code/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:15: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/sessions_controller.rb:15: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (111.6ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (97.8ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (220.7ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:49:10 -0700
+
+SyntaxError (/Users/coryjbergquist/Development/code/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/sessions_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (115.8ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (100.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (227.9ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:49:12 -0700
+
+SyntaxError (/Users/coryjbergquist/Development/code/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/sessions_controller.rb:11: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.1ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (99.0ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/coryjbergquist/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (221.7ms)
+
+
+Started GET "/auth?code=1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ" for ::1 at 2018-09-06 19:49:20 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"1LEX0QBY4QIF5Y0KIOGBV0PWEIDZ5K13A0TUEOXITAZCERGZ"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 408ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-09-06 19:49:20 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 462ms (Views: 461.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-09-06 19:49:20 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-09-06 19:49:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-09-06 19:49:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-09-06 19:49:20 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-09-06 19:49:20 -0700
+
+
+Started POST "/search" for ::1 at 2018-09-06 19:49:24 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z2JFP2LpW8fQ8ztWCnzUxZXLC57W8k8lokCJfWULPKQWBW5/++sEknjJi9wzdG2AxAxU5fsGfW5Auk3Jm7B8gg==", "zipcode"=>"85283", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 577ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-09-06 19:52:00 -0700
+Processing by SearchesController#friends as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=LIQYRQCSA2DZR1O1WRKB4M2MRZQBCEPISYE2JI2153SIJ32I&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=F21O3UTFPL2PEKSCP5EQ0CBPUORZ04CUZSLOBJSGIWLJQ0SC" for ::1 at 2018-09-06 19:52:09 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"F21O3UTFPL2PEKSCP5EQ0CBPUORZ04CUZSLOBJSGIWLJQ0SC"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1450ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-09-06 19:52:10 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-09-06 19:52:10 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-09-06 19:52:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-09-06 19:52:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-09-06 19:52:10 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-09-06 19:52:10 -0700
+
+
+Started GET "/friends" for ::1 at 2018-09-06 19:52:16 -0700
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 328ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2018-09-06 19:52:21 -0700
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 411ms (Views: 23.4ms | ActiveRecord: 0.0ms)
