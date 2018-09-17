@@ -5,7 +5,7 @@
 1. Learn why service objects are important
 2. Refactor API calls from controllers to a service object
 
-## Lesson
+## Lesson/LECTURE
 
 We'll be continuing with the Foursquare Coffee Shop app. You can build on the one you've been working with, or use the included code.
 
