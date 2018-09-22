@@ -5,13 +5,13 @@
   <%= submit_tag "Search!" %>
 <% end %>
 <div>
-  <% if @error %>
+<% if @error %>
     <p><%= @error %></p>
   <% elsif @venues %>
     <ul>
     <% @venues.each do |venue| %>
       <li>
-        <%= venue["name"] %><br>
+        <%= venue["name"] %><br> 
         <%= venue["location"]["address"] %><br>
         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
         <%= form_tag '/tips' do %>
