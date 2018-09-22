@@ -31,4 +31,6 @@ class FoursquareService
       @resp = JSON.parse(resp.body)
   end
 
+  
+
 end
