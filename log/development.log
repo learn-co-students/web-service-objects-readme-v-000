@@ -2465,3 +2465,15 @@ Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"NCMWwbEPO45snBOmjTwOiapADp1CKEXgi65bfk56wwfHpkZ0WxF5x5VPDcwUF6Qlhsus5KT4jBeuD0WoTlDltQ==", "zipcode"=>"77479", "commit"=>"Search!"}
   Rendered searches/search.html.erb within layouts/application (29.2ms)
 Completed 200 OK in 612ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-09-22 13:49:31 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 819ms (Views: 347.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2018-09-22 13:54:38 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 546ms (Views: 112.6ms | ActiveRecord: 0.0ms)
