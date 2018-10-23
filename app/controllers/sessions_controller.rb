@@ -19,6 +19,8 @@ class SessionsController < ApplicationController
 
   # Instantiate a new FoursquareService object and call our #authenticate! method!
 
+
+#clean up OAuth flow 
   def create
     foursquare = FoursquareService.new
     # FoursquareService that can provide an OAuth token
