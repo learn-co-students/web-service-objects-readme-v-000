@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Learn why service objects are important
+1. Learn why service objects are  important
 2. Refactor API calls from controllers to a service object
 
 ## Lesson
