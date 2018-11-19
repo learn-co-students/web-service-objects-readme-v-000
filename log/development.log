@@ -1638,3 +1638,37 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/search" for 127.0.0.1 at 2018-11-19 13:40:58 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=QDPMX3U0EENARBZNFJS5OQQ3BJMSDRDLQMOLXNW2LD5IIW4X&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 45ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JX0AJKCR0DJCTNSSNUVWS000TF5C1OVKJ42SKCAQBVATPKS2" for 127.0.0.1 at 2018-11-19 13:40:59 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JX0AJKCR0DJCTNSSNUVWS000TF5C1OVKJ42SKCAQBVATPKS2"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 320ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-19 13:41:00 -0700
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1386ms (Views: 1385.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2018-11-19 13:41:09 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"emsA5GWXw5656AAckqc6EevCmRpaKhZtlf8GAAGQ95mdZyakAZ8VrbA7lPrjgBN1O9GCvpGUbL8/ua852F5i7g==", "zipcode"=>"85251", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 515ms (Views: 117.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2018-11-19 13:41:58 -0700
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=QDPMX3U0EENARBZNFJS5OQQ3BJMSDRDLQMOLXNW2LD5IIW4X&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
