@@ -2260,3 +2260,43 @@ ActionDispatch::Cookies::CookieOverflow (ActionDispatch::Cookies::CookieOverflow
   Rendered /Users/aronroitblat/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/aronroitblat/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
   Rendered /Users/aronroitblat/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (154.5ms)
+
+
+Started GET "/" for ::1 at 2018-12-20 13:44:21 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 221ms (Views: 211.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-12-20 13:44:25 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7a+wnWGYwaez0a2rAdgEwJlm2MRxPMuTIiF57xY53+jySw1AqdP/kArNA7J60wN9IYDLMkFoJbRSfcflw5jBjw==", "zipcode"=>"11213", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 367ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-12-20 13:44:29 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7a+wnWGYwaez0a2rAdgEwJlm2MRxPMuTIiF57xY53+jySw1AqdP/kArNA7J60wN9IYDLMkFoJbRSfcflw5jBjw==", "zipcode"=>"11213", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 298ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-12-20 13:45:20 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7a+wnWGYwaez0a2rAdgEwJlm2MRxPMuTIiF57xY53+jySw1AqdP/kArNA7J60wN9IYDLMkFoJbRSfcflw5jBjw==", "zipcode"=>"11213", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 281ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-12-20 13:45:25 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2018-12-20 13:45:30 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JOWJG6Hcms5cAfz/glZZ0yUL1lbZGlbsOreE5ZAN0vQ7ATTGaZek+eUdUub5XV5une3FoOlOuMtK6zrvRazMkw==", "zipcode"=>"11212", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 365ms (Views: 19.8ms | ActiveRecord: 0.0ms)
