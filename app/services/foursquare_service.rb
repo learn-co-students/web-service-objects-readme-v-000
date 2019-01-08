@@ -19,4 +19,22 @@ class FoursquareService
       JSON.parse(resp.body)["response"]["friends"]["items"]
   end
 
+  def foursquare_venues(token, zipcode)
+    @resp = Faraday.get 'https://api.foursquare.com/v2/venues/search' do |req|
+      req.params['oauth_token'] = token
+      req.params['v'] = '20160201'
+      req.params['near'] = zipcode
+      req.params['query'] = 'coffee shop'
+    end
+
+    body = JSON.parse(@resp.body)
+
+    if @resp.success?
+          @venues = body["response"]["venues"]
+      else
+          @error = body["meta"]["errorDetail"]
+    end
+
+  end
+
 end
