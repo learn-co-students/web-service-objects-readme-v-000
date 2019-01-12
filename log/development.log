@@ -1638,3 +1638,186 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-11 21:06:42 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=MFD4CHTLDAWOCQC25N3A2WVJP4IYFI2FGXG5REUILTBWQUHV&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=3WJQCBFZSB24LDNAQFHB4SSWUXD14PRTN2GWUJEKZOVPGRRW" for 127.0.0.1 at 2019-01-11 21:06:43 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"3WJQCBFZSB24LDNAQFHB4SSWUXD14PRTN2GWUJEKZOVPGRRW"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::FoursquareService):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (65.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (149.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-11 21:14:48 -0600
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=MFD4CHTLDAWOCQC25N3A2WVJP4IYFI2FGXG5REUILTBWQUHV&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 29ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24" for 127.0.0.1 at 2019-01-11 21:14:49 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::FoursquareService):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (78.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (179.9ms)
+
+
+Started PUT "/__web_console/repl_sessions/01a2c95b7ff97d864b48198f68011c59" for 127.0.0.1 at 2019-01-11 21:14:55 -0600
+
+
+Started PUT "/__web_console/repl_sessions/01a2c95b7ff97d864b48198f68011c59" for 127.0.0.1 at 2019-01-11 21:15:00 -0600
+
+
+Started GET "/auth?code=GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24" for 127.0.0.1 at 2019-01-11 21:15:58 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24"}
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `foursquare' for #<SessionsController:0x007fffc3a9ee60>
+Did you mean?  foursqure):
+  app/controllers/sessions_controller.rb:6:in `create'
+
+
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (69.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (141.3ms)
+
+
+Started GET "/auth?code=GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24" for 127.0.0.1 at 2019-01-11 21:16:23 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `foursquare' for #<SessionsController:0x007fffc3865ef0>
+Did you mean?  foursqaure):
+  app/controllers/sessions_controller.rb:6:in `create'
+
+
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.0ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (150.8ms)
+
+
+Started GET "/auth?code=GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24" for 127.0.0.1 at 2019-01-11 21:16:50 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24"}
+Completed 500 Internal Server Error in 132ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `params' for #<FoursquareService:0x007fffc37f5768>):
+  app/services/foursquare_service.rb:9:in `block in authenticate!'
+  app/services/foursquare_service.rb:4:in `authenticate!'
+  app/controllers/sessions_controller.rb:6:in `create'
+
+
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.9ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (58.2ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (148.2ms)
+
+
+Started GET "/auth?code=GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24" for 127.0.0.1 at 2019-01-11 21:17:32 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24"}
+Completed 500 Internal Server Error in 285ms (ActiveRecord: 0.0ms)
+
+Faraday::SSLError (SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A):
+  app/services/foursquare_service.rb:4:in `authenticate!'
+  app/controllers/sessions_controller.rb:6:in `create'
+
+
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (148.0ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (165.0ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /home/micah/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (314.9ms)
+
+
+Started GET "/auth?code=GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24" for 127.0.0.1 at 2019-01-11 21:18:35 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GW4UHRM3BFYZ1MNTUL30RW0APQQ0YHHR4X0LWIHAOOQCAY24"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 254ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-11 21:18:36 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 906ms (Views: 904.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2019-01-11 21:18:42 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YPf7mXvciT4dPZGuPwtI91L3KfbH2nX4I7cRa5H+jVe4k8nEHlp9yQj4kRDqAx4Kz7gErooZ5xKVz2qa59FipQ==", "zipcode"=>"62208", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 388ms (Views: 101.9ms | ActiveRecord: 0.0ms)
