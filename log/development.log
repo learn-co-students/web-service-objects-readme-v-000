@@ -1638,3 +1638,36 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+
+
+Started GET "/" for ::1 at 2019-02-01 17:36:52 -0500
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=031MJ1O1LN5MS4E5TEZGV2HDPF1G4AFKRDOA5RX1EH4WRUQM&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-02-01 17:52:44 -0500
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 607ms (Views: 596.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-02-01 17:52:49 -0500
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"os3OzVKqdCSdx3cgZGxpf+UYxnOuwaVMFavHxl5AtMWBTTillUj4uHSOYTgUZe2buh9ebWHlPJ/iswXOzwLsFQ==", "zipcode"=>"19460", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 532ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-02-01 17:52:58 -0500
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xZrl1YDUtVn3KTIWjwunGweWgYTHcjIr0+n0Ju5FVP7mGhO9RzY5xR5gJA7/AiP/WJEZmghWq/gk8TYufwcMLg==", "venue_id"=>"4b46066bf964a5206d1426e3", "tip"=>"Goodness Me, this best coffee ever!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 280ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-02-01 17:52:58 -0500
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 313ms (Views: 21.4ms | ActiveRecord: 0.0ms)
