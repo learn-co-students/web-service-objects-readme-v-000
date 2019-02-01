@@ -9,7 +9,7 @@
     <p><%= @error %></p>
   <% elsif @venues %>
     <ul>
-    <% @venues.each do |venue| %>
+    <% @foursquare.each do |venue| %>
       <li>
         <%= venue["name"] %><br>
         <%= venue["location"]["address"] %><br>
