@@ -1,5 +1,10 @@
+<% if @friends != 0 %>
 <ul>
   <% @friends.each do |friend| %>
+    binding.pry
     <li><%= "#{friend['firstName']} #{friend['lastName']}" %></li>
   <% end %>
 </ul>
+<% else %>
+<p> "You have no friends :(" </p>
+<% end %>
