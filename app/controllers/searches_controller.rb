@@ -11,7 +11,8 @@ class SearchesController < ApplicationController
 
   def foursquare
     four_square = FoursquareService.new
-    @rep = four_square.foursquare_search(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_SECRET'], params[:zipcode])
+    @resp = four_square.foursquare_search(ENV['FOURSQUARE_CLIENT_ID'], ENV['FOURSQUARE_SECRET'], params[:zipcode])
+    body = JSON.parse(@resp.body)
     if @resp.success?
       @venues = body["response"]["venues"]
     else

@@ -1,4 +1,5 @@
 class FoursquareService
+
   def authenticate!(client_id, client_secret, code)
     resp = Faraday.get("https://foursquare.com/oauth2/access_token") do |req|
       req.params['client_id'] = client_id
@@ -44,9 +45,6 @@ class FoursquareService
       req.params['near'] = near
       req.params['query'] = 'coffee shop'
     end
-    if @resp.success?
-      JSON.parse(@resp.body)
-    else
-    JSON.parse(@resp.body)["meta"]["errorDetail"]
   end
+  
 end
