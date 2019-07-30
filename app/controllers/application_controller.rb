@@ -10,7 +10,8 @@ private
     client_id = ENV['FOURSQUARE_CLIENT_ID']
     redirect_uri = CGI.escape("http://localhost:3000/auth")
     foursquare_url = "https://foursquare.com/oauth2/authenticate?client_id=#{client_id}&response_type=code&redirect_uri=#{redirect_uri}"
-    redirect_to foursquare_url unless logged_in?
+    someUriThing = URI.escape(foursquare_url)
+    redirect_to someUriThing unless logged_in?
   end
 
   def logged_in?
