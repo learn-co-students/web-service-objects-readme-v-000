@@ -1638,3 +1638,836 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+Started GET "/" for ::1 at 2019-09-08 13:53:59 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-08 13:54:22 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-08 13:55:41 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=30R4OVCBQD2U3SX50CDWZXRET2RCI3U1IHUQ2LLHSTWJNXJJ&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA" for ::1 at 2019-09-08 13:55:41 -0400
+  
+SyntaxError (/Users/heshie/Development/web-service-objects-readme-v-000/app/controllers/sessions_controller.rb:7: syntax error, unexpected '\n', expecting '='):
+  
+app/controllers/sessions_controller.rb:7: syntax error, unexpected '\n', expecting '='
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___242320701536894808_70196649540440 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (65.0ms)
+Started GET "/auth?code=BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA" for ::1 at 2019-09-08 13:56:04 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<FoursquareService:0x00007fafdcc24140>
+Did you mean?  authenticate!):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___242320701536894808_70196653233720 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.6ms)
+Started GET "/auth?code=BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA" for ::1 at 2019-09-08 13:56:05 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<FoursquareService:0x00007fafdd2b5dd8>
+Did you mean?  authenticate!):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___242320701536894808_70196652961520 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.7ms)
+Started GET "/auth?code=BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA" for ::1 at 2019-09-08 13:56:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<FoursquareService:0x00007fafdd24cdd8>
+Did you mean?  authenticate!):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___242320701536894808_70196663781680 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.8ms)
+Started GET "/auth?code=BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA" for ::1 at 2019-09-08 13:56:21 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA"}
+Completed 500 Internal Server Error in 247ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `session' for #<FoursquareService:0x00007fafdcc9f980>):
+  
+app/services/foursquare_service.rb:11:in `authenticate!'
+app/controllers/sessions_controller.rb:6:in `create'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___242320701536894808_70196663143740 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.6ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.9ms)
+Started GET "/auth?code=BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA" for ::1 at 2019-09-08 13:57:07 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BBMABUWTOTFDQVE2XW44B31GHJZ30Z0V4ULNVXTWWWERNCIA"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 139ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-08 13:57:07 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 487ms (Views: 484.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-09-08 13:57:08 -0400
+Started POST "/search" for ::1 at 2019-09-08 13:57:12 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nfp88ZAoTn5QGqcfY2BQOgGp4yC80XiRMIVGToxfag+wEDAHkxp9mXiBZBX6RSWA2svQ2sz9Rj9OznBp5lPYHw==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 1209ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-09-08 13:57:21 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xYncSTUmQMRDQANlpRPLbzLZCY1mEWYV8qLrThqFz9roY5C/NhRzI2vbwG88Nr7V6bs6dxY9WLuM6d1pcIl9yg==", "venue_id"=>"4bf5663994af2d7f15a93b72", "tip"=>"Love this place!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 821ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-09-08 13:57:22 -0400
+Processing by TipsController#index as HTML
+  Rendering tips/index.html.erb within layouts/application
+  Rendered tips/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 209ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 13:59:32 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 13:59:37 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=30R4OVCBQD2U3SX50CDWZXRET2RCI3U1IHUQ2LLHSTWJNXJJ&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:02:40 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 256ms (Views: 249.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-09-08 14:02:43 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 310ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-09-08 14:04:24 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 249ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-09-08 14:04:54 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 172ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/heshie/Development/web-service-objects-readme-v-000/app/views/searches/friends.html.erb:7: syntax error, unexpected ')'
+...ope you get some friends soon.);@output_buffer.safe_append='...
+...                              ^
+/Users/heshie/Development/web-service-objects-readme-v-000/app/views/searches/friends.html.erb:8: syntax error, unexpected end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/heshie/Development/web-service-objects-readme-v-000/app/views/searches/friends.html.erb:11: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/heshie/Development/web-service-objects-readme-v-000/app/views/searches/friends.html.erb:13: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/searches/friends.html.erb:7: syntax error, unexpected ')'
+app/views/searches/friends.html.erb:8: syntax error, unexpected end, expecting ')'
+app/views/searches/friends.html.erb:11: syntax error, unexpected ensure, expecting ')'
+app/views/searches/friends.html.erb:13: syntax error, unexpected end, expecting ')'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__163999301726613457_70364117183000 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (54.0ms)
+Started PUT "/__web_console/repl_sessions/768dcf0b9918076d051735f4e41f359d" for ::1 at 2019-09-08 14:05:00 -0400
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from block in acceptable? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/request.rb:26)
+Started GET "/friends" for ::1 at 2019-09-08 14:05:37 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 191ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-09-08 14:06:04 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 310ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-09-08 14:06:35 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 186ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-09-08 14:08:13 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 217ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-09-08 14:08:28 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 182ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:20:05 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:20:08 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j8P1p6JdbRCjP+NFEJSdM7fzilpLpN1iHIvX8UZu3EyiKblRoW9e94ukIE+JseiJbJG5oDuI48xiwOHWLGJuXA==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 867ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:20:25 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:20:37 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:20:39 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FXD8cc5C41l3CVdISn+ADf370jZpuclRIlgz/hNeyjo4mrCHzXDQvl+SlELTWvW3JpnhzBmV9/9cEwXZeVJ4Kg==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 388ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:20:46 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:20:48 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eS7NH94oRnGSDgq1RfKG/vC+QXWYzGIdxJnuGd7l6M1UxIHp3Rp1lrqVyb/c1/NEK9xyj+jgXLO60tg+tOla3Q==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 312ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:20:52 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ucFGN4UpI5og2GAiyAUzoa7XkPbRu7wGuHhlcYKCaumUKwrBhhsQfQhDoyhRIEYbdbWjDKGXgqjGM1NW6I7Y+Q==", "zipcode"=>"11219", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 344ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:21:36 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:21:38 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R+2ONlLJMZ2V4Z1iy4jMXqT+CQGliqbJci43Xz2Gx+ZqB8LAUfsCer16XmhSrbnkf5w6+9WmmGcMZQF4V4p19g==", "zipcode"=>"11204", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 370ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `inspect?' for #<Array:0x00007ffdda808740>
+Did you mean?  inspect):
+  
+app/controllers/searches_controller.rb:14:in `foursquare'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__163999301726613457_70364094931320 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (53.8ms)
+Started POST "/search" for ::1 at 2019-09-08 14:21:49 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R+2ONlLJMZ2V4Z1iy4jMXqT+CQGliqbJci43Xz2Gx+ZqB8LAUfsCer16XmhSrbnkf5w6+9WmmGcMZQF4V4p19g==", "zipcode"=>"11204", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 256ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ([{"id"=>"4bf5663994af2d7f15a93b72", "name"=>"Andrews Coffee Shop", "contact"=>{}, "location"=>{"address"=>"463 7th Ave", "crossStreet"=>"at W 35th St.", "lat"=>40.751499154072285, "lng"=>-73.99018245446217, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.751499154072285, "lng"=>-73.99018245446217}], "postalCode"=>"10018", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["463 7th Ave (at W 35th St.)", "New York, NY 10018"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "venuePage"=>{"id"=>"58938570"}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4b2bcfa6f964a52072bb24e3", "name"=>"New Bay Coffee Shop", "contact"=>{}, "location"=>{"address"=>"1950 86th St", "crossStreet"=>"bay 23rd st", "lat"=>40.60599351858528, "lng"=>-73.99900587582565, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.60599351858528, "lng"=>-73.99900587582565}], "postalCode"=>"11214", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["1950 86th St (bay 23rd st)", "Brooklyn, NY 11214"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"1028520", "url"=>"https://www.seamless.com/menu/new-bay-coffee-shop-1950-86th-st-brooklyn/1028520?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1028520", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"433f2300f964a52050281fe3", "name"=>"Mike's Coffee Shop", "contact"=>{}, "location"=>{"address"=>"328 Dekalb Ave", "crossStreet"=>"at Saint James Pl.", "lat"=>40.689785115135194, "lng"=>-73.96538115407442, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.689785115135194, "lng"=>-73.96538115407442}], "postalCode"=>"11205", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["328 Dekalb Ave (at Saint James Pl.)", "Brooklyn, NY 11205"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4a118d01f964a52023771fe3", "name"=>"Kam Hing Coffee Shop 金興", "contact"=>{}, "location"=>{"address"=>"118 Baxter St", "crossStreet"=>"Hester and Canal", "lat"=>40.71801668499095, "lng"=>-73.99920951068383, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.71801668499095, "lng"=>-73.99920951068383}], "postalCode"=>"10013", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["118 Baxter St (Hester and Canal)", "New York, NY 10013"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "venuePage"=>{"id"=>"53113426"}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4d933246f4992c0fad2e8f97", "name"=>"Le Coffee Shop (NYU Lutheran)", "contact"=>{}, "location"=>{"address"=>"150 55th St", "lat"=>40.64689617692688, "lng"=>-74.0215958907493, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.64689617692688, "lng"=>-74.0215958907493}], "postalCode"=>"11220", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["150 55th St", "Brooklyn, NY 11220"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4b5c5b25f964a520362c29e3", "name"=>"Neil's Coffee Shop", "contact"=>{}, "location"=>{"address"=>"961 Lexington Ave", "crossStreet"=>"at E 70th St.", "lat"=>40.76903847170227, "lng"=>-73.96314605175094, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.76903847170227, "lng"=>-73.96314605175094}], "postalCode"=>"10021", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["961 Lexington Ave (at E 70th St.)", "New York, NY 10021"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"66147", "url"=>"https://www.seamless.com/menu/neils-coffee-shop-961-lexington-ave-new-york/66147?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=66147", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"5ae5cf2fe17910002c0a42ba", "name"=>"Safir Bakery & Coffee Shop", "contact"=>{}, "location"=>{"address"=>"1803 Kings Hwy", "lat"=>40.610191, "lng"=>-73.955315, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.610191, "lng"=>-73.955315}], "postalCode"=>"11229", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["1803 Kings Hwy", "Brooklyn, NY 11229"]}, "categories"=>[{"id"=>"4bf58dd8d48988d16a941735", "name"=>"Bakery", "pluralName"=>"Bakeries", "shortName"=>"Bakery", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/bakery_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"542da088498e60c8dafa5b06", "name"=>"Caoba Restaurant/ Coffee Shop", "contact"=>{}, "location"=>{"address"=>"762 Snediker Ave", "lat"=>40.65608819435355, "lng"=>-73.89770181986088, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.65608819435355, "lng"=>-73.89770181986088}], "postalCode"=>"11207", "cc"=>"US", "neighborhood"=>"East New York", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["762 Snediker Ave", "Brooklyn, NY 11207"]}, "categories"=>[{"id"=>"4bf58dd8d48988d154941735", "name"=>"Cuban Restaurant", "pluralName"=>"Cuban Restaurants", "shortName"=>"Cuban", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/cuban_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4c26e05e905a0f4700286460", "name"=>"Lower East Side Coffee Shop", "contact"=>{}, "location"=>{"address"=>"500 E 14th St", "crossStreet"=>"btwn 1st Ave and Ave A", "lat"=>40.730468062861334, "lng"=>-73.98065698318827, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.730468062861334, "lng"=>-73.98065698318827}], "postalCode"=>"10009", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["500 E 14th St (btwn 1st Ave and Ave A)", "New York, NY 10009"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"277931", "url"=>"https://www.seamless.com/menu/-lower-east-side-coffee-shop-442-e-14th-st-new-york/277931?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=277931", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4c41a4bbaf052d7f079d7d79", "name"=>"Parkside Coffee Shop and Diner", "contact"=>{}, "location"=>{"address"=>"188 Parkside Ave", "crossStreet"=>"at Ocean Ave.", "lat"=>40.655084549433894, "lng"=>-73.96150173342477, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.655084549433894, "lng"=>-73.96150173342477}], "postalCode"=>"11226", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["188 Parkside Ave (at Ocean Ave.)", "Brooklyn, NY 11226"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"403612", "url"=>"https://www.seamless.com/menu/park-side-coffee-shop-188-parkside-ave-brooklyn/403612?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=403612", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"46bf2572f964a520e4491fe3", "name"=>"Viand Coffee Shop", "contact"=>{}, "location"=>{"address"=>"673 Madison Ave", "crossStreet"=>"62nd St", "lat"=>40.7648438737262, "lng"=>-73.97043574360566, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.7648438737262, "lng"=>-73.97043574360566}], "postalCode"=>"10065", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["673 Madison Ave (62nd St)", "New York, NY 10065"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"66171", "url"=>"https://www.seamless.com/menu/viand-coffee-shop-673-madison-ave-new-york/66171?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=66171", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4aeb3f58f964a5201ac021e3", "name"=>"D&D Coffee Shop", "contact"=>{}, "location"=>{"address"=>"4508 Fort Hamilton Pkwy", "crossStreet"=>"at 45th Street", "lat"=>40.64017436016905, "lng"=>-73.99505694342034, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.64017436016905, "lng"=>-73.99505694342034}], "postalCode"=>"11219", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["4508 Fort Hamilton Pkwy (at 45th Street)", "Brooklyn, NY 11219"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"1294686", "url"=>"https://www.seamless.com/menu/dd-coffee-shop-4508-fort-hamilton-pkwy-brooklyn/1294686?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1294686", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "venuePage"=>{"id"=>"47575051"}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4f32338919836c91c7c01f7e", "name"=>"Lanos Coffee Shop", "contact"=>{}, "location"=>{"address"=>"1535 62nd St", "lat"=>40.624582, "lng"=>-73.994532, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.624582, "lng"=>-73.994532}], "postalCode"=>"11219", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["1535 62nd St", "Brooklyn, NY 11219"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4b083bbaf964a520ee0623e3", "name"=>"Johns Donuts and Coffee Shop", "contact"=>{}, "location"=>{"address"=>"481 Myrtle Ave", "lat"=>40.69349212192997, "lng"=>-73.9659939592314, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.69349212192997, "lng"=>-73.9659939592314}], "postalCode"=>"11205", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["481 Myrtle Ave", "Brooklyn, NY 11205"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4e066a59a809495e6192d007", "name"=>"Coffee Shop", "contact"=>{}, "location"=>{"address"=>"1683 E 16th St", "crossStreet"=>"Corner of Quentin Road and East 16th Street", "lat"=>40.608240177505465, "lng"=>-73.99698011558338, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.608240177505465, "lng"=>-73.99698011558338}], "postalCode"=>"11229", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["1683 E 16th St (Corner of Quentin Road and East 16th Street)", "Brooklyn, NY 11229"]}, "categories"=>[{"id"=>"4bf58dd8d48988d146941735", "name"=>"Deli / Bodega", "pluralName"=>"Delis / Bodegas", "shortName"=>"Deli / Bodega", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/deli_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"50a79be7e4b0a68d8460af45", "name"=>"Coffee Shop", "contact"=>{}, "location"=>{"address"=>"Bay Parkway And 18th Ave", "lat"=>40.60837936401367, "lng"=>-74.00338745117188, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.60837936401367, "lng"=>-74.00338745117188}], "postalCode"=>"11214", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["Bay Parkway And 18th Ave", "Brooklyn, NY 11214"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4a667506f964a52093c81fe3", "name"=>"West Side Coffee Shop", "contact"=>{}, "location"=>{"address"=>"323 Church St", "crossStreet"=>"at Canal St.", "lat"=>40.72017383765389, "lng"=>-74.00391535258366, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.72017383765389, "lng"=>-74.00391535258366}], "postalCode"=>"10013", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["323 Church St (at Canal St.)", "New York, NY 10013"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1be941735", "name"=>"Latin American Restaurant", "pluralName"=>"Latin American Restaurants", "shortName"=>"Latin American", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/latinamerican_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4a5a2472f964a520c6b91fe3", "name"=>"Jessi's Coffee Shop", "contact"=>{}, "location"=>{"address"=>"223 Bushwick Ave.", "lat"=>40.70815526996501, "lng"=>-73.9399518496672, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.70815526996501, "lng"=>-73.9399518496672}], "postalCode"=>"11206", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["223 Bushwick Ave.", "New York, NY 11206"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>true, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "venuePage"=>{"id"=>"81641959"}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4a7846a7f964a52057e51fe3", "name"=>"Center Coffee (The Coffee Shop)", "contact"=>{}, "location"=>{"address"=>"363 S Oyster Bay Rd", "crossStreet"=>"Plainview Shopping Center", "lat"=>40.78596669542941, "lng"=>-73.50186468543066, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.78596669542941, "lng"=>-73.50186468543066}], "postalCode"=>"11803", "cc"=>"US", "city"=>"Plainview", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["363 S Oyster Bay Rd (Plainview Shopping Center)", "Plainview, NY 11803"]}, "categories"=>[{"id"=>"4bf58dd8d48988d143941735", "name"=>"Breakfast Spot", "pluralName"=>"Breakfast Spots", "shortName"=>"Breakfast", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/breakfast_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>1, "summary"=>"One other person is here", "groups"=>[{"type"=>"others", "name"=>"Other people here", "count"=>1, "items"=>[]}]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4be88652947820a1e802b5db", "name"=>"G's Coffee Shop", "contact"=>{}, "location"=>{"address"=>"634 W 207th St", "crossStreet"=>"btwn Broadway & Cooper St", "lat"=>40.86841792395646, "lng"=>-73.92174351734803, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.86841792395646, "lng"=>-73.92174351734803}], "postalCode"=>"10034", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["634 W 207th St (btwn Broadway & Cooper St)", "New York, NY 10034"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"57fed72a498e761a23d107da", "name"=>"For Five Coffee Shop", "contact"=>{}, "location"=>{"address"=>"117 W 46th St", "crossStreet"=>"btwn 6th & 7th Ave", "lat"=>40.757818535076, "lng"=>-73.9832446611763, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.757818535076, "lng"=>-73.9832446611763}], "postalCode"=>"10036", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["117 W 46th St (btwn 6th & 7th Ave)", "New York, NY 10036"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"57c4b6dc498ece54312a9a70", "name"=>"Angelica's Coffee Shop", "contact"=>{}, "location"=>{"address"=>"424 Church Ave", "lat"=>40.64426472017663, "lng"=>-73.9757434356533, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.64426472017663, "lng"=>-73.9757434356533}], "postalCode"=>"11218", "cc"=>"US", "neighborhood"=>"Kensington", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["424 Church Ave", "Brooklyn, NY 11218"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"338681", "url"=>"https://www.seamless.com/menu/angelicas-coffee-shop-424-church-ave-brooklyn/338681?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=338681", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"58173b5a38fa794b89f9fa69", "name"=>"Playground Coffee Shop", "contact"=>{}, "location"=>{"address"=>"1114 Bedford Ave", "crossStreet"=>"Quincy Street", "lat"=>40.686533713293194, "lng"=>-73.95464283377389, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.686533713293194, "lng"=>-73.95464283377389}], "postalCode"=>"11216", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["1114 Bedford Ave (Quincy Street)", "New York, NY 11216"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4c176b47216fc9b65b588f96", "name"=>"M&R Deli and Coffee Shop", "contact"=>{}, "location"=>{"address"=>"1480 Williamsbridge Rd", "lat"=>40.84413974924561, "lng"=>-73.84572218421886, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.84413974924561, "lng"=>-73.84572218421886}], "postalCode"=>"10461", "cc"=>"US", "city"=>"Bronx", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["1480 Williamsbridge Rd", "Bronx, NY 10461"]}, "categories"=>[{"id"=>"4bf58dd8d48988d146941735", "name"=>"Deli / Bodega", "pluralName"=>"Delis / Bodegas", "shortName"=>"Deli / Bodega", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/deli_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"506ef5e6e4b06f9dbb264036", "name"=>"Tropical Coffee Shop", "contact"=>{}, "location"=>{"address"=>"584 Rockaway Ave", "crossStreet"=>"Blake Avenue", "lat"=>40.66583076337358, "lng"=>-73.9099843178323, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.66583076337358, "lng"=>-73.9099843178323}], "postalCode"=>"11212", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["584 Rockaway Ave (Blake Avenue)", "Brooklyn, NY 11212"]}, "categories"=>[{"id"=>"4bf58dd8d48988d150941735", "name"=>"Spanish Restaurant", "pluralName"=>"Spanish Restaurants", "shortName"=>"Spanish", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/spanish_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"345306", "url"=>"https://www.seamless.com/menu/tropical-coffee-shop-584-rockaway-ave-brooklyn/345306?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=345306", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"55200cf9498e16e902a5519e", "name"=>"Cream Coffee Shop", "contact"=>{}, "location"=>{"address"=>"7210 3rd Ave Ste B", "lat"=>40.63321005717128, "lng"=>-74.02713623510421, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.63321005717128, "lng"=>-74.02713623510421}], "postalCode"=>"11209", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["7210 3rd Ave Ste B", "Brooklyn, NY 11209"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1e0931735", "name"=>"Coffee Shop", "pluralName"=>"Coffee Shops", "shortName"=>"Coffee Shop", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4a3534d2f964a520989c1fe3", "name"=>"Skillman Famous Pizza and Coffee Shop", "contact"=>{}, "location"=>{"address"=>"46-06 Skillman Ave", "crossStreet"=>"Btwn 46th & 47th St", "lat"=>40.746498118853864, "lng"=>-73.917800821402, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.746498118853864, "lng"=>-73.917800821402}], "postalCode"=>"11104", "cc"=>"US", "city"=>"Sunnyside", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["46-06 Skillman Ave (Btwn 46th & 47th St)", "Sunnyside, NY 11104"]}, "categories"=>[{"id"=>"4bf58dd8d48988d1ca941735", "name"=>"Pizza Place", "pluralName"=>"Pizza Places", "shortName"=>"Pizza", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/pizza_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "delivery"=>{"id"=>"1262110", "url"=>"https://www.seamless.com/menu/skillmans-famous-pizza-4606-skillman-ave-sunnyside/1262110?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1262110", "provider"=>{"name"=>"seamless", "icon"=>{"prefix"=>"https://fastly.4sqi.net/img/general/cap/", "sizes"=>[40, 50], "name"=>"/delivery_provider_seamless_20180129.png"}}}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"5999bc7aee628b267d22ebb4", "name"=>"Av P Coffee Shop", "contact"=>{}, "location"=>{"address"=>"401 Avenue P", "lat"=>40.609013, "lng"=>-73.972651, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.609013, "lng"=>-73.972651}], "postalCode"=>"11223", "cc"=>"US", "city"=>"New York", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["401 Avenue P", "New York, NY 11223"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"587be3b0076be11c9554aeb4", "name"=>"Dreamers Coffee Shop", "contact"=>{}, "location"=>{"address"=>"1818 86th St", "crossStreet"=>"Bay 19th st", "lat"=>40.6068, "lng"=>-74.00212, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.6068, "lng"=>-74.00212}], "postalCode"=>"11214", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["1818 86th St (Bay 19th st)", "Brooklyn, NY 11214"]}, "categories"=>[{"id"=>"4bf58dd8d48988d143941735", "name"=>"Breakfast Spot", "pluralName"=>"Breakfast Spots", "shortName"=>"Breakfast", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/breakfast_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}, {"id"=>"4c49da11fbafc92881b67bdb", "name"=>"Andrew's Coffee Shop", "contact"=>{}, "location"=>{"address"=>"901 Church Ave", "lat"=>40.646542437308135, "lng"=>-73.97071927785873, "labeledLatLngs"=>[{"label"=>"display", "lat"=>40.646542437308135, "lng"=>-73.97071927785873}], "postalCode"=>"11218", "cc"=>"US", "city"=>"Brooklyn", "state"=>"NY", "country"=>"United States", "formattedAddress"=>["901 Church Ave", "Brooklyn, NY 11218"]}, "categories"=>[{"id"=>"4bf58dd8d48988d147941735", "name"=>"Diner", "pluralName"=>"Diners", "shortName"=>"Diner", "icon"=>{"prefix"=>"https://ss3.4sqi.net/img/categories_v2/food/diner_", "suffix"=>".png"}, "primary"=>true}], "verified"=>false, "stats"=>{"tipCount"=>0, "usersCount"=>0, "checkinsCount"=>0, "visitsCount"=>0}, "beenHere"=>{"count"=>0, "lastCheckinExpiredAt"=>0, "marked"=>false, "unconfirmedCount"=>0}, "hereNow"=>{"count"=>0, "summary"=>"Nobody here", "groups"=>[]}, "referralId"=>"v-1567966909", "venueChains"=>[], "hasPerk"=>false}]):
+  
+app/controllers/searches_controller.rb:14:in `foursquare'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__163999301726613457_70364117137940 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.3ms)
+Started POST "/search" for ::1 at 2019-09-08 14:23:34 -0400
+  
+SyntaxError (/Users/heshie/Development/web-service-objects-readme-v-000/app/controllers/searches_controller.rb:23: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/searches_controller.rb:23: syntax error, unexpected end-of-input, expecting end
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__163999301726613457_70364115085520 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.2ms)
+Started POST "/search" for ::1 at 2019-09-08 14:24:31 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R+2ONlLJMZ2V4Z1iy4jMXqT+CQGliqbJci43Xz2Gx+ZqB8LAUfsCer16XmhSrbnkf5w6+9WmmGcMZQF4V4p19g==", "zipcode"=>"11204", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/heshie/Development/web-service-objects-readme-v-000/app/services/foursquare_service.rb:35: Can't change the value of self
+      self = false
+      ^~~~):
+  
+app/services/foursquare_service.rb:35: Can't change the value of self
+app/controllers/searches_controller.rb:12:in `foursquare'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__163999301726613457_70364116839520 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.0ms)
+Started POST "/search" for ::1 at 2019-09-08 14:24:52 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R+2ONlLJMZ2V4Z1iy4jMXqT+CQGliqbJci43Xz2Gx+ZqB8LAUfsCer16XmhSrbnkf5w6+9WmmGcMZQF4V4p19g==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 336ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:25:01 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Da+couS2wLFDg00qJB9H+mw5blxJuYmskamPRGoe9ZwgRdBU54TzVmsYjiC9OjJAt1tdpjmVtwLv4rljABJHjA==", "zipcode"=>"00000", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 860ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:25:56 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:25:59 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tFiZR5WowqcomDTNZkUZcwEs7yAsCA7L3xplnkgrM/iZstWxlprxQAAD98f/YGzJ2k7c2lwkMGWhUVO5IieB6A==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 363ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:26:03 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GWXNVv6yPBb2BVUTKULXEqn2jhn/vRGKlFvKjzWIDvk0j4Gg/YAP8d6elhmwZ6KocpS944+RLyTqEPyoX4S86Q==", "zipcode"=>"00000", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 280ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:40:43 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:40:45 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFcBkuxwhu30m2Jn/MEqNEcnOy0pJzJTZ0jsDNEYJowZvU1k70K1CtwAoW1l5F+OnEUI11kLDP0ZA9oruxSUnA==", "zipcode"=>"11204", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `search!' for #<FoursquareService:0x00007ffdd5b99d00>
+Did you mean?  search):
+  
+app/controllers/searches_controller.rb:13:in `foursquare'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__163999301726613457_70364116398940 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.8ms)
+Started POST "/search" for ::1 at 2019-09-08 14:40:52 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFcBkuxwhu30m2Jn/MEqNEcnOy0pJzJTZ0jsDNEYJowZvU1k70K1CtwAoW1l5F+OnEUI11kLDP0ZA9oruxSUnA==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 356ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    11:     <ul>
+    12:     <% @venues.each do |venue| %>
+    13:       <li>
+    14:         <%= venue["name"] %><br>
+    15:         <%= venue["location"]["address"] %><br>
+    16:         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
+    17:         <%= form_tag '/tips' do %>
+  
+app/views/searches/search.html.erb:14:in `[]'
+app/views/searches/search.html.erb:14:in `block in _app_views_searches_search_html_erb__2191505156067802428_70364091439080'
+app/views/searches/search.html.erb:12:in `each'
+app/views/searches/search.html.erb:12:in `_app_views_searches_search_html_erb__2191505156067802428_70364091439080'
+app/controllers/searches_controller.rb:14:in `foursquare'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__163999301726613457_70364100546240 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (30.6ms)
+Started POST "/search" for ::1 at 2019-09-08 14:43:18 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFcBkuxwhu30m2Jn/MEqNEcnOy0pJzJTZ0jsDNEYJowZvU1k70K1CtwAoW1l5F+OnEUI11kLDP0ZA9oruxSUnA==", "zipcode"=>"11204", "commit"=>"Search!"}
+Completed 500 Internal Server Error in 334ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `results' for #<FoursquareService:0x00007ffdd54ec4f8>):
+  
+app/services/foursquare_service.rb:32:in `search'
+app/controllers/searches_controller.rb:13:in `foursquare'
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_heshie__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__163999301726613457_70364116623380 at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/heshie/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.7ms)
+Started POST "/search" for ::1 at 2019-09-08 14:43:52 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFcBkuxwhu30m2Jn/MEqNEcnOy0pJzJTZ0jsDNEYJowZvU1k70K1CtwAoW1l5F+OnEUI11kLDP0ZA9oruxSUnA==", "zipcode"=>"11204", "commit"=>"Search!"}
+No template found for SearchesController#foursquare, rendering head :no_content
+Completed 204 No Content in 368ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:43:53 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFcBkuxwhu30m2Jn/MEqNEcnOy0pJzJTZ0jsDNEYJowZvU1k70K1CtwAoW1l5F+OnEUI11kLDP0ZA9oruxSUnA==", "zipcode"=>"11204", "commit"=>"Search!"}
+No template found for SearchesController#foursquare, rendering head :no_content
+Completed 204 No Content in 283ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:43:56 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFcBkuxwhu30m2Jn/MEqNEcnOy0pJzJTZ0jsDNEYJowZvU1k70K1CtwAoW1l5F+OnEUI11kLDP0ZA9oruxSUnA==", "zipcode"=>"11204", "commit"=>"Search!"}
+No template found for SearchesController#foursquare, rendering head :no_content
+Completed 204 No Content in 308ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:44:12 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFcBkuxwhu30m2Jn/MEqNEcnOy0pJzJTZ0jsDNEYJowZvU1k70K1CtwAoW1l5F+OnEUI11kLDP0ZA9oruxSUnA==", "zipcode"=>"11204", "commit"=>"Search!"}
+No template found for SearchesController#foursquare, rendering head :no_content
+Completed 204 No Content in 267ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:44:30 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/heshie/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFcBkuxwhu30m2Jn/MEqNEcnOy0pJzJTZ0jsDNEYJowZvU1k70K1CtwAoW1l5F+OnEUI11kLDP0ZA9oruxSUnA==", "zipcode"=>"11204", "commit"=>"Search!"}
+No template found for SearchesController#foursquare, rendering head :no_content
+Completed 204 No Content in 385ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:44:40 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 253ms (Views: 251.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:44:41 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:44:44 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b62mSjPIN9RYbJVXjLvCODYhOl8ogwHDMW7ckBkgiC5CR+q8MPoEM3D3Vl0VnreC7UMJpVivP21PJeq3cyw6Pg==", "zipcode"=>"11204", "commit"=>"Search!"}
+No template found for SearchesController#foursquare, rendering head :no_content
+Completed 204 No Content in 293ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:45:12 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:45:16 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cmPeQ685mb/L1l87jq9k65c8d7UZA2GlhaGro2jS94tfiZK1rAuqWONNnDEXihFRTF5ET2kvXwv76p2EAt5Fmw==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 388ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:45:22 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WdQURA+pFfat9x4R6fnPvbcFjQ5YBztkQBS3sbYeegh0PliyDJsmEYVs3Rtw3LoHbGe+9CgrBco+X4GW3BLIGA==", "zipcode"=>"-00opdkspo", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 547ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-09-08 14:48:15 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:48:18 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HAoeXy+3up8Tu8crNDZoS8AHc+FtgLrRRexMfSfrvW0x4FKpLIWJeDsgBCGtEx3xG2VAGx2shH87p3paTecPfQ==", "zipcode"=>"11204", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 729ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-09-08 14:48:22 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xqiaElNGyYDCeFR673AYGvdfff2VwY6hx6kFyOwlQNvrQtbkUHT6Z+rjl3B2VW2gLD1OB+XtsA+54jPvhinyyw==", "zipcode"=>"nsdnsl;ac", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 504ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+

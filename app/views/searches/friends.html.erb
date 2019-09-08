@@ -1,3 +1,4 @@
+<h1><%= "Lonliness is a bummer. Hope you get some friends soon." if @friends.empty? %></h1>
 <ul>
   <% @friends.each do |friend| %>
     <li><%= "#{friend['firstName']} #{friend['lastName']}" %></li>
